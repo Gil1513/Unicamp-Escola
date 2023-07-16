@@ -1,0 +1,140 @@
+.div{
+  width: 150px;
+  height: 150px; ;
+  background-color: blue;
+  color: azure; 
+  position: relative;
+  top: 15px;
+
+  opacity: 25%;
+}
+#p1{
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+#home{
+    color: cyan;
+    background-color: red;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    
+}
+body{
+    margin: 0;
+    }
+#text{
+    position: relative;
+    top: 50px;
+    color: brown;
+}
+img{
+    width: 100px;
+    position: sticky;
+    top: 10%;
+}
+body{
+    height: 400vh;
+}
+#1{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+#2{
+    height: 150px;
+    
+    position: absolute;
+    width: center;
+}
+.voar{
+    width: 200px;
+    height: 200px;  
+    background-color: aqua;
+    margin-left: 200px;
+    float: left;
+    text-align: center;
+    border: solid 0.5px black;
+    margin-top: 100px;
+}
+.box{
+    background-color: rgb(57, 199, 112);
+    border: solid 0.5px black;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+#box1{
+    background-color: blue;
+    left: 10px;
+    top: 0;
+    z-index: 1;
+}
+#box2{
+    background-color: red;
+    left: 30px;
+    top: 100px;
+    z-index: 2;
+}
+#box3{
+    background-color: yellow;
+    left: 50px;
+    top: 200px;
+    z-index: 3;
+}
+.caixa {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    
+} 
+#countener{
+ position: absolute;
+}
+#lista{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    left: 25%;
+    position: center;
+    text-align: center;
+}
+ul{
+    list-style-image:url(th.jpg) ;
+    list-style-position: inside;
+}
+/*Aula 16/08/22*/
+a:link{
+    text-decoration: nome;
+    color: blueviolet;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(57, 199, 112)
+}
+a:active{
+    color:aquamarine
+}
+a:visited{
+    color: yellowgreen;
+}
+input:hover{
+    background-color: aquamarine;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+input:focus{
+    background-color: blueviolet;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    color:aliceblue
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+
+<body>
+
+  <br><br>
+  <center>
+    <h1><u>Formulario- Cadastro de Funcionário</u></h1>
+  </center>
+  <br>
+
+  <form>
+    Buscar: <br>
+    <input type="search" placeholder="termo da pesquisa"> <input type="button" value="Buscar" onclick="alert('Essa busca bla bla bla');"> 
+    <fieldset>
+      <legend align="center">Dados Pessoais</legend>
+
+      <label for="nome">Nome:</label> <br>
+      <input type="text" name="nome" id="nome" size="60" maxlength="45" minlength="3" required placeholder="Nome">
+      <br><br>
+
+      <label for="foto">Foto 3x4:</label> <br>
+      <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
+      <br><br>
+
+      <label for="datanasc">Data de nascimento</label> <br>
+      <input type="date" name="datanasc" id="datanasc">
+      <br><br>
+
+      <label for="dataNasc">Data e hora do cadastro</label><br>
+      <input type="datetime-local" id="DataHoraCad" name="DataHoraCad">
+      <br><br>
+
+      <label for="idade">Idade:</label> <br>
+      <input type="number" name="idade" id="idade" size="2" max="90" min="18" required step="2" value="18">
+      <br><br>
+
+      <label for="sexo">Sexo:</label>
+      M<input type="radio" name="sexo" value="M">
+      F<input type="radio" name="sexo" value="F" checked>
+      <br><br>
+
+
+      <label for="corPref">cor favorita:</label>
+      <input type="color" id="CorPref" name="corPref" value="#0000FF">
+      <br><br>
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend align="center">Dados Profissioanais</legend>
+      <label for="telefone">Telefone</label> <br>
+      <input type="text" name="telefone" id="telefone" size="15" maxlength="12" minlength="12" required
+        placeholder="Digite seu telefone">
+      <br><br>
+
+
+      <label for="email">Email</label> <br>
+      <input type="email" name="email" id="email" size="25" required placeholder="email">
+      <br><br>
+
+      <label for="senha">Senha</label><br>
+      <input type="passoword" name="senha" id="senha" size="10" placeholder="Senha" maxlength="10" minlength="6"
+        required>
+      <br><br>
+
+      <label for="cargo">Cargo</label><br>
+      <input type="text" name="cargo" id="cargo" size="10">
+      <br><br>
+
+      <label for="periodoaula">Periodos de Aula</label><br>
+      <input type="checkbox" name="manhã" value="M" checked> Manhã
+      <input type="checkbox" name="tarde" value="T"> Tarde
+      <input type="checkbox" name="noite" value="N"> Noite
+      <br><br>
+
+      Horario de trabalho:<br>
+      De:<input type="time" id="InicioTrab" name="InicioTrab">
+      a <input type="time" id="FimTrab" name="FimTrab">
+      <br><br>
+
+
+      <label type="mesInicio">Mês de inicio</label><br>
+      <input type="month" id="mesInicio" name="mesInicio">
+      <br><br>
+
+
+      <label type="SemanaInicio">Semana de inicio</label><br>
+      <input type="week" id="SemanaInicio" name="SemanaInicio">
+      <br><br>
+      Curso:<br>
+      <select name="curso" id="curso">
+        <option value="DS" selected>desenvolvimento de sistemas</option>
+        <option value="edificações">Edificações</option>
+        <option value="enfermagem">Enfermagem</option>
+        <option value="geodesia">Geodesia e cartografia</option>
+        <option value="mecanica">Mecânica</option>
+        <option value="qualidade">Qualidade</option>
+      </select>
+      <br><br>
+
+
+      <label>Disciplina <small>click para selecionar varios <small>(Aperta "ctrl" junto)</small></small>:</label><br>
+      <select name="disciplina" id="disciplina" size="3" multiple>
+        <option value="BD">Banco de dados</option>
+        <option value="DAW">DAW</option>
+        <option value="LP" selected>Linguagem de programação</option>
+        <option value="APSI">APSI</option>
+        <option value="IE">Inovação e Emprendedorismo</option>
+        <option value="DAD">DAD</option>
+      </select>
+      <br><br>
+    
+   
+    <br>
+
+    <label for="exp">Experiência<small> (de 0 a 10):</small></label><br>
+    <input type="range" id="exp" name="exp" min="0" max="10" value="0">
+
+    <br><br>
+    Veículo que utilizará no campus:<br>
+    <select name="veiculo" id="veiculo">
+      <optgroup label="Carros">
+        <option value="GM">GM</option>
+        <option value="VW" selected>VW</option>
+        <option value="Renault">Renault</option>
+      </optgroup>
+
+      <optgroup label="Motos">
+          <option value="Honda">Honda</option>
+          <option value="Yamaha" selected>Yamaha</option>
+          <option value="Suzuki">Suzuki</option>
+
+      </optgroup>
+    </select>
+    
+    <br>
+    <br>
+    Conhecimento: <br>
+    <input name="Conhecimento" id="conhecimento" list="x">
+    <datalist id="x">
+          <option value="HTML5">HTML5</option>
+          <option value="HTML4">HTML4</option>
+          <option value="CSS3">CSS3</option>
+          <option value="PHP">PHP</option>
+    </datalist>
+  
+    <br><br>
+    Currículo Linkedin:<br>
+    <input type="url1" id="curriculo" name="curriculo">    
+    
+    <br>
+    <br>
+
+    Observação<br>
+    <textarea rows="5" cols="40" spellcheck="true"></textarea>
+ 
+  </fieldset> 
+
+    <br>
+
+    <!--<label for="mensagem">Mensagem</label> <br>
+    <input type="text" name="mensagem" id="mensagem" size="100" maxlength="100" minlength="20" required
+      placeholder="Digite sua mensagem" spellcheck>
+      <br>-->
+      <input type="submit" name="btnEnviar" value="Enviar">
+      <input type="reset" value="Limpar">
+      <br> 
+    
+    </form>
+</body>
+
+</html>

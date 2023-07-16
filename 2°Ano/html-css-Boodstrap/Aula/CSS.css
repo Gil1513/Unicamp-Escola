@@ -1,0 +1,55 @@
+    .t {
+    font-style: italic;   
+}
+#f{
+    font-size: 18px;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 26px ;
+    text-align: center;
+    color: rgb(160, 204, 56);
+    font-family: cursive;
+    text-shadow: 25px -10px 4px gray , 25px 15px 4px red;
+}
+#rodape{
+    font-size: 10px;
+    text-align: center;
+}
+#paragrafo{
+    font-family:"Segoe Scriopt",cursive;
+}
+#myDIV {
+    animation: mymove 3s infinite;
+  }
+  
+ @keyframes mymove {
+    from {color: red;}
+    from {color:  cyan;}
+    from {color: aquamarine;}
+    from {background-color: wheat;}
+    from {background-color:green;}
+    to {color: rgb(15, 221, 43);}
+    to {color: blue;}
+    to {color: chocolate;}
+    to {background-color: blue;}
+    to {background-color: red;}
+
+ 
+ }
+ /*Separado da Aula*/
+ .borde{
+    border: 2px groove black;
+    color: red;
+ }
+ .fontes{
+     
+     font: bold 45px "lucida Sans  Unicode", "Lucida Grande ", sans-serif;
+     word-spacing: 50px;
+     letter-spacing: 5px;
+     line-height: 60px;
+     direction:ltr;
+    }
+#pot{
+    vertical-align: sub/*super*/;
+}

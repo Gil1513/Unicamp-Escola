@@ -1,0 +1,47 @@
+
+.container{
+    /*primeira parte*/
+    /*
+    max-width: 500px;
+    margin: 0 auto;/*0 em top/bottom e automaticamente calculada em  left/right*/
+   /* border: 1px solid #000;
+    display: flex;/*padrão é block, que deixa cada elemento em uma linha*/
+   /* flex-direction: row;/*krap: quebra a linha quando não cabe mais np cantainer,
+    krap-reverse: quebrado , ordenando ao contrário*/
+   /* flex-wrap: nowrap;/*norap: não quebra a linha quando não cabe mais np container, wrap-revers:
+    quebra, ordenado ao contrário*/
+   /* border: 1px solid #000;
+    /*flex-flow: column wrap;/* flex-direction flex-wrap*/
+
+    /*segunda parte*/
+    /*max-width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;/*eixo principal - center, flex-start flex-end, space-around, space-between*/
+
+    /*terceira parte*/
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: flex-end: /*usar apenas para comparar o resultado*/
+    align-items: baseline;/* eixo segundário, vl padrão: strech; flex-start, flex -end, center, baseline*/
+    
+    /*quarta parte*/
+    
+}
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--link dos icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="icon" href="imagens/favicon.png" sizes="16x16">
+
+    <style type="text/css">
+         .animate-charcter
+    {
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #1d6dc9 29%,
+        #000000 67%,
+        #ffffff 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: rgb(24, 2, 2);
+      background-clip: text;
+        -webkit-text-fill-color: rgb(255, 255, 255) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+    font-size: 15px;
+    }
+    
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    * {box-sizing: border-box;}
+  ul {list-style-type: none;}
+  body {font-family: Verdana, sans-serif;}
+
+  .month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1d6dc9;
+    text-align: center;
+  }
+
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+  }
+
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }
+    </style>
+   
+    <title>Solo leveling</title>
+</head>
+<body style="background: linear-gradient(68.15deg, #2F2325 30.62%, #1d6dc9 70.61%);">
+    
+    <div >
+                                            <!--navbar-->
+    <nav class="navbar navbar-expand-lg border-bottom border-white mb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="imagens/Logo1.svg" width="50px"></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+            <li class="nav-item">
+                <a class="nav-link Display-3 text-white" href="sobre1.html"><i class="bi bi-file-earmark-person-fill"></i>Sobre Solo leveling</a>
+            </li>
+            <li>
+                <a class="nav-link Display-3 text-white" href="formulario.html"><i class="bi bi-r-square-fill"></i>Cadastro</a>
+            </li>
+
+            </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-dark" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>	
+      <!-- fim-->
+                                <!--Corrosel-->
+      
+       <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="true">
+
+        <div class="carousel-indicators m-3">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <iframe width="560" height="500"
+            src="https://www.youtube.com/embed/YvGSK8mIlt8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen class="d-block w-100"></iframe>
+        </div>
+        <div class="carousel-item">
+            <img src="imagens/hq720.jpg" class="d-block w-100" alt="img1" style="height: 500px;">
+        </div>
+        <div class="carousel-item">
+            <img src="imagens/SoloLeveling_Anime_Jinwoo_sword.jpg" class="d-block w-100" alt="img2" style="height: 500px;>
+        </div>	    
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div >
+        </div>
+       </div>
+        <!--Fim do carrosel-->
+
+        <!-- 1a linha do grid system -->
+	  <div class="mt-5 container">
+        <div class="row">
+
+        <!-- 1 grid -->
+        <div class="col-md-4 col-sm-12">
+          
+          <div class="card mb-3">
+            <img src="imagens/81KifZk8PBL.jpg" class="card-img-top" alt="primeri1">
+            <div class="card-body">
+              <h5 class="card-title text-center">Sobre</h5>
+              <p class="card-text text-center">Quer saber mais dá história?</p>
+              <a href="sobre1.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto animate-charcter">Conheça</a>
+            </div>
+          </div>	 
+
+        </div>
+
+        <!-- 2 grid -->
+        <div class="col-md-4 col-sm-12 mb-3">
+          <div class="card">
+            <img src="imagens/81OOjYNvOZL.png" class="card-img-top" alt="Previsão">
+            <div class="card-body">
+              <h5 class="card-title text-center">Previsão</h5>
+              <p class="card-text text-center">Ansioso pelo lançamento?</p>
+              <a href="Previsao.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto animate-charcter">Previsão</a>
+            </div>
+          </div>	 	  		
+        </div>
+
+        <!-- 3 grid -->
+        <div class="col-md-4 col-sm-12 mb-3">
+          <div class="card">
+            <img src="imagens/Foto2.png" class="card-img-top" alt="Mangá">
+            <div class="card-body">
+              <h5 class="card-title text-center">Mangá</h5>
+              <p class="card-text text-center">Ficou interessado?</p>
+              <a href="https://mangaschan.com/solo-leveling-capitulo-179/" class="btn btn-primary d-grid gap-2 col-6 mx-auto animate-charcter">Conheça</a>
+            </div>
+          </div>		  		
+        </div>
+
+    </div>
+    <!-- fim 1a linha do grid system -->
+      </div>
+
+      
+
+</div>
+</div>
+
+<nav aria-label="Page navigation example" style="background: linear-gradient(68.15deg, #2F2325 30.62%, #1d6dc9 70.61%);">
+  <ul class="pagination" >
+    <li class="page-item"><a class="page-link" href="#">Páginas</a></li>
+    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="sobre1.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="formulario.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="sobre1.html">Próximo</a></li>
+  </ul>
+</nav>
+
+<p>
+    <a class="btn btn-primary container-fluid" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Localização e data do evento
+    </a>
+   
+    
+    <div class="card container" style="width: 50rem;">
+      <div class="card-body">
+
+  <div class="collapse" id="collapseExample">
+    
+   <!-- 1a linha do grid system -->
+   <div class="mt-2 ">
+    <div class="row">
+
+    <!-- 1 grid -->
+    <div class="col-md-50 col-sm-50 ">
+      
+      <div class="card mb-6 container">
+        <div class="month" >      
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>
+              Novembro<br>
+              <span style="font-size:18px">2023</span>
+            </li>
+          </ul>
+        </div>
+        
+        <ul class="weekdays">
+          <li>Domingo</li>
+          <li>Segunda</li>
+          <li>Terça</li>
+          <li>Quarta</li>
+          <li>Quinta</li>
+          <li>Sexta</li>
+          <li>Sábado</li>
+        </ul>
+        
+        <ul class="days">  
+          <li><span class="active">1<span></li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul>
+  </div>
+        </div>
+    
+
+    <!-- 2 grid -->
+    <div class="col-md-4 col-sm-12 mb-3 ">
+      <div class="card">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0897761436636!2d-122.40970258474827!3d37.787935779757014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580892df7905b%3A0xe36cf5789882dd6f!2sUnion%20Square!5e0!3m2!1spt-BR!2sbr!4v1668686725311!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>	 	  		
+    </div>   
+       
+    </div>
+  </div>
+</div>
+
+</div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+    
+</html>

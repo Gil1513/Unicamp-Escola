@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.formataDiv{
+    background-color: red;
+    color: black;
+    width: 320px;
+    height: 330px;
+    padding: 5x 10px 10px 20px;
+    /* visibility: hidden; <-- esconde a div */
+    /* display: none;             // */
+    margin: auto;
+    /* opacity: 0.7;  transparencia da div */
+    background-color:  rgba(242, 171, 12, 0.5);
+}
+#menu{
+    background-color: rosybrown;
+    padding: 10px 10px 5px 10px;
+    font-size: 20px;
+    margin-bottom: 15px; 
+    
+}
+#titulo {
+    font-size: 25px;
+}
+body {
+    margin: 0%;
+    background-image: url(0118_cotil_capa_Easy-Resizecom.jpg);
+    background-size: 100%;
+}
+.teste{
+    align-items: center;
+}

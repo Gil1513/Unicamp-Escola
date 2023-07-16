@@ -1,0 +1,41 @@
+#border{
+
+
+}
+.box{
+    margin-left: 1%;
+    padding-left: 5%;
+    width: 25%;
+    border-width: 3px;
+    border-style: dotted;
+    border-radius: 50%;
+    border-top:3px,dotted, rgb(214, 18, 18) ;
+    border-bottom-color:rgb(21, 219, 226) ;
+    border-left-color:rgb(83, 64, 64) ;
+    border-right-color:rgb(114, 252, 50) ;
+}
+.tabela{
+    width: 25%;
+    background-color: aqua;
+    margin-left: 10%;
+    padding-left: 1%;
+    margin-top: 2%;
+    border-style: solid;
+
+    
+    border-top-width: 3px;
+    border-left-width: 5px;
+    border-bottom-width:7px ;
+    border-right-width:10px ;
+    /*border-radius: 10px;*/
+    border-top-left-radius: 40px;
+    
+}
+table{
+border-color:blueviolet ;
+border-collapse: collapse;
+border-spacing: 1px;
+}
+table td{
+border: 50px dotted red;
+ }
