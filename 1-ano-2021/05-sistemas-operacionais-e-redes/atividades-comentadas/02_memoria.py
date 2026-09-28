@@ -1,8 +1,7 @@
 """
 Paginação e substituição FIFO
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Sistemas Operacionais e Redes de Computadores
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Memória virtual divide endereços em páginas. Quando a página solicitada não está nos quadros disponíveis, ocorre falta de página. FIFO remove a página carregada há mais tempo, não a menos usada.
 Objetivo: Simular três quadros e contar 9 faltas na sequência de referência.
 Execução (nesta pasta): python 02_memoria.py

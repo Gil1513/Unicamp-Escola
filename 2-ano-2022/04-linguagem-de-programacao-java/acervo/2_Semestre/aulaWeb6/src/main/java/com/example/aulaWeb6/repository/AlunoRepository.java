@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: AlunoRepository.java
 Explicação: herança e sobrescrita especializam comportamentos; interfaces definem contratos; persistência conecta objetos ao banco de dados.
@@ -18,7 +18,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public interface AlunoRepository extends JpaRepository<Aluno, Integer>{
     

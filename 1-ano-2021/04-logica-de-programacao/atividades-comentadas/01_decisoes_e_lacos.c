@@ -1,8 +1,7 @@
 /*
 Decisões, laços e validação de notas
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Lógica de Programação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Laços percorrem entradas; acumuladores guardam resultados parciais. Uma função separa o cálculo da apresentação e rejeita conjuntos vazios.
 Objetivo: Calcular média 7.00 e classificar a situação com limite 6.0.
 Execução (nesta pasta): gcc -std=c11 -Wall -Wextra 01_decisoes_e_lacos.c -o notas; ./notas

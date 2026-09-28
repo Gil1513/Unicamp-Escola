@@ -1,8 +1,7 @@
 <!--
 Projeto Windows Forms
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: UseWindowsForms habilita controles e eventos da interface Windows.
 Objetivo: Abrir uma janela de cadastro no Windows.
 Pratique: Compare eventos da interface com entrada sequencial no console.

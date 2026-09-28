@@ -1,5 +1,5 @@
 """Valida as atividades complementares e a integridade da organização.
-Responsável: Gilmar da Silva Filho.
+Responsável: Gilmar da Silva.
 Execute: python scripts/validar.py. Compiladores ausentes são registrados como NÃO EXECUTADO.
 Os projetos antigos têm dependências próprias; esta rotina não promete compilá-los.
 """
@@ -87,12 +87,15 @@ def main():
                 if not java or not javac:registrar(nome,'NÃO EXECUTADO','JDK ausente');continue
                 destino=saida/str(i);destino.mkdir()
                 if executar(nome+' compilação',[javac,'-encoding','UTF-8','-d',str(destino),str(p)],p.parent):
-                    executar(nome+' execução',[java,'-cp',str(destino),p.stem],p.parent,esperados[p.name])
+                    executar(nome+' execução',[java,'-cp',str(destino),p.stem],p.parent,esperados.get(p.name))
             elif p.suffix=='.c':
                 if not gcc:registrar(nome,'NÃO EXECUTADO','Compilador C ausente');continue
                 exe=saida/f'atividade-{i}.exe'
                 if executar(nome+' compilação',[gcc,'-std=c11','-Wall','-Wextra','-Werror',str(p),'-o',str(exe)],p.parent):
-                    executar(nome+' execução',[str(exe)],p.parent,esperados[p.name])
+                    executar(nome+' execução',[str(exe)],p.parent,esperados.get(p.name))
+            elif p.suffix=='.js':
+                if node:executar(nome,[node,str(p)],p.parent)
+                else:registrar(nome,'NÃO EXECUTADO','Node.js ausente')
             elif p.suffix=='.php':
                 if php:executar(nome+' sintaxe',[php,'-l',str(p)],p.parent)
                 else:registrar(nome,'NÃO EXECUTADO','PHP ausente')

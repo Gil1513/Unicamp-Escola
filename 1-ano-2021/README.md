@@ -1,6 +1,6 @@
 # 1º ano — 2021
 
-Gilmar da Silva Filho
+Gilmar da Silva
 
 [Índice geral](../README.md)
 

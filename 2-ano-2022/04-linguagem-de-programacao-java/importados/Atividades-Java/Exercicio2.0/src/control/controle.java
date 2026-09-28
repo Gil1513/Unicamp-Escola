@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: controle.java
 Explicação: classes agrupam dados e comportamentos.
@@ -19,7 +19,7 @@ import modelDAO.modelDAO;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class controle {
     

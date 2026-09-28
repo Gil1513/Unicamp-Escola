@@ -1,8 +1,7 @@
 /*
 Consumindo uma API pela rede
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento para Dispositivos Móveis
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: HttpClient envia uma requisição assíncrona. Status HTTP e timeout devem ser tratados. O JSON precisa ser validado antes de acessar os campos. Este exemplo usa a API de Projeto Integrador II.
 Objetivo: Ler a lista de materiais do servidor local ou mostrar erro compreensível se estiver desligado.
 Execução (nesta pasta): Inicie api.py de Projeto Integrador II; execute dart run 04_http.dart

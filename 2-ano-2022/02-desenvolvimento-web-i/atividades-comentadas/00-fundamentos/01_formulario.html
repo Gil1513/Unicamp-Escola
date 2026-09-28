@@ -1,0 +1,22 @@
+<!--
+Formulário semântico e responsivo
+Responsável: Gilmar da Silva
+Conceitos: label associa o rótulo ao campo; required e min fazem validação nativa. Grid adapta colunas e foco visível ajuda a navegação.
+Execução: Abra 00-fundamentos/01_formulario.html no navegador
+Pratique: Navegue apenas por teclado e teste a página em 320 e 1024 pixels.
+-->
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cadastro de estudos</title>
+<style>body{font:1rem system-ui;max-width:48rem;margin:2rem auto;padding:1rem}form{display:grid;gap:1rem}input,button{padding:.75rem;font:inherit}:focus-visible{outline:3px solid #164ec4}@media(min-width:600px){form{grid-template-columns:1fr 1fr}button,output{grid-column:1/-1}}</style>
+<main><h1>Plano de estudos — Gilmar da Silva</h1>
+<form><label>Matéria <input name="materia" required maxlength="60"></label>
+<label>Horas <input name="horas" type="number" min="1" max="100" required></label>
+<button>Registrar</button><output aria-live="polite"></output></form></main>
+<script>
+document.querySelector('form').addEventListener('submit', event => {
+  event.preventDefault();
+  const dados = new FormData(event.target);
+  document.querySelector('output').textContent = `${dados.get('materia')}: ${dados.get('horas')} horas`;
+});
+</script></html>

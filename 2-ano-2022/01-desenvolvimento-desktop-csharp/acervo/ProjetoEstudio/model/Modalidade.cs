@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: Modalidade.cs
 Explicação: classes agrupam dados e comportamentos; persistência conecta objetos ao banco de dados; exceções tratam falhas durante a execução.
@@ -31,13 +31,13 @@ namespace ProjetoEstudio
 
         public Modalidade(string descricao)
         {
-            DAO_Connection.getConnection("143.106.241.3", "cl201239", "cl201239", "cl*13072005");
+            DAO_Connection.getConnection("143.106.241.3", "201269", "201269", "cl*13072005");
             this.descricao = descricao;
         }
 
         public Modalidade(string descricao, double preco, int qtd_alunos, int qtd_aulas)
         {
-            DAO_Connection.getConnection("143.106.241.3", "cl201239", "cl201239", "cl*13072005");
+            DAO_Connection.getConnection("143.106.241.3", "201269", "201269", "cl*13072005");
             this.descricao = descricao;
             this.preco = preco;
             this.qtd_alunos = qtd_alunos;
@@ -46,7 +46,7 @@ namespace ProjetoEstudio
 
         public Modalidade(double preco, int qtd_alunos, int qtd_aulas)
         {
-            DAO_Connection.getConnection("143.106.241.3", "cl201239", "cl201239", "cl*13072005");
+            DAO_Connection.getConnection("143.106.241.3", "201269", "201269", "cl*13072005");
             this.preco = preco;
             this.qtd_alunos = qtd_alunos;
             this.qtd_aulas = qtd_aulas;

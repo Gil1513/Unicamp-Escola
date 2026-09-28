@@ -1,8 +1,7 @@
 /*
 Eventos e validação na interface desktop
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Aplicações gráficas reagem a eventos. O clique lê a entrada, valida e atualiza a lista; campos vazios e cadastros repetidos são rejeitados.
 Objetivo: Adicionar nomes à lista e mostrar uma mensagem para entrada vazia ou repetida.
 Execução (nesta pasta): dotnet run --project 02-interface
@@ -25,7 +24,7 @@ public class Cadastro : Form
     readonly ListBox registros = new() { Width = 360, Height = 180 };
     public Cadastro()
     {
-        Text = "Cadastro - Gilmar da Silva Filho"; Width = 440; Height = 340;
+        Text = "Cadastro - Gilmar da Silva"; Width = 440; Height = 340;
         var painel = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, Padding = new Padding(12) };
         var botao = new Button { Text = "Adicionar", AutoSize = true };
         botao.Click += (_, _) => Adicionar();

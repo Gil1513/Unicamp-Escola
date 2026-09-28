@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: Funcionario.java
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos; interfaces definem contratos; exceções tratam falhas durante a execução.
@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class Funcionario extends Pessoa implements IPessoa {
     Scanner entrada = new Scanner(System.in);

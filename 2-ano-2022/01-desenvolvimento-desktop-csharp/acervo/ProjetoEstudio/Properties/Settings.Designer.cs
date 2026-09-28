@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: Settings.Designer.cs
 Explicação: classes agrupam dados e comportamentos.

@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: HibernateUtil.java
 Explicação: classes agrupam dados e comportamentos; exceções tratam falhas durante a execução.
@@ -23,7 +23,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
  * Hibernate Utility class with a convenient method to get Session Factory
  * object.
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class HibernateUtil {
 

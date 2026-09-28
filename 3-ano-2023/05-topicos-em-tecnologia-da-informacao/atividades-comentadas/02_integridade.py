@@ -1,8 +1,7 @@
 """
 Hash e integridade de arquivos
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Tópicos em Tecnologia da Informação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: SHA-256 gera um resumo do conteúdo; mudar um byte altera o resumo com altíssima probabilidade. Hash não é criptografia, não recupera o arquivo e sozinho não comprova autoria.
 Objetivo: Comparar resumos iguais e diferentes, lendo arquivos por blocos para economizar memória.
 Execução (nesta pasta): python 02_integridade.py

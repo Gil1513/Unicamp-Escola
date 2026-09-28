@@ -1,6 +1,6 @@
 # 3º ano — 2023
 
-Gilmar da Silva Filho
+Gilmar da Silva
 
 [Índice geral](../README.md)
 

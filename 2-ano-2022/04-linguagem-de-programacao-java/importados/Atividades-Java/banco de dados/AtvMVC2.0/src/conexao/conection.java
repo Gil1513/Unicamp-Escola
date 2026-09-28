@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: conection.java
 Explicação: classes agrupam dados e comportamentos; persistência conecta objetos ao banco de dados; exceções tratam falhas durante a execução.
@@ -18,13 +18,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class conection {    
 
 public Connection getConnection() {    
-       String url = "jdbc:mysql://143.106.241.3:3306/cl201269";
-       String usuario = "cl201269";
+       String url = "jdbc:mysql://143.106.241.3:3306/201269";
+       String usuario = "201269";
        String senha = "cl*30082005";
         try {  
             return DriverManager.getConnection(url, usuario, senha);

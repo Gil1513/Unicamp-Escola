@@ -1,8 +1,7 @@
 /*
 Interfaces, coleções e exceções
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: List mantém uma sequência; Map associa chave e valor. Uma interface especifica um contrato. Exceções comunicam entradas inválidas sem inventar um resultado.
 Objetivo: Agrupar notas por matéria e calcular média 8.0; rejeitar lista vazia.
 Execução (nesta pasta): java 02-colecoes/ColecoesDemo.java

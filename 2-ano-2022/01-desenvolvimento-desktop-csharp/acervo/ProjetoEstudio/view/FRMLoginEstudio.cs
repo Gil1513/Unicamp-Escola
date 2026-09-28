@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: FRMLoginEstudio.cs
 Explicação: classes agrupam dados e comportamentos; controles e eventos compõem uma interface gráfica; persistência conecta objetos ao banco de dados.
@@ -25,7 +25,7 @@ namespace ProjetoEstudio
         public FRMLoginEstudio()
         {
             InitializeComponent();
-            if (DAO_Connection.getConnection("143.106.241.3", "cl201239", "cl201239", "cl*13072005"))
+            if (DAO_Connection.getConnection("143.106.241.3", "201269", "201269", "cl*13072005"))
                 Console.WriteLine("VOCÊ SE CONECTOU À MATRIX");
             else
                 Console.WriteLine("Erro de conexão");

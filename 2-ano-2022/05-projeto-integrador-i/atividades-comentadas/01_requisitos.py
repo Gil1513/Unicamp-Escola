@@ -1,8 +1,7 @@
 """
 Planejamento e rastreabilidade do protótipo
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Projeto Integrador I
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Cada requisito deve ter um critério observável. O backlog organiza trabalho e a rastreabilidade conecta requisito, módulo e verificação.
 Objetivo: Listar três requisitos de um inventário com o módulo e a verificação correspondente.
 Execução (nesta pasta): python 01_requisitos.py

@@ -1,8 +1,7 @@
 """
 Projeto integrado: API HTTP e banco de dados
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Projeto Integrador II
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Uma API define rotas, métodos e códigos de resposta. JSON transporta dados; SQLite persiste registros. Consultas parametrizadas separam dados e comandos. Servidor didático local, sem autenticação.
 Objetivo: Criar e consultar materiais por HTTP, rejeitando entrada inválida com 422; banco em inventario.sqlite3.
 Execução (nesta pasta): python api.py; em outro terminal execute python cliente.py

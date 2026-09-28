@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: AlunoController.java
 Explicação: classes agrupam dados e comportamentos; coleções armazenam múltiplos objetos; controladores coordenam requisições e regras.
@@ -20,7 +20,7 @@ import model.DAO.AlunoDAO;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class AlunoController {
     

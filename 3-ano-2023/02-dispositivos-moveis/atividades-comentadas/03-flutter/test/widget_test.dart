@@ -1,8 +1,7 @@
 /*
 Teste da interação com a lista
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento para Dispositivos Móveis
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Um teste de widget monta a interface, simula entrada e eventos e verifica o estado visível. pump reconstrói o quadro após uma alteração.
 Objetivo: Adicionar um assunto pela interface, concluir a tarefa e abrir a tela de detalhes.
 Execução (nesta pasta): Na pasta 03-flutter: flutter test

@@ -1,8 +1,7 @@
 """
 Laboratório SQL em memória
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Banco de Dados
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: SQLite permite praticar SQL sem instalar um servidor. O banco deste exemplo só existe durante o processo. PRAGMA é específico de SQLite; MySQL usa configuração própria.
 Objetivo: Executar a sequência SQL, exibir consultas e verificar as restrições do esquema.
 Execução (nesta pasta): python executar_sql.py

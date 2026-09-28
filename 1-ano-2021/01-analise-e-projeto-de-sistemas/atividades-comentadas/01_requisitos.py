@@ -1,6 +1,6 @@
 """
 Requisitos e critérios de aceitação
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Análise e Projeto de Sistemas de Informação
 Conceitos: Requisito funcional descreve uma ação; uma regra de negócio limita quando ela é válida. Critérios verificáveis ligam a necessidade ao teste.
 Objetivo: Rastrear RF01 e rejeitar empréstimo sem exemplar ou com três empréstimos ativos.

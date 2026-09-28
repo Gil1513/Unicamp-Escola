@@ -1,9 +1,8 @@
 <?php
 /*
 Sessões e autenticação demonstrativa
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Web II
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: HTTP não mantém estado por si só. Uma sessão associa requisições a um identificador; regenerar o ID após login evita reutilizar o identificador anterior. Token CSRF protege formulários.
 Objetivo: Entrar usando usuário gilmar e senha estudo-local, sair por POST e rejeitar token inválido.
 Execução (nesta pasta): php -S 127.0.0.1:8000; abra /02_sessoes.php
@@ -27,7 +26,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
     $hash = password_hash('estudo-local', PASSWORD_DEFAULT);
     if (is_string($usuario) && is_string($senha) && $usuario === 'gilmar' && password_verify($senha, $hash)) {
         session_regenerate_id(true);
-        $_SESSION['usuario'] = 'Gilmar da Silva Filho';
+        $_SESSION['usuario'] = 'Gilmar da Silva';
         $_SESSION['csrf'] = bin2hex(random_bytes(24));
     } else { http_response_code(401); $erro = 'Credenciais inválidas.'; }
 }

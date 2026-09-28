@@ -1,7 +1,7 @@
 {
   "resumo": {
-    "OK": 43,
-    "NÃO EXECUTADO": 11
+    "OK": 70,
+    "NÃO EXECUTADO": 17
   },
   "resultados": [
     {
@@ -20,6 +20,16 @@
       "detalhe": ""
     },
     {
+      "verificacao": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/00-fundamentos/01_casos_de_uso.py",
+      "status": "OK",
+      "detalhe": "bibliotecario 1 False => True\nleitor 1 False => False\nbibliotecario 0 False => False\nbibliotecario 1 True => False\n"
+    },
+    {
+      "verificacao": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/00-fundamentos/02_rastreabilidade.py",
+      "status": "OK",
+      "detalhe": "Todos os requisitos têm um cenário especificado; executar os cenários é uma etapa separada.\n"
+    },
+    {
       "verificacao": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/01_requisitos.py",
       "status": "OK",
       "detalhe": "RF01: registrar empréstimo de um exemplar disponível.\nFluxo principal: True\nSem estoque: False\nLimite atingido: False\n"
@@ -30,19 +40,59 @@
       "detalhe": "devolvido\nEmpréstimo já devolvido.\n"
     },
     {
+      "verificacao": "1-ano-2021/02-banco-de-dados/atividades-comentadas/00-fundamentos/01_crud_sql.py",
+      "status": "OK",
+      "detalhe": "CHECK rejeitou a nota fora do intervalo.\n"
+    },
+    {
+      "verificacao": "1-ano-2021/02-banco-de-dados/atividades-comentadas/00-fundamentos/02_normalizacao.py",
+      "status": "OK",
+      "detalhe": "[('Gilmar da Silva', 'Banco de Dados'), ('Gilmar da Silva', 'Java')]\n"
+    },
+    {
       "verificacao": "1-ano-2021/02-banco-de-dados/atividades-comentadas/executar_sql.py",
       "status": "OK",
-      "detalhe": "[('Gilmar da Silva Filho', 'Algoritmos', '2023-03-01')]\n[('Algoritmos', 1), ('Redes', 0)]\n[('Algoritmos', 2)]\nRestrição respeitada.\nRestrição respeitada.\n"
+      "detalhe": "[('Gilmar da Silva', 'Algoritmos', '2023-03-01')]\n[('Algoritmos', 1), ('Redes', 0)]\n[('Algoritmos', 2)]\nRestrição respeitada.\nRestrição respeitada.\n"
+    },
+    {
+      "verificacao": "1-ano-2021/03-informatica/atividades-comentadas/00-fundamentos/01_csv.py",
+      "status": "OK",
+      "detalhe": "Carga horária: 210\n"
+    },
+    {
+      "verificacao": "1-ano-2021/03-informatica/atividades-comentadas/00-fundamentos/02_backup.py",
+      "status": "OK",
+      "detalhe": "Cópia conferida e alteração detectada.\n"
     },
     {
       "verificacao": "1-ano-2021/03-informatica/atividades-comentadas/01_arquivos_e_caminhos.py",
       "status": "OK",
-      "detalhe": "Extensão: .txt\nCaminho relativo: estudos\\anotacoes.txt\nGilmar da Silva Filho\nRevisão de informática\n\nArquivos: ['anotacoes.txt']\n"
+      "detalhe": "Extensão: .txt\nCaminho relativo: estudos\\anotacoes.txt\nGilmar da Silva\nRevisão de informática\n\nArquivos: ['anotacoes.txt']\n"
     },
     {
       "verificacao": "1-ano-2021/03-informatica/atividades-comentadas/02_representacao.py",
       "status": "OK",
       "detalhe": "13 em binário: 00001101\nCaracteres: 4 Bytes UTF-8: 6\n2048 bytes em KiB: 2.0\n"
+    },
+    {
+      "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/01_tipos.c compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/01_tipos.c execução",
+      "status": "OK",
+      "detalhe": "Acertos: 70.0%\n"
+    },
+    {
+      "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/02_funcoes_strings.c compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/02_funcoes_strings.c execução",
+      "status": "OK",
+      "detalhe": "Gilmar da Silva: 8.0\n"
     },
     {
       "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/01_decisoes_e_lacos.c compilação",
@@ -71,9 +121,8 @@
     },
     {
       "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/03_estruturas_e_ponteiros.c execução",
-      "status": "NÃO EXECUTADO",
-      "detalhe": "[WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo",
-      "motivo": "Bloqueio de execução pelo Controle de Aplicativo do Windows; sem erro de compilação."
+      "status": "OK",
+      "detalhe": "Nota: 8.5\nMaior: -2\n"
     },
     {
       "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/04_arquivos_e_recursao.c compilação",
@@ -86,9 +135,24 @@
       "detalhe": "Fatorial: 120\n"
     },
     {
+      "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/00-fundamentos/01_pilhas_processos.py",
+      "status": "OK",
+      "detalhe": "Chamadas pendentes: ['main', 'carregar'] Fila: ['terminal', 'navegador', 'editor']\n"
+    },
+    {
+      "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/00-fundamentos/02_protocolos.py",
+      "status": "OK",
+      "detalhe": "Protocolo: http Caminho: /materiais\nHTTP define mensagens; TCP entrega um fluxo confiável; IP encaminha pacotes.\n"
+    },
+    {
       "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/01_escalonamento.py",
       "status": "OK",
       "detalhe": "P1: espera=0, retorno=4\nP2: espera=3, retorno=5\nP3: espera=0, retorno=1\n"
+    },
+    {
+      "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/02_memoria.py",
+      "status": "OK",
+      "detalhe": "Faltas: 9 Quadros: [5, 3, 4]\n"
     },
     {
       "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/03_subredes.py",
@@ -106,6 +170,16 @@
       "detalhe": ""
     },
     {
+      "verificacao": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/00-fundamentos/01_formulario.html sintaxe JavaScript",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/00-fundamentos/02_javascript.js",
+      "status": "OK",
+      "detalhe": "Java: 120h\nWeb: 90h\nInovação: 30h\n"
+    },
+    {
       "verificacao": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/01_estrutura.html sintaxe JavaScript",
       "status": "OK",
       "detalhe": ""
@@ -116,6 +190,16 @@
       "detalhe": ""
     },
     {
+      "verificacao": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/00-fundamentos/01_hipoteses.py",
+      "status": "OK",
+      "detalhe": "Simulação: (0.4, True)\nInteresse declarado não comprova disposição de pagar.\n"
+    },
+    {
+      "verificacao": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/00-fundamentos/02_fluxo_caixa.py",
+      "status": "OK",
+      "detalhe": "entrada 50.00 saldo 150.00\nsaida 80.00 saldo 70.00\nsaida 100.00 saldo -30.00\nSimulação: falta caixa mesmo havendo uma entrada no período.\n"
+    },
+    {
       "verificacao": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/01_viabilidade.py",
       "status": "OK",
       "detalhe": "Unidades: 20\n"
@@ -124,6 +208,26 @@
       "verificacao": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/02_mvp.py",
       "status": "OK",
       "detalhe": "['Feedback', 'Busca', 'Cadastro']\nHipótese proposta: 4 de 5 participantes conseguem localizar um material em até 1 minuto.\nIsso é um critério para um teste futuro, não um resultado de pesquisa realizada.\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/00-fundamentos/BasicosDemo.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/00-fundamentos/BasicosDemo.java execução",
+      "status": "OK",
+      "detalhe": "Sem notas\nGilmar da Silva: 8.0\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/00-fundamentos/InterfacesDemo.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/00-fundamentos/InterfacesDemo.java execução",
+      "status": "OK",
+      "detalhe": "Entrega: 2700 centavos\n"
     },
     {
       "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/01-poo/ContaDemo.java compilação",
@@ -156,6 +260,16 @@
       "detalhe": "Mat�rias: 3\nCont�m Java: true\n"
     },
     {
+      "verificacao": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/00-fundamentos/01_contrato.py",
+      "status": "OK",
+      "detalhe": "Entradas válidas normalizadas; inválidas rejeitadas.\n"
+    },
+    {
+      "verificacao": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/00-fundamentos/02_planejamento.py",
+      "status": "OK",
+      "detalhe": "Ciclo detectado no segundo planejamento.\nrequisitos → modelo → cadastro → testes → demonstracao\n"
+    },
+    {
       "verificacao": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/01_requisitos.py",
       "status": "OK",
       "detalhe": "RF01 | Cadastrar item | inventario.cadastrar | Nome não vazio; quantidade inteira >= 0\nRF02 | Evitar duplicidade | inventario.cadastrar | Rejeitar nomes iguais ignorando maiúsculas\nRF03 | Persistir dados | inventario.salvar/carregar | Salvar e recuperar a mesma lista\n"
@@ -169,6 +283,16 @@
       "verificacao": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/test_inventario.py",
       "status": "OK",
       "detalhe": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n"
+    },
+    {
+      "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/01_php_basico.php",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "PHP ausente"
+    },
+    {
+      "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/02_json.php",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "PHP ausente"
     },
     {
       "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/01_formulario.php",
@@ -186,6 +310,16 @@
       "detalhe": "PHP ausente"
     },
     {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/00-fundamentos/01_dart.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/00-fundamentos/02_async.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
       "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/01_modelo.dart",
       "status": "NÃO EXECUTADO",
       "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
@@ -199,6 +333,46 @@
       "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/main.dart",
       "status": "NÃO EXECUTADO",
       "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/test/widget_test.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/04_http.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/formulario.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/carregamento.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/test/fundamentos_test.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/00-fundamentos/01_bits.c compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/00-fundamentos/01_bits.c execução",
+      "status": "OK",
+      "detalhe": "Registrador: 2\n"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/00-fundamentos/02_debounce.py",
+      "status": "OK",
+      "detalhe": "[(50, True), (100, False)]\n"
     },
     {
       "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/01_sensor.c compilação",
@@ -221,9 +395,29 @@
       "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
     },
     {
+      "verificacao": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/00-fundamentos/01_paginacao.py",
+      "status": "OK",
+      "detalhe": "{'itens': ['Flutter'], 'total': 3, 'pagina': 2}\n"
+    },
+    {
+      "verificacao": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/00-fundamentos/02_idempotencia.py",
+      "status": "OK",
+      "detalhe": "Conflito detectado.\n[{'nome': 'Cabo', 'id': 1}]\n"
+    },
+    {
       "verificacao": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/test_api.py",
       "status": "OK",
-      "detalhe": ".....\n----------------------------------------------------------------------\nRan 5 tests in 2.721s\n\nOK\n"
+      "detalhe": ".....\n----------------------------------------------------------------------\nRan 5 tests in 2.726s\n\nOK\n"
+    },
+    {
+      "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/01_estruturas.py",
+      "status": "OK",
+      "detalhe": "Ordem: ['java', 'web', 'java', 'flutter', 'web', 'java'] Únicos: ['flutter', 'java', 'web'] Frequência: {'java': 3, 'web': 2, 'flutter': 1}\n"
+    },
+    {
+      "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/02_testes_limites.py",
+      "status": "OK",
+      "detalhe": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
     },
     {
       "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/01_complexidade.py",
@@ -241,39 +435,9 @@
       "detalhe": "diff --git a/revisao.txt b/revisao.txt\nindex 2b71987..aa4dbef 100644\n--- a/revisao.txt\n+++ b/revisao.txt\n@@ -1 +1,2 @@\n Primeira versão\n+Novo exercício\n\n"
     },
     {
-      "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/02_memoria.py",
-      "status": "OK",
-      "detalhe": "Faltas: 9 Quadros: [5, 3, 4]\n"
-    },
-    {
-      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/04_http.dart",
-      "status": "NÃO EXECUTADO",
-      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
-    },
-    {
       "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/test_buscas.py",
       "status": "OK",
       "detalhe": ".\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
-    },
-    {
-      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/test/widget_test.dart",
-      "status": "NÃO EXECUTADO",
-      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
-    },
-    {
-      "verificacao": "C# console .NET 10",
-      "status": "OK",
-      "detalhe": "Executado: Caderno: 12.50; Preço inválido rejeitado."
-    },
-    {
-      "verificacao": "C# Windows Forms .NET 10",
-      "status": "OK",
-      "detalhe": "Compilado: 0 avisos, 0 erros; interação gráfica não executada."
-    },
-    {
-      "verificacao": "Auditoria de anexos, assinaturas e links locais",
-      "status": "OK",
-      "detalhe": "826 caminhos preservados; 386 anexos/configurações com hashes originais; sem problemas na auditoria."
     }
   ]
 }

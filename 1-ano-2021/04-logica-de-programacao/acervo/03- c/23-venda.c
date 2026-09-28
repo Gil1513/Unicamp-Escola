@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 23-venda.c
 Explicação: entrada de dados alimenta o algoritmo; decisões selecionam caminhos conforme condições.

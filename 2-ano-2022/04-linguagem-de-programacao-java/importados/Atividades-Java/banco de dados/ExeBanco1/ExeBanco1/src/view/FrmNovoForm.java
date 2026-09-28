@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: FrmNovoForm.java
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos; controles e eventos compõem uma interface gráfica; exceções tratam falhas durante a execução.
@@ -17,7 +17,7 @@ import model.Aluno;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class FrmNovoForm extends javax.swing.JFrame {
 

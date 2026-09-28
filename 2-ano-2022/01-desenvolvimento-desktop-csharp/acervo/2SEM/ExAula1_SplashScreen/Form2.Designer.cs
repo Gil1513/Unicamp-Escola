@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: Form2.Designer.cs
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos; controles e eventos compõem uma interface gráfica.

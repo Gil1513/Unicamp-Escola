@@ -1,9 +1,8 @@
 <?php
 /*
 CRUD, PDO e consultas preparadas
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Web II
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: PDO separa SQL dos valores recebidos. Placeholders representam valores, não nomes de tabelas. Uma transação confirma ou desfaz um conjunto de operações.
 Objetivo: Criar, inserir, consultar, atualizar e excluir em um banco SQLite em memória.
 Execução (nesta pasta): php 03_pdo.php (requer pdo_sqlite)

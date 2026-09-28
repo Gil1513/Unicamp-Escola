@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 48-alocaçãoDinamica.c
 Explicação: entrada de dados alimenta o algoritmo; decisões selecionam caminhos conforme condições; laços repetem o processamento; vetores e strings usam índices; alocação dinâmica exige liberação da memória; ponteiros permitem acessar valores por endereço.

@@ -1,8 +1,7 @@
 """
 Escalonamento FCFS
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Sistemas Operacionais e Redes de Computadores
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: First Come First Served atende por ordem de chegada, sem preempção. Espera = início menos chegada; retorno = fim menos chegada. A CPU pode ficar ociosa.
 Objetivo: Calcular espera e retorno e tratar um intervalo sem processos prontos.
 Execução (nesta pasta): python 01_escalonamento.py

@@ -1,6 +1,6 @@
 # 2º ano — 2022
 
-Gilmar da Silva Filho
+Gilmar da Silva
 
 [Índice geral](../README.md)
 

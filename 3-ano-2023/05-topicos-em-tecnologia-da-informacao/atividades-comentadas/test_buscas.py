@@ -1,8 +1,7 @@
 """
 Testes unitários e casos de borda
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Tópicos em Tecnologia da Informação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Um teste deve exercitar comportamento observável. Casos de borda como lista vazia, primeiro elemento, último elemento e valor ausente revelam erros nos limites do algoritmo.
 Objetivo: Conferir buscas em listas vazias e preenchidas, incluindo alvo ausente.
 Execução (nesta pasta): python -m unittest discover -s . -p test_buscas.py -v

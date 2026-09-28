@@ -1,8 +1,7 @@
 """
 Verificação dos critérios de aceitação
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Projeto Integrador I
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Testes verificam comportamentos observáveis: duplicidade, limite de quantidade e recuperação. Cada teste cria um estado independente.
 Objetivo: Passar os testes de cadastro, entrada inválida, duplicidade e persistência.
 Execução (nesta pasta): python -m unittest discover -s . -p test_inventario.py -v

@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 39-Multiplicaçãomatriz 3x3por 5.c
 Explicação: entrada de dados alimenta o algoritmo; laços repetem o processamento; matrizes organizam linhas e colunas.

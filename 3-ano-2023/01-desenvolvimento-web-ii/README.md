@@ -1,8 +1,10 @@
 # Desenvolvimento de Aplicação Web II
 
-**Gilmar da Silva Filho | 2023 | 90 horas de formação profissional**
+**Gilmar da Silva | 2023 | 90 horas de formação profissional**
 
 [Voltar ao índice](../../README.md)
+
+Comece por `atividades-comentadas/00-fundamentos/`, na ordem indicada abaixo, e avance para os exemplos e projetos.
 
 ## Sequência de estudo
 
@@ -24,13 +26,31 @@ As atividades abaixo são complementos de estudo organizados a partir da área d
 
 | Ordem | Atividade | Objetivo e resultado esperado |
 |---:|---|---|
-| 1 | [PHP, HTTP e validação no servidor](atividades-comentadas/01_formulario.php) | Receber nome e nota, rejeitar arrays ou nota fora de 0 a 10 e mostrar texto escapado. |
-| 2 | [Sessões e autenticação demonstrativa](atividades-comentadas/02_sessoes.php) | Entrar usando usuário gilmar e senha estudo-local, sair por POST e rejeitar token inválido. |
-| 3 | [CRUD, PDO e consultas preparadas](atividades-comentadas/03_pdo.php) | Criar, inserir, consultar, atualizar e excluir em um banco SQLite em memória. |
+| 1 | [Tipos, funções e arrays em PHP](atividades-comentadas/00-fundamentos/01_php_basico.php) | Tipos, funções e arrays em PHP |
+| 2 | [JSON, erros e resposta HTTP](atividades-comentadas/00-fundamentos/02_json.php) | JSON, erros e resposta HTTP |
+| 3 | [PHP, HTTP e validação no servidor](atividades-comentadas/01_formulario.php) | Receber nome e nota, rejeitar arrays ou nota fora de 0 a 10 e mostrar texto escapado. |
+| 4 | [Sessões e autenticação demonstrativa](atividades-comentadas/02_sessoes.php) | Entrar usando usuário gilmar e senha estudo-local, sair por POST e rejeitar token inválido. |
+| 5 | [CRUD, PDO e consultas preparadas](atividades-comentadas/03_pdo.php) | Criar, inserir, consultar, atualizar e excluir em um banco SQLite em memória. |
 
 ## Execução e prática
 
 Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
+
+### Tipos, funções e arrays em PHP
+
+`php 00-fundamentos/01_php_basico.php`
+
+**Conceitos:** Arrays podem ter chaves nomeadas. Comparação estrita evita conversões inesperadas; funções devem validar o domínio.
+
+**Pratique:** Adicione uma função que selecione alunos com média maior ou igual a seis.
+
+### JSON, erros e resposta HTTP
+
+`php 00-fundamentos/02_json.php`
+
+**Conceitos:** JSON representa dados para troca entre programas. Trate falhas de conversão e escape texto somente na saída HTML.
+
+**Pratique:** Use esses dados em um endpoint GET e defina o Content-Type application/json.
 
 ### PHP, HTTP e validação no servidor
 
@@ -65,3 +85,9 @@ Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
 [Explorar atividades importadas](importados/). Os projetos são independentes; mantenha arquivos de cada projeto juntos.
 
 Consulte [requisitos e comandos por linguagem](../../docs/COMO_EXECUTAR.md) e [o que foi validado](../../docs/VALIDACAO.md).
+
+## Base de consulta
+
+- [Web: documentação de referência](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core) — HTML semântico, formulários, CSS, layout, JavaScript, DOM e acessibilidade.
+- [PHP: documentação de referência](https://www.php.net/manual/en/langref.php) — tipos, variáveis, operadores, controle de fluxo, funções, arrays, classes e exceções.
+- [SQL: documentação de referência](https://dev.mysql.com/doc/refman/8.4/en/tutorial.html) — tabelas, tipos, consultas, filtros, agrupamentos e relacionamentos.

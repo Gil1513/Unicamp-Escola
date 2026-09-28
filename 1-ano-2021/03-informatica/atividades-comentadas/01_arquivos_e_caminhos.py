@@ -1,8 +1,7 @@
 """
 Arquivos, diretórios e caminhos portáveis
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Informática
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Diretórios organizam arquivos; um caminho relativo depende do diretório atual. pathlib evita concatenar separadores diferentes no Windows e no Linux.
 Objetivo: Criar, ler e listar documentos em um diretório temporário, removido automaticamente.
 Execução (nesta pasta): python 01_arquivos_e_caminhos.py
@@ -16,7 +15,7 @@ if __name__ == '__main__':
         pasta = Path(temporario)/'estudos'
         pasta.mkdir()
         arquivo = pasta/'anotacoes.txt'
-        arquivo.write_text('Gilmar da Silva Filho\nRevisão de informática\n', encoding='utf-8')
+        arquivo.write_text('Gilmar da Silva\nRevisão de informática\n', encoding='utf-8')
         print('Extensão:', arquivo.suffix)
         print('Caminho relativo:', arquivo.relative_to(temporario))
         print(arquivo.read_text(encoding='utf-8'))

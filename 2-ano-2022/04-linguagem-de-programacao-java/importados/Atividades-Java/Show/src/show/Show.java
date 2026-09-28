@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: Show.java
 Explicação: classes agrupam dados e comportamentos; coleções armazenam múltiplos objetos.
@@ -17,7 +17,7 @@ import java.util.HashSet;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class Show {
 

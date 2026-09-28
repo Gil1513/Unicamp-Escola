@@ -1,6 +1,6 @@
 # Atividades Java importadas
 
-Gilmar da Silva Filho
+Gilmar da Silva
 
 [Voltar à matéria](../../README.md)
 

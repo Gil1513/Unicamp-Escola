@@ -1,8 +1,7 @@
 """
 Testes de integração com HTTP real
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Projeto Integrador II
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Um teste de integração atravessa cliente, servidor e banco. Porta aleatória e banco temporário isolam a execução; servidor e thread são encerrados ao final.
 Objetivo: Verificar cadastro, persistência, conflito, JSON inválido, tipos incorretos e rota desconhecida.
 Execução (nesta pasta): python -m unittest discover -s . -p test_api.py -v

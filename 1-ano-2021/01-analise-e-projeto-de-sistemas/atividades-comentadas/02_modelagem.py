@@ -1,8 +1,7 @@
 """
 Entidades e transições de estado
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Análise e Projeto de Sistemas de Informação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Uma entidade tem identidade e comportamento. Encapsular a transição protege a regra: só se devolve um empréstimo ativo.
 Objetivo: Modelar o vínculo entre um livro e um leitor; bloquear a segunda devolução.
 Execução (nesta pasta): python 02_modelagem.py
@@ -28,7 +27,7 @@ class Emprestimo:
         self.situacao = Situacao.DEVOLVIDO
 
 if __name__ == '__main__':
-    emprestimo = Emprestimo(1, 'Gilmar da Silva Filho', 'Algoritmos')
+    emprestimo = Emprestimo(1, 'Gilmar da Silva', 'Algoritmos')
     emprestimo.devolver()
     print(emprestimo.situacao.value)
     try: emprestimo.devolver()

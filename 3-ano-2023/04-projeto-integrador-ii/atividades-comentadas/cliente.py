@@ -1,8 +1,7 @@
 """
 Integração de cliente e serviço HTTP
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Projeto Integrador II
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: O cliente serializa o corpo, define Content-Type e interpreta o código HTTP. Uma resposta 409 é um conflito de negócio; falha de conexão é outro tipo de erro.
 Objetivo: Enviar Caderno e consultar a lista; reconhecer conflito caso execute novamente.
 Execução (nesta pasta): Com api.py em execução: python cliente.py

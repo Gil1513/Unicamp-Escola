@@ -1,8 +1,7 @@
 /*
 Persistência com arquivos e tratamento de recursos
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Persistir significa manter dados além da execução. Files lê e escreve texto UTF-8; try/finally garante limpeza. Aqui o arquivo é temporário para que a demonstração não deixe dados pessoais.
 Objetivo: Gravar três matérias, reler e localizar Java.
 Execução (nesta pasta): java 03-arquivos/ArquivoDemo.java

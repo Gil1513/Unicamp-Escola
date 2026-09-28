@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 42-500 habitantes(vetor).c
 Explicação: entrada de dados alimenta o algoritmo; laços repetem o processamento; vetores e strings usam índices; estruturas agrupam campos relacionados.

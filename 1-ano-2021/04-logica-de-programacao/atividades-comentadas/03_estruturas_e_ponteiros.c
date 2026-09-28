@@ -1,8 +1,7 @@
 /*
 Struct, memória dinâmica e ponteiros
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Lógica de Programação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Struct reúne campos. malloc reserva memória; um ponteiro guarda seu endereço. Conferir NULL e liberar a alocação evita falha de acesso e vazamento.
 Objetivo: Criar um cadastro em memória e calcular o maior valor, inclusive com números negativos.
 Execução (nesta pasta): gcc -std=c11 -Wall -Wextra 03_estruturas_e_ponteiros.c -o estruturas; ./estruturas

@@ -1,6 +1,6 @@
 <?php
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Web II
 Arquivo de estudo: HelloWord_PHP_01.php
 Explicação: PHP executa no servidor e produz a resposta.
@@ -9,7 +9,7 @@ Consulte o README da matéria para a sequência de estudo e execução.
 */
     echo "Meu primeiro código PHP! <b> Hello!</b>";
     echo "<br>";
-    echo "Gilmar da Silva Filho";
+    echo "Gilmar da Silva";
 
     echo "<br><br>";
 

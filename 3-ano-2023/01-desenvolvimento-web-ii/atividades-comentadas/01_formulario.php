@@ -1,9 +1,8 @@
 <?php
 /*
 PHP, HTTP e validação no servidor
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Web II
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: GET consulta recursos e POST envia dados. O servidor deve validar mesmo quando o HTML usa required. htmlspecialchars protege a saída de texto interpretado como HTML.
 Objetivo: Receber nome e nota, rejeitar arrays ou nota fora de 0 a 10 e mostrar texto escapado.
 Execução (nesta pasta): php -S 127.0.0.1:8000; abra http://127.0.0.1:8000/01_formulario.php
@@ -23,7 +22,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
 }
 ?>
 <!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Notas</title>
-<h1>Formulário de notas</h1><p>Gilmar da Silva Filho</p>
+<h1>Formulário de notas</h1><p>Gilmar da Silva</p>
 <form method="post">
 <label>Nome <input name="nome" required maxlength="100"></label>
 <label>Nota <input name="nota" type="number" min="0" max="10" step="0.1" required></label>

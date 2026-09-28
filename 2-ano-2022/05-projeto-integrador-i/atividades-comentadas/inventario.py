@@ -1,8 +1,7 @@
 """
 Protótipo integrado de inventário
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Projeto Integrador I
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: A camada de domínio valida regras antes de alterar dados. Persistência converte a lista em JSON. Ao carregar, reconstruímos a lista usando as mesmas regras, sem confiar cegamente no arquivo.
 Objetivo: Cadastrar dois materiais e recuperar o inventário de um arquivo temporário.
 Execução (nesta pasta): python inventario.py

@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: VendasdeCarros.java
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos; coleções armazenam múltiplos objetos.
@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class VendasdeCarros/* extends Cliente*/ {
 

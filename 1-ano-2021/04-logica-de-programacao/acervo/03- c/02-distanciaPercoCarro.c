@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 02-distanciaPercoCarro.c
 Explicação: acompanhe os dados de entrada, as operações e o resultado do exemplo.

@@ -1,8 +1,10 @@
 # Tópicos em Tecnologia da Informação
 
-**Gilmar da Silva Filho | 2023 | 90 horas de formação profissional**
+**Gilmar da Silva | 2023 | 90 horas de formação profissional**
 
 [Voltar ao índice](../../README.md)
+
+Comece por `atividades-comentadas/00-fundamentos/`, na ordem indicada abaixo, e avance para os exemplos e projetos.
 
 ## Sequência de estudo
 
@@ -21,14 +23,32 @@ As atividades abaixo são complementos de estudo organizados a partir da área d
 
 | Ordem | Atividade | Objetivo e resultado esperado |
 |---:|---|---|
-| 1 | [Busca linear e binária](atividades-comentadas/01_complexidade.py) | Localizar o índice 3 de 8 em [2,4,6,8,10] e devolver -1 quando ausente. |
-| 2 | [Hash e integridade de arquivos](atividades-comentadas/02_integridade.py) | Comparar resumos iguais e diferentes, lendo arquivos por blocos para economizar memória. |
-| 3 | [Git: histórico, branch e comparação](atividades-comentadas/03_git_laboratorio.py) | Criar dois commits locais em branches diferentes e exibir o diff. |
-| 4 | [Testes unitários e casos de borda](atividades-comentadas/test_buscas.py) | Conferir buscas em listas vazias e preenchidas, incluindo alvo ausente. |
+| 1 | [Listas, conjuntos e dicionários](atividades-comentadas/00-fundamentos/01_estruturas.py) | Listas, conjuntos e dicionários |
+| 2 | [Testes de fronteira e invariantes](atividades-comentadas/00-fundamentos/02_testes_limites.py) | Testes de fronteira e invariantes |
+| 3 | [Busca linear e binária](atividades-comentadas/01_complexidade.py) | Localizar o índice 3 de 8 em [2,4,6,8,10] e devolver -1 quando ausente. |
+| 4 | [Hash e integridade de arquivos](atividades-comentadas/02_integridade.py) | Comparar resumos iguais e diferentes, lendo arquivos por blocos para economizar memória. |
+| 5 | [Git: histórico, branch e comparação](atividades-comentadas/03_git_laboratorio.py) | Criar dois commits locais em branches diferentes e exibir o diff. |
+| 6 | [Testes unitários e casos de borda](atividades-comentadas/test_buscas.py) | Conferir buscas em listas vazias e preenchidas, incluindo alvo ausente. |
 
 ## Execução e prática
 
 Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
+
+### Listas, conjuntos e dicionários
+
+`python 00-fundamentos/01_estruturas.py`
+
+**Conceitos:** Lista preserva sequência, conjunto remove duplicatas e dicionário associa chaves a valores. Escolha pela operação necessária.
+
+**Pratique:** Compare busca por matrícula em lista e dicionário para mil registros.
+
+### Testes de fronteira e invariantes
+
+`python 00-fundamentos/02_testes_limites.py`
+
+**Conceitos:** Teste valores imediatamente antes, no limite e depois da regra. Um invariante precisa continuar verdadeiro em todas as entradas válidas.
+
+**Pratique:** Teste uma função de desconto nos limites de quantidade e preço.
 
 ### Busca linear e binária
 
@@ -63,3 +83,7 @@ Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
 **Pratique:** Acrescente elementos repetidos; defina se o contrato deve devolver qualquer ocorrência ou a primeira.
 
 Consulte [requisitos e comandos por linguagem](../../docs/COMO_EXECUTAR.md) e [o que foi validado](../../docs/VALIDACAO.md).
+
+## Base de consulta
+
+- [Python: documentação de referência](https://docs.python.org/3/tutorial/) — tipos, controle de fluxo, funções, estruturas de dados, exceções e arquivos.

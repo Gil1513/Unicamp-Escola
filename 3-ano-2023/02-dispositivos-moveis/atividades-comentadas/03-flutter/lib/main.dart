@@ -1,8 +1,7 @@
 /*
 Interface, estado, validação e navegação
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento para Dispositivos Móveis
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Widgets descrevem a interface. setState solicita reconstrução após mudar o estado. Navigator empilha uma tela de detalhe; TextEditingController deve ser descartado.
 Objetivo: Cadastrar assuntos, concluir itens e abrir os detalhes por toque; estado fica em memória.
 Execução (nesta pasta): cd 03-flutter; flutter create --platforms=web,android .; flutter pub get; flutter run
@@ -29,7 +28,7 @@ class _RevisaoState extends State<Revisao> {
     setState(() => tarefas.add(titulo)); entrada.clear();
   }
   @override Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('Revisão — Gilmar da Silva Filho')),
+    appBar: AppBar(title: const Text('Revisão — Gilmar da Silva')),
     body: Padding(padding: const EdgeInsets.all(16), child: Column(children: [
       TextField(controller: entrada, decoration: const InputDecoration(labelText: 'Assunto'), onSubmitted: (_) => adicionar()),
       ElevatedButton(onPressed: adicionar, child: const Text('Adicionar')),

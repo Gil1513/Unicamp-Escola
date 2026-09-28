@@ -1,6 +1,6 @@
 # Unicamp-Escola
 
-**Gilmar da Silva Filho — Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio, COTIL/Unicamp — 2021 a 2023, período integral.**
+**Gilmar da Silva — Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio, COTIL/Unicamp — 2021 a 2023, período integral.**
 
 Exercícios organizados por ano e disciplina, com atividades comentadas para revisar os conteúdos. Comece pelo README da matéria: ele apresenta a sequência de estudo, os exemplos e os comandos de execução.
 
@@ -39,3 +39,7 @@ Formação profissional: **1.230 horas**, equivalentes a 1.640 horas-aula de 45 
 - [Catálogo de atividades](docs/atividades.json)
 
 Para as verificações automatizadas, execute `python scripts/validar.py` na raiz. Python usa apenas a biblioteca padrão. Java, C, PHP, Flutter e C# têm seus próprios requisitos descritos no guia. Os códigos antigos são exercícios independentes; não existe um único build para o repositório inteiro.
+
+## Fundamentos e prática
+
+As 15 disciplinas têm exercícios iniciais em `00-fundamentos`. Consulte o [mapa de fundamentos e fontes](docs/FUNDAMENTOS.md). Flutter está em dispositivos móveis, no terceiro ano. O [acervo java-cotil](2-ano-2022/04-linguagem-de-programacao-java/importados/java-cotil/ORIGEM.md) complementa as atividades Java.

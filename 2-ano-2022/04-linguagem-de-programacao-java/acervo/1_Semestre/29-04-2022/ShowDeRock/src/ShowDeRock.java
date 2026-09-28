@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: ShowDeRock.java
 Explicação: classes agrupam dados e comportamentos; coleções armazenam múltiplos objetos.

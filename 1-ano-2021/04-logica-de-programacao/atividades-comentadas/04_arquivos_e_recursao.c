@@ -1,8 +1,7 @@
 /*
 Arquivos e função recursiva
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Lógica de Programação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Recursão precisa de um caso base e de avanço até ele. Arquivos têm operações de abertura, escrita, leitura e fechamento; sempre verifique erros.
 Objetivo: Gravar e recuperar o fatorial de 5 em arquivo temporário, exibindo 120.
 Execução (nesta pasta): gcc -std=c11 -Wall -Wextra 04_arquivos_e_recursao.c -o arquivos; ./arquivos

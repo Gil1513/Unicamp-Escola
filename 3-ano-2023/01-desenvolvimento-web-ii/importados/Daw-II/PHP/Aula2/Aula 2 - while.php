@@ -1,6 +1,6 @@
 <?php
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Web II
 Arquivo de estudo: Aula 2 - while.php
 Explicação: PHP executa no servidor e produz a resposta; funções isolam trechos reutilizáveis.

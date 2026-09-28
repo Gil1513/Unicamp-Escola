@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 36-matriz 2x2.c
 Explicação: entrada de dados alimenta o algoritmo; laços repetem o processamento; matrizes organizam linhas e colunas.

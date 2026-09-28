@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 19-divisivelEntreMilhao.c
 Explicação: decisões selecionam caminhos conforme condições; laços repetem o processamento.

@@ -1,6 +1,24 @@
 [
   {
     "materia": 0,
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/00-fundamentos/01_casos_de_uso.py",
+    "titulo": "Casos de uso e permissões",
+    "conceitos": "Ator é um papel; pré-condição deve ser satisfeita antes da ação. Teste caminhos permitidos e negados.",
+    "executar": "python 00-fundamentos/01_casos_de_uso.py",
+    "resultado": "Casos de uso e permissões",
+    "pratique": "Modele a renovação com uma regra para reservas pendentes."
+  },
+  {
+    "materia": 0,
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/00-fundamentos/02_rastreabilidade.py",
+    "titulo": "Rastreabilidade de requisitos",
+    "conceitos": "Cada requisito deve estar ligado a um critério observável e a um cenário de teste.",
+    "executar": "python 00-fundamentos/02_rastreabilidade.py",
+    "resultado": "Rastreabilidade de requisitos",
+    "pratique": "Acrescente um requisito não funcional com critério mensurável."
+  },
+  {
+    "materia": 0,
     "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/01_requisitos.py",
     "titulo": "Requisitos e critérios de aceitação",
     "conceitos": "Requisito funcional descreve uma ação; uma regra de negócio limita quando ela é válida. Critérios verificáveis ligam a necessidade ao teste.",
@@ -16,6 +34,24 @@
     "executar": "python 02_modelagem.py",
     "resultado": "Modelar o vínculo entre um livro e um leitor; bloquear a segunda devolução.",
     "pratique": "Desenhe as classes e a associação Leitor 1:N Empréstimo; acrescente a data prevista."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/00-fundamentos/01_crud_sql.py",
+    "titulo": "CRUD, parâmetros e integridade",
+    "conceitos": "INSERT cria, SELECT consulta, UPDATE altera e DELETE remove. Parâmetros separam dados de comandos SQL.",
+    "executar": "python 00-fundamentos/01_crud_sql.py",
+    "resultado": "CRUD, parâmetros e integridade",
+    "pratique": "Inclua UNIQUE no e-mail e verifique duplicatas."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/00-fundamentos/02_normalizacao.py",
+    "titulo": "Normalização e relacionamento N:N",
+    "conceitos": "Separar aluno, curso e matrícula evita repetir o nome do aluno em cada inscrição. A chave composta impede inscrição duplicada.",
+    "executar": "python 00-fundamentos/02_normalizacao.py",
+    "resultado": "Normalização e relacionamento N:N",
+    "pratique": "Explique as dependências funcionais e modele a nota por matrícula."
   },
   {
     "materia": 1,
@@ -55,6 +91,24 @@
   },
   {
     "materia": 2,
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/00-fundamentos/01_csv.py",
+    "titulo": "Planilhas e dados tabulares",
+    "conceitos": "CSV separa campos por delimitadores; usar a biblioteca evita quebrar nomes com vírgulas.",
+    "executar": "python 00-fundamentos/01_csv.py",
+    "resultado": "Planilhas e dados tabulares",
+    "pratique": "Exporte um resumo e confira a diferença entre texto e número."
+  },
+  {
+    "materia": 2,
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/00-fundamentos/02_backup.py",
+    "titulo": "Cópia e conferência de arquivos",
+    "conceitos": "Uma cópia deve ser conferida; hashes detectam alterações no conteúdo, mas não provam a autoria.",
+    "executar": "python 00-fundamentos/02_backup.py",
+    "resultado": "Cópia e conferência de arquivos",
+    "pratique": "Explique por que uma cópia na mesma unidade não protege contra falha física."
+  },
+  {
+    "materia": 2,
     "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/01_arquivos_e_caminhos.py",
     "titulo": "Arquivos, diretórios e caminhos portáveis",
     "conceitos": "Diretórios organizam arquivos; um caminho relativo depende do diretório atual. pathlib evita concatenar separadores diferentes no Windows e no Linux.",
@@ -70,6 +124,24 @@
     "executar": "python 02_representacao.py",
     "resultado": "Mostrar 13 em binário e comparar os caracteres e bytes de ação.",
     "pratique": "Teste um emoji e explique por que o tamanho em bytes aumenta."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/01_tipos.c",
+    "titulo": "Tipos, operadores e divisão",
+    "conceitos": "int guarda inteiros; double permite frações. Converter antes da divisão evita truncamento.",
+    "executar": "gcc -std=c11 -Wall -Wextra 00-fundamentos/01_tipos.c -o tipos; ./tipos",
+    "resultado": "Tipos, operadores e divisão",
+    "pratique": "Compare divisão inteira e real para 5/2."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/02_funcoes_strings.c",
+    "titulo": "Funções, strings e limites",
+    "conceitos": "Strings terminam com zero. O tamanho do buffer precisa incluir esse terminador; funções isolam cálculos.",
+    "executar": "gcc -std=c11 -Wall -Wextra 00-fundamentos/02_funcoes_strings.c -o funcoes; ./funcoes",
+    "resultado": "Funções, strings e limites",
+    "pratique": "Crie uma função para contar vogais respeitando o fim da string."
   },
   {
     "materia": 3,
@@ -109,6 +181,24 @@
   },
   {
     "materia": 4,
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/00-fundamentos/01_pilhas_processos.py",
+    "titulo": "Pilha de chamadas e fila de processos",
+    "conceitos": "Pilha segue LIFO; fila segue FIFO. São modelos de estruturas usadas pelo sistema, não processos reais.",
+    "executar": "python 00-fundamentos/01_pilhas_processos.py",
+    "resultado": "Pilha de chamadas e fila de processos",
+    "pratique": "Simule rodízio de processos com quantidades diferentes de trabalho."
+  },
+  {
+    "materia": 4,
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/00-fundamentos/02_protocolos.py",
+    "titulo": "Endereço, porta e protocolo",
+    "conceitos": "IP identifica uma interface; porta identifica um serviço de transporte. URL também contém protocolo, caminho e parâmetros.",
+    "executar": "python 00-fundamentos/02_protocolos.py",
+    "resultado": "Endereço, porta e protocolo",
+    "pratique": "Compare uma URL HTTPS sem porta explícita; pesquise a porta padrão."
+  },
+  {
+    "materia": 4,
     "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/01_escalonamento.py",
     "titulo": "Escalonamento FCFS",
     "conceitos": "First Come First Served atende por ordem de chegada, sem preempção. Espera = início menos chegada; retorno = fim menos chegada. A CPU pode ficar ociosa.",
@@ -133,6 +223,24 @@
     "executar": "python 03_subredes.py",
     "resultado": "Obter 254 hosts em 192.168.10.0/24 e identificar um endereço de fora da rede.",
     "pratique": "Compare /24 e /26. Por que /31 e /32 precisam de tratamento diferente?"
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/00-fundamentos/Program.cs",
+    "titulo": "Tipos, coleções, métodos e exceções em C#",
+    "conceitos": "TryParse trata entrada inválida sem exceção. List e LINQ permitem selecionar e agregar; regras do domínio podem lançar ArgumentException.",
+    "executar": "dotnet run --project 00-fundamentos/Fundamentos.csproj",
+    "resultado": "Tipos, coleções, métodos e exceções em C#",
+    "pratique": "Encapsule as notas em uma classe e adicione um evento de aprovação."
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/00-fundamentos/02_eventos.cs",
+    "titulo": "Eventos e encapsulamento",
+    "conceitos": "Um evento notifica assinantes quando algo muda. O publicador protege o estado e não conhece a interface.",
+    "executar": "dotnet run --project 00-fundamentos/Fundamentos.csproj",
+    "resultado": "Eventos e encapsulamento",
+    "pratique": "Crie um assinante no Program.cs e confirme que duas chamadas produzem dois avisos."
   },
   {
     "materia": 5,
@@ -172,6 +280,24 @@
   },
   {
     "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/00-fundamentos/01_formulario.html",
+    "titulo": "Formulário semântico e responsivo",
+    "conceitos": "label associa o rótulo ao campo; required e min fazem validação nativa. Grid adapta colunas e foco visível ajuda a navegação.",
+    "executar": "Abra 00-fundamentos/01_formulario.html no navegador",
+    "resultado": "Formulário semântico e responsivo",
+    "pratique": "Navegue apenas por teclado e teste a página em 320 e 1024 pixels."
+  },
+  {
+    "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/00-fundamentos/02_javascript.js",
+    "titulo": "Variáveis, funções, arrays e objetos",
+    "conceitos": "const protege a referência, não o conteúdo. map transforma, filter seleciona e reduce agrega sem alterar o array original.",
+    "executar": "node 00-fundamentos/02_javascript.js",
+    "resultado": "Variáveis, funções, arrays e objetos",
+    "pratique": "Adicione uma busca por nome que ignore maiúsculas e espaços."
+  },
+  {
+    "materia": 6,
     "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/01_estrutura.html",
     "titulo": "HTML semântico e formulários",
     "conceitos": "HTML descreve significado. Cabeçalhos organizam a leitura; label associa o campo à descrição; required e min ajudam na validação inicial. Um servidor também deve validar.",
@@ -199,6 +325,24 @@
   },
   {
     "materia": 7,
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/00-fundamentos/01_hipoteses.py",
+    "titulo": "Hipóteses e indicadores",
+    "conceitos": "Defina indicador, população e limiar antes de avaliar um experimento. Estes dados são fictícios para exercitar o cálculo.",
+    "executar": "python 00-fundamentos/01_hipoteses.py",
+    "resultado": "Hipóteses e indicadores",
+    "pratique": "Defina uma hipótese de retenção e os dados necessários para testá-la."
+  },
+  {
+    "materia": 7,
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/00-fundamentos/02_fluxo_caixa.py",
+    "titulo": "Fluxo de caixa e saldo acumulado",
+    "conceitos": "Lucro e caixa são diferentes: o prazo do recebimento afeta a disponibilidade. Decimal evita aproximação binária de valores monetários.",
+    "executar": "python 00-fundamentos/02_fluxo_caixa.py",
+    "resultado": "Fluxo de caixa e saldo acumulado",
+    "pratique": "Acrescente vencimento e diferencie previsto de realizado."
+  },
+  {
+    "materia": 7,
     "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/01_viabilidade.py",
     "titulo": "Custos, receita e ponto de equilíbrio",
     "conceitos": "Margem de contribuição = preço menos custo variável. O ponto de equilíbrio cobre o custo fixo; arredondamos para cima porque vendemos unidades inteiras. Valores são fictícios para exercício.",
@@ -214,6 +358,24 @@
     "executar": "python 02_mvp.py",
     "resultado": "Selecionar funcionalidades sob um orçamento de cinco dias; explicitar uma hipótese mensurável.",
     "pratique": "Inclua dependências e explique por que escolher sempre a maior razão não garante a solução ótima."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/00-fundamentos/BasicosDemo.java",
+    "titulo": "Tipos, decisões, laços e métodos em Java",
+    "conceitos": "Métodos recebem parâmetros e retornam resultados. Valide argumentos antes do cálculo; arrays têm tamanho fixo.",
+    "executar": "cd 00-fundamentos; javac BasicosDemo.java; java BasicosDemo",
+    "resultado": "Tipos, decisões, laços e métodos em Java",
+    "pratique": "Teste notas negativas, acima de dez e NaN."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/00-fundamentos/InterfacesDemo.java",
+    "titulo": "Interfaces, composição e polimorfismo",
+    "conceitos": "Uma interface define um contrato. A classe recebe uma estratégia, permitindo trocar a regra sem alterar o cálculo principal.",
+    "executar": "cd 00-fundamentos; javac InterfacesDemo.java; java InterfacesDemo",
+    "resultado": "Interfaces, composição e polimorfismo",
+    "pratique": "Implemente frete grátis acima de um valor usando uma classe concreta."
   },
   {
     "materia": 8,
@@ -244,6 +406,24 @@
   },
   {
     "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/00-fundamentos/01_contrato.py",
+    "titulo": "Contrato entre módulos",
+    "conceitos": "Validar a entrada na fronteira impede que os módulos recebam um estado inconsistente; diferencie campo ausente de valor inválido.",
+    "executar": "python 00-fundamentos/01_contrato.py",
+    "resultado": "Contrato entre módulos",
+    "pratique": "Integre o contrato ao módulo de persistência do inventário."
+  },
+  {
+    "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/00-fundamentos/02_planejamento.py",
+    "titulo": "Dependências e ordem de implementação",
+    "conceitos": "Uma entrega depende de outras etapas. Ordenação topológica encontra uma sequência possível e detecta ciclos.",
+    "executar": "python 00-fundamentos/02_planejamento.py",
+    "resultado": "Dependências e ordem de implementação",
+    "pratique": "Inclua documentação e atividades que podem ocorrer em paralelo."
+  },
+  {
+    "materia": 9,
     "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/01_requisitos.py",
     "titulo": "Planejamento e rastreabilidade do protótipo",
     "conceitos": "Cada requisito deve ter um critério observável. O backlog organiza trabalho e a rastreabilidade conecta requisito, módulo e verificação.",
@@ -271,6 +451,24 @@
   },
   {
     "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/01_php_basico.php",
+    "titulo": "Tipos, funções e arrays em PHP",
+    "conceitos": "Arrays podem ter chaves nomeadas. Comparação estrita evita conversões inesperadas; funções devem validar o domínio.",
+    "executar": "php 00-fundamentos/01_php_basico.php",
+    "resultado": "Tipos, funções e arrays em PHP",
+    "pratique": "Adicione uma função que selecione alunos com média maior ou igual a seis."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/02_json.php",
+    "titulo": "JSON, erros e resposta HTTP",
+    "conceitos": "JSON representa dados para troca entre programas. Trate falhas de conversão e escape texto somente na saída HTML.",
+    "executar": "php 00-fundamentos/02_json.php",
+    "resultado": "JSON, erros e resposta HTTP",
+    "pratique": "Use esses dados em um endpoint GET e defina o Content-Type application/json."
+  },
+  {
+    "materia": 10,
     "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/01_formulario.php",
     "titulo": "PHP, HTTP e validação no servidor",
     "conceitos": "GET consulta recursos e POST envia dados. O servidor deve validar mesmo quando o HTML usa required. htmlspecialchars protege a saída de texto interpretado como HTML.",
@@ -295,6 +493,24 @@
     "executar": "php 03_pdo.php (requer pdo_sqlite)",
     "resultado": "Criar, inserir, consultar, atualizar e excluir em um banco SQLite em memória.",
     "pratique": "Adapte a conexão para MySQL via variáveis de ambiente e mantenha os parâmetros preparados."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/00-fundamentos/01_dart.dart",
+    "titulo": "Dart: tipos, null safety, listas e funções",
+    "conceitos": "String? aceita null. O operador ?? fornece um padrão; where e map transformam coleções sem alterar a original.",
+    "executar": "dart run 00-fundamentos/01_dart.dart",
+    "resultado": "Dart: tipos, null safety, listas e funções",
+    "pratique": "Modele uma classe Aluno com RA imutável e notas privadas."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/00-fundamentos/02_async.dart",
+    "titulo": "Future, await e tratamento de falhas",
+    "conceitos": "Uma Future representa um resultado futuro. await aguarda esse resultado sem bloquear a interface; try/catch trata a falha.",
+    "executar": "dart run 00-fundamentos/02_async.dart",
+    "resultado": "Future, await e tratamento de falhas",
+    "pratique": "Acrescente um timeout e diferencie timeout de erro de dados."
   },
   {
     "materia": 11,
@@ -351,6 +567,51 @@
     "pratique": "Implemente POST e use um endereço configurável para executar fora do computador do servidor."
   },
   {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/formulario.dart",
+    "titulo": "Flutter: formulário e layout",
+    "conceitos": "Form, GlobalKey, validadores, controllers, layout responsivo e descarte de recursos.",
+    "executar": "cd 03-flutter; flutter run -t lib/formulario.dart",
+    "resultado": "Flutter: formulário e layout",
+    "pratique": "Acrescente seleção de matéria e teste os limites de minutos."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/carregamento.dart",
+    "titulo": "Flutter: carregamento e navegação",
+    "conceitos": "FutureBuilder, estados de espera/erro/vazio/sucesso, retry e injeção de dependência.",
+    "executar": "cd 03-flutter; flutter run -t lib/carregamento.dart",
+    "resultado": "Flutter: carregamento e navegação",
+    "pratique": "Substitua o serviço simulado por HTTP com timeout."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/test/fundamentos_test.dart",
+    "titulo": "Flutter: testes de formulário e serviço",
+    "conceitos": "Widget tests simulam entrada, falha de serviço e recuperação.",
+    "executar": "cd 03-flutter; flutter test",
+    "resultado": "Flutter: testes de formulário e serviço",
+    "pratique": "Teste voltar da tela de detalhes e editar um cadastro existente."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/00-fundamentos/01_bits.c",
+    "titulo": "Bits, máscaras e registradores",
+    "conceitos": "Uma máscara seleciona bits. OR liga, AND com complemento desliga, XOR alterna sem afetar os demais bits.",
+    "executar": "gcc -std=c11 -Wall -Wextra 00-fundamentos/01_bits.c -o bits; ./bits",
+    "resultado": "Bits, máscaras e registradores",
+    "pratique": "Reserve bits diferentes para dois sensores e um atuador."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/00-fundamentos/02_debounce.py",
+    "titulo": "Debounce e máquina de estados",
+    "conceitos": "Um botão pode oscilar ao mudar. Confirme a mudança somente após um intervalo de estabilidade; simulação sem placa.",
+    "executar": "python 00-fundamentos/02_debounce.py",
+    "resultado": "Debounce e máquina de estados",
+    "pratique": "Transfira a lógica para millis() e digitalRead() no Arduino."
+  },
+  {
     "materia": 12,
     "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/01_sensor.c",
     "titulo": "Conversão analógica e histerese",
@@ -379,6 +640,24 @@
   },
   {
     "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/00-fundamentos/01_paginacao.py",
+    "titulo": "Paginação e contratos de API",
+    "conceitos": "Página e limite precisam de validação. Retorne metadados para o cliente distinguir lista vazia de página inexistente.",
+    "executar": "python 00-fundamentos/01_paginacao.py",
+    "resultado": "Paginação e contratos de API",
+    "pratique": "Acrescente os parâmetros pagina e limite ao GET /materiais da API."
+  },
+  {
+    "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/00-fundamentos/02_idempotencia.py",
+    "titulo": "Idempotência e repetição de requisições",
+    "conceitos": "Uma chave permite reconhecer a repetição da mesma operação e evitar cadastro duplicado. O exemplo mantém o registro apenas em memória.",
+    "executar": "python 00-fundamentos/02_idempotencia.py",
+    "resultado": "Idempotência e repetição de requisições",
+    "pratique": "Explique como persistir a chave e proteger duas requisições simultâneas."
+  },
+  {
+    "materia": 13,
     "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/api.py",
     "titulo": "Projeto integrado: API HTTP e banco de dados",
     "conceitos": "Uma API define rotas, métodos e códigos de resposta. JSON transporta dados; SQLite persiste registros. Consultas parametrizadas separam dados e comandos. Servidor didático local, sem autenticação.",
@@ -403,6 +682,24 @@
     "executar": "python -m unittest discover -s . -p test_api.py -v",
     "resultado": "Verificar cadastro, persistência, conflito, JSON inválido, tipos incorretos e rota desconhecida.",
     "pratique": "Acrescente testes para os endpoints PATCH e DELETE propostos."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/01_estruturas.py",
+    "titulo": "Listas, conjuntos e dicionários",
+    "conceitos": "Lista preserva sequência, conjunto remove duplicatas e dicionário associa chaves a valores. Escolha pela operação necessária.",
+    "executar": "python 00-fundamentos/01_estruturas.py",
+    "resultado": "Listas, conjuntos e dicionários",
+    "pratique": "Compare busca por matrícula em lista e dicionário para mil registros."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/02_testes_limites.py",
+    "titulo": "Testes de fronteira e invariantes",
+    "conceitos": "Teste valores imediatamente antes, no limite e depois da regra. Um invariante precisa continuar verdadeiro em todas as entradas válidas.",
+    "executar": "python 00-fundamentos/02_testes_limites.py",
+    "resultado": "Testes de fronteira e invariantes",
+    "pratique": "Teste uma função de desconto nos limites de quantidade e preço."
   },
   {
     "materia": 14,

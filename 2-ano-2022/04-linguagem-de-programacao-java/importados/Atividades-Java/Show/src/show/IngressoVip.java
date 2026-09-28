@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: IngressoVip.java
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos.
@@ -15,7 +15,7 @@ package show;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class IngressoVip extends Ingresso {
     

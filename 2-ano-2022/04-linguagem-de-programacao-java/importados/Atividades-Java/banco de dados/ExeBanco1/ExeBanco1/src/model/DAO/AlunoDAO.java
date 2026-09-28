@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: AlunoDAO.java
 Explicação: classes agrupam dados e comportamentos; coleções armazenam múltiplos objetos; persistência conecta objetos ao banco de dados.
@@ -23,7 +23,7 @@ import model.Aluno;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class AlunoDAO {
     

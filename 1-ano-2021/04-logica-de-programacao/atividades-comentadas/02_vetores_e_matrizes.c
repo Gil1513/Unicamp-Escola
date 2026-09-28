@@ -1,8 +1,7 @@
 /*
 Busca em vetores e diagonal de matriz
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Lógica de Programação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Um vetor usa um índice; uma matriz usa linha e coluna. Índices começam em zero. A busca linear visita até n elementos, com custo O(n).
 Objetivo: Encontrar 7 no índice 1 e somar a diagonal para obter 15.
 Execução (nesta pasta): gcc -std=c11 -Wall -Wextra 02_vetores_e_matrizes.c -o vetores; ./vetores

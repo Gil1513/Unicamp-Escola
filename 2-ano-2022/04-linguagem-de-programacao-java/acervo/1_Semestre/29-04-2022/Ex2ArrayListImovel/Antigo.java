@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: Antigo.java
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos.

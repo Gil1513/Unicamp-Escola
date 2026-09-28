@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: DAO_Connection.cs
 Explicação: classes agrupam dados e comportamentos; persistência conecta objetos ao banco de dados; exceções tratam falhas durante a execução.

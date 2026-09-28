@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: AssemblyInfo.cs
 Explicação: acompanhe os dados de entrada, as operações e o resultado do exemplo.

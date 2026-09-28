@@ -1,8 +1,7 @@
 /*
 Classes, validação e persistência em C#
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Propriedades encapsulam dados; decimal evita erros binários comuns em valores decimais. JSON serializa objetos. try/finally assegura a limpeza do arquivo temporário.
 Objetivo: Recuperar o produto Caderno com preço 12.50 e rejeitar preço negativo.
 Execução (nesta pasta): dotnet run --project 01-console

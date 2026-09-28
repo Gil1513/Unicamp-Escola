@@ -1,8 +1,7 @@
 """
 IPv4 e pertencimento a uma sub-rede
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Sistemas Operacionais e Redes de Computadores
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: O prefixo /24 fixa 24 bits da rede. Rede e broadcast não são endereços de hosts nesse exemplo. Portas identificam serviços, enquanto IP identifica a interface.
 Objetivo: Obter 254 hosts em 192.168.10.0/24 e identificar um endereço de fora da rede.
 Execução (nesta pasta): python 03_subredes.py

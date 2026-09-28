@@ -1,8 +1,7 @@
 """
 Priorização de um MVP e hipótese de validação
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Inovação e Empreendedorismo
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: MVP é uma versão mínima que testa uma hipótese de valor. Uma pontuação impacto/esforço ajuda a discutir prioridades, mas não substitui observar usuários; os dados abaixo são simulados.
 Objetivo: Selecionar funcionalidades sob um orçamento de cinco dias; explicitar uma hipótese mensurável.
 Execução (nesta pasta): python 02_mvp.py

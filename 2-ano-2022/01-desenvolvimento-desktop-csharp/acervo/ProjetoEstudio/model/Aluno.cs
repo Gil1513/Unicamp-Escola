@@ -1,5 +1,5 @@
 ﻿/*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Desktop
 Arquivo de estudo: Aluno.cs
 Explicação: classes agrupam dados e comportamentos; persistência conecta objetos ao banco de dados; exceções tratam falhas durante a execução.
@@ -48,7 +48,7 @@ namespace ProjetoEstudio
 
         public Aluno(string cpf, string nome, string rua, string numero, string bairro, string complemento, string cep, string cidade, string estado, string telefone, string email, bool ativo)
         {
-            DAO_Connection.getConnection("143.106.241.3", "cl201239", "cl201239", "cl*13072005");
+            DAO_Connection.getConnection("143.106.241.3", "201269", "201269", "cl*13072005");
             this.CPF = cpf;
             this.nome = nome;
             this.rua = rua;
@@ -64,7 +64,7 @@ namespace ProjetoEstudio
         }
         public Aluno(String cpf)
         {
-            DAO_Connection.getConnection("143.106.241.3", "cl201239", "cl201239", "cl*13072005");
+            DAO_Connection.getConnection("143.106.241.3", "201269", "201269", "cl*13072005");
             this.CPF = cpf;
         }
         public bool excluirAluno()
@@ -124,7 +124,7 @@ namespace ProjetoEstudio
             try
             {
                 DAO_Connection.con.Open();
-                MySqlCommand insert = new MySqlCommand("INSERT INTO cl201239.Estudio_Aluno (CPFAluno, ruaAluno, numeroAluno, bairroAluno, complementoAluno, CEPAluno, cidadeAluno, estadoAluno, telefoneAluno, emailAluno, nomeAluno) VALUES ('" + CPF + "', '" + rua + "', '" + numero + "', '" + bairro + "', '" + complemento + "', '" + CEP + "', '" + cidade + "', '" + estado + "', '" + telefone + "', '" + email + "', '" + nome + "')", DAO_Connection.con);
+                MySqlCommand insert = new MySqlCommand("INSERT INTO `201269`.Estudio_Aluno (CPFAluno, ruaAluno, numeroAluno, bairroAluno, complementoAluno, CEPAluno, cidadeAluno, estadoAluno, telefoneAluno, emailAluno, nomeAluno) VALUES ('" + CPF + "', '" + rua + "', '" + numero + "', '" + bairro + "', '" + complemento + "', '" + CEP + "', '" + cidade + "', '" + estado + "', '" + telefone + "', '" + email + "', '" + nome + "')", DAO_Connection.con);
                 insert.ExecuteNonQuery();
                 checkCadAluno = true;
             } catch (Exception ex)

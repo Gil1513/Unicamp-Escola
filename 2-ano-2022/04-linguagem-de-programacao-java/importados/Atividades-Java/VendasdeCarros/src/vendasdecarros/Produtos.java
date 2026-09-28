@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: Produtos.java
 Explicação: classes agrupam dados e comportamentos; exceções tratam falhas durante a execução.
@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class Produtos {
    

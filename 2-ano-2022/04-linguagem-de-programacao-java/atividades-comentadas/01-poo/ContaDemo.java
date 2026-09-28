@@ -1,8 +1,7 @@
 /*
 Encapsulamento, herança e polimorfismo
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Campos privados protegem invariantes. Uma subclasse especializa o cálculo de tarifa. Chamar um método pela referência da classe base executa a implementação do objeto.
 Objetivo: Debitar 10 mais tarifa de 1 de uma conta com saldo 100, resultando em 89.
 Execução (nesta pasta): java 01-poo/ContaDemo.java

@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: frmJogos.java
 Explicação: classes agrupam dados e comportamentos; herança e sobrescrita especializam comportamentos; coleções armazenam múltiplos objetos; controles e eventos compõem uma interface gráfica; exceções tratam falhas durante a execução.
@@ -24,7 +24,7 @@ import model.model;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class frmJogos extends javax.swing.JFrame {
 

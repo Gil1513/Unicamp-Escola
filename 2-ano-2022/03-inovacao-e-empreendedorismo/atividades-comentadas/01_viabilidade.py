@@ -1,8 +1,7 @@
 """
 Custos, receita e ponto de equilíbrio
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Inovação e Empreendedorismo
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Margem de contribuição = preço menos custo variável. O ponto de equilíbrio cobre o custo fixo; arredondamos para cima porque vendemos unidades inteiras. Valores são fictícios para exercício.
 Objetivo: Calcular 20 unidades para cobrir 600 de custo fixo com margem de 30.
 Execução (nesta pasta): python 01_viabilidade.py

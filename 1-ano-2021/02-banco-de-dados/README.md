@@ -1,8 +1,10 @@
 # Banco de Dados
 
-**Gilmar da Silva Filho | 2021 | 90 horas de formação profissional**
+**Gilmar da Silva | 2021 | 90 horas de formação profissional**
 
 [Voltar ao índice](../../README.md)
+
+Comece por `atividades-comentadas/00-fundamentos/`, na ordem indicada abaixo, e avance para os exemplos e projetos.
 
 ## Sequência de estudo
 
@@ -23,14 +25,32 @@ As atividades abaixo são complementos de estudo organizados a partir da área d
 
 | Ordem | Atividade | Objetivo e resultado esperado |
 |---:|---|---|
-| 1 | [Modelagem relacional e integridade](atividades-comentadas/01_modelagem.sql) | Criar três tabelas e registrar um empréstimo; rejeitar quantidade negativa e referência inexistente. |
-| 2 | [Junções e agregações](atividades-comentadas/02_consultas.sql) | Listar Algoritmos com um empréstimo e Redes com zero. |
-| 3 | [Atomicidade com SAVEPOINT](atividades-comentadas/03_transacao.sql) | Simular uma baixa de estoque e desfazê-la, mantendo duas unidades de Algoritmos. |
-| 4 | [Laboratório SQL em memória](atividades-comentadas/executar_sql.py) | Executar a sequência SQL, exibir consultas e verificar as restrições do esquema. |
+| 1 | [CRUD, parâmetros e integridade](atividades-comentadas/00-fundamentos/01_crud_sql.py) | CRUD, parâmetros e integridade |
+| 2 | [Normalização e relacionamento N:N](atividades-comentadas/00-fundamentos/02_normalizacao.py) | Normalização e relacionamento N:N |
+| 3 | [Modelagem relacional e integridade](atividades-comentadas/01_modelagem.sql) | Criar três tabelas e registrar um empréstimo; rejeitar quantidade negativa e referência inexistente. |
+| 4 | [Junções e agregações](atividades-comentadas/02_consultas.sql) | Listar Algoritmos com um empréstimo e Redes com zero. |
+| 5 | [Atomicidade com SAVEPOINT](atividades-comentadas/03_transacao.sql) | Simular uma baixa de estoque e desfazê-la, mantendo duas unidades de Algoritmos. |
+| 6 | [Laboratório SQL em memória](atividades-comentadas/executar_sql.py) | Executar a sequência SQL, exibir consultas e verificar as restrições do esquema. |
 
 ## Execução e prática
 
 Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
+
+### CRUD, parâmetros e integridade
+
+`python 00-fundamentos/01_crud_sql.py`
+
+**Conceitos:** INSERT cria, SELECT consulta, UPDATE altera e DELETE remove. Parâmetros separam dados de comandos SQL.
+
+**Pratique:** Inclua UNIQUE no e-mail e verifique duplicatas.
+
+### Normalização e relacionamento N:N
+
+`python 00-fundamentos/02_normalizacao.py`
+
+**Conceitos:** Separar aluno, curso e matrícula evita repetir o nome do aluno em cada inscrição. A chave composta impede inscrição duplicada.
+
+**Pratique:** Explique as dependências funcionais e modele a nota por matrícula.
 
 ### Modelagem relacional e integridade
 
@@ -69,3 +89,8 @@ Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
 [Explorar os arquivos anteriores](acervo/). A ordem sugerida acima orienta a revisão.
 
 Consulte [requisitos e comandos por linguagem](../../docs/COMO_EXECUTAR.md) e [o que foi validado](../../docs/VALIDACAO.md).
+
+## Base de consulta
+
+- [SQL: documentação de referência](https://dev.mysql.com/doc/refman/8.4/en/tutorial.html) — tabelas, tipos, consultas, filtros, agrupamentos e relacionamentos.
+- [Python: documentação de referência](https://docs.python.org/3/tutorial/) — tipos, controle de fluxo, funções, estruturas de dados, exceções e arquivos.

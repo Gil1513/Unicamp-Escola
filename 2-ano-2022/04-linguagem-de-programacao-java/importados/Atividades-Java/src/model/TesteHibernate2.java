@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: TesteHibernate2.java
 Explicação: classes agrupam dados e comportamentos; coleções armazenam múltiplos objetos.
@@ -21,7 +21,7 @@ import org.hibernate.query.Query;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class TesteHibernate2 {
     public static void main(String[] args) {

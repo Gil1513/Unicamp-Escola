@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: Aluno.java
 Explicação: classes agrupam dados e comportamentos.
@@ -9,7 +9,7 @@ Consulte o README da matéria para a sequência de estudo e execução.
 package model;
 
 /**
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 public class Aluno {
    private String nome;

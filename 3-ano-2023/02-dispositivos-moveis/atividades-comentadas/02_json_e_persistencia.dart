@@ -1,8 +1,7 @@
 /*
 Operações assíncronas, JSON e persistência
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Desenvolvimento para Dispositivos Móveis
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Future representa um resultado futuro; await permite aguardar sem bloquear o fluxo assíncrono. JSON é um formato de intercâmbio; validar a estrutura é necessário antes de usá-la.
 Objetivo: Simular a resposta de um serviço e salvar/recuperar uma tarefa em diretório temporário.
 Execução (nesta pasta): dart run 02_json_e_persistencia.dart

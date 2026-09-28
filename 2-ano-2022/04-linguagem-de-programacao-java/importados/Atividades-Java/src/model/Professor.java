@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Linguagem de Programação Multiplataforma — Java
 Arquivo de estudo: Professor.java
 Explicação: classes agrupam dados e comportamentos; persistência conecta objetos ao banco de dados.
@@ -23,7 +23,7 @@ import javax.persistence.Table;
 
 /**
  *
- * @author Gilmar da Silva Filho
+ * @author Gilmar da Silva
  */
 @Entity
 @Table (name="ProfeHib")

@@ -1,8 +1,7 @@
 """
 Bits, bytes e codificação de texto
-Autor: Gilmar da Silva Filho
+Autor: Gilmar da Silva
 Matéria: Informática
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Um byte possui 8 bits. UTF-8 usa quantidade variável de bytes por caractere; quantidade de caracteres não é necessariamente tamanho em bytes. KiB equivale a 1024 bytes.
 Objetivo: Mostrar 13 em binário e comparar os caracteres e bytes de ação.
 Execução (nesta pasta): python 02_representacao.py

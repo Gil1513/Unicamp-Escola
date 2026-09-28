@@ -1,7 +1,6 @@
 -- Atomicidade com SAVEPOINT
--- Autor: Gilmar da Silva Filho
+-- Autor: Gilmar da Silva
 -- Matéria: Banco de Dados
--- Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 -- Conceitos: Uma transação agrupa alterações. ROLLBACK TO desfaz operações posteriores ao ponto salvo. Não se deve confirmar metade de uma operação de negócio.
 -- Objetivo: Simular uma baixa de estoque e desfazê-la, mantendo duas unidades de Algoritmos.
 -- Execução (nesta pasta): python executar_sql.py

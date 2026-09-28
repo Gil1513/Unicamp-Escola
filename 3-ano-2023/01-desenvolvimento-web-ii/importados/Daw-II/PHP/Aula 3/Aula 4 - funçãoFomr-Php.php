@@ -1,7 +1,7 @@
 
 <?php
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Desenvolvimento de Aplicação Web II
 Arquivo de estudo: Aula 4 - funçãoFomr-Php.php
 Explicação: PHP executa no servidor e produz a resposta; parâmetros HTTP transportam os dados do formulário; funções isolam trechos reutilizáveis.

@@ -1,5 +1,5 @@
 /*
-Identificação: Gilmar da Silva Filho
+Identificação: Gilmar da Silva
 Matéria: Lógica de Programação
 Arquivo de estudo: 07-aprovadoReprovado.c
 Explicação: entrada de dados alimenta o algoritmo; decisões selecionam caminhos conforme condições; vetores e strings usam índices.

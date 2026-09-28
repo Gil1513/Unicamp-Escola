@@ -1,8 +1,10 @@
 # Linguagem de Programação Multiplataforma — Java
 
-**Gilmar da Silva Filho | 2022 | 120 horas de formação profissional**
+**Gilmar da Silva | 2022 | 120 horas de formação profissional**
 
 [Voltar ao índice](../../README.md)
+
+Comece por `atividades-comentadas/00-fundamentos/`, na ordem indicada abaixo, e avance para os exemplos e projetos.
 
 ## Sequência de estudo
 
@@ -25,13 +27,31 @@ As atividades abaixo são complementos de estudo organizados a partir da área d
 
 | Ordem | Atividade | Objetivo e resultado esperado |
 |---:|---|---|
-| 1 | [Encapsulamento, herança e polimorfismo](atividades-comentadas/01-poo/ContaDemo.java) | Debitar 10 mais tarifa de 1 de uma conta com saldo 100, resultando em 89. |
-| 2 | [Interfaces, coleções e exceções](atividades-comentadas/02-colecoes/ColecoesDemo.java) | Agrupar notas por matéria e calcular média 8.0; rejeitar lista vazia. |
-| 3 | [Persistência com arquivos e tratamento de recursos](atividades-comentadas/03-arquivos/ArquivoDemo.java) | Gravar três matérias, reler e localizar Java. |
+| 1 | [Tipos, decisões, laços e métodos em Java](atividades-comentadas/00-fundamentos/BasicosDemo.java) | Tipos, decisões, laços e métodos em Java |
+| 2 | [Interfaces, composição e polimorfismo](atividades-comentadas/00-fundamentos/InterfacesDemo.java) | Interfaces, composição e polimorfismo |
+| 3 | [Encapsulamento, herança e polimorfismo](atividades-comentadas/01-poo/ContaDemo.java) | Debitar 10 mais tarifa de 1 de uma conta com saldo 100, resultando em 89. |
+| 4 | [Interfaces, coleções e exceções](atividades-comentadas/02-colecoes/ColecoesDemo.java) | Agrupar notas por matéria e calcular média 8.0; rejeitar lista vazia. |
+| 5 | [Persistência com arquivos e tratamento de recursos](atividades-comentadas/03-arquivos/ArquivoDemo.java) | Gravar três matérias, reler e localizar Java. |
 
 ## Execução e prática
 
 Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
+
+### Tipos, decisões, laços e métodos em Java
+
+`cd 00-fundamentos; javac BasicosDemo.java; java BasicosDemo`
+
+**Conceitos:** Métodos recebem parâmetros e retornam resultados. Valide argumentos antes do cálculo; arrays têm tamanho fixo.
+
+**Pratique:** Teste notas negativas, acima de dez e NaN.
+
+### Interfaces, composição e polimorfismo
+
+`cd 00-fundamentos; javac InterfacesDemo.java; java InterfacesDemo`
+
+**Conceitos:** Uma interface define um contrato. A classe recebe uma estratégia, permitindo trocar a regra sem alterar o cálculo principal.
+
+**Pratique:** Implemente frete grátis acima de um valor usando uma classe concreta.
 
 ### Encapsulamento, herança e polimorfismo
 
@@ -66,3 +86,11 @@ Entre na pasta `atividades-comentadas` antes de executar os comandos abaixo.
 [Explorar atividades importadas](importados/). Os projetos são independentes; mantenha arquivos de cada projeto juntos.
 
 Consulte [requisitos e comandos por linguagem](../../docs/COMO_EXECUTAR.md) e [o que foi validado](../../docs/VALIDACAO.md).
+
+## Base de consulta
+
+- [Java: documentação de referência](https://dev.java/learn/) — tipos, métodos, classes, interfaces, herança, generics, coleções, exceções e I/O.
+
+### Novo acervo Java
+
+[Guia de java-cotil](importados/java-cotil/ORIGEM.md): classes → herança → polimorfismo → coleções. A pasta contém os arquivos do repositório solicitado e preserva sua licença.

@@ -1,7 +1,6 @@
 -- Junções e agregações
--- Autor: Gilmar da Silva Filho
+-- Autor: Gilmar da Silva
 -- Matéria: Banco de Dados
--- Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 -- Conceitos: JOIN reúne registros pelas chaves. LEFT JOIN mantém livros sem empréstimos. COUNT(coluna) não conta NULL; COUNT(*) contaria a linha vazia produzida pela junção.
 -- Objetivo: Listar Algoritmos com um empréstimo e Redes com zero.
 -- Execução (nesta pasta): python executar_sql.py

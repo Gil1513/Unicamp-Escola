@@ -1,6 +1,6 @@
 # Atividades de DAW II importadas
 
-Gilmar da Silva Filho
+Gilmar da Silva
 
 [Voltar à matéria](../../README.md)
 
