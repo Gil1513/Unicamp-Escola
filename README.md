@@ -43,3 +43,5 @@ Para as verificações automatizadas, execute `python scripts/validar.py` na rai
 ## Fundamentos e prática
 
 As 15 disciplinas têm exercícios iniciais em `00-fundamentos`. Consulte o [mapa de fundamentos e fontes](docs/FUNDAMENTOS.md). Flutter está em dispositivos móveis, no terceiro ano. O [acervo java-cotil](2-ano-2022/04-linguagem-de-programacao-java/importados/java-cotil/ORIGEM.md) complementa as atividades Java.
+
+Consulte as [trilhas por conteúdo das 15 matérias](docs/TRILHAS_POR_CONTEUDO.md), com exercícios progressivos e projetos Arduino.

@@ -73,3 +73,9 @@ No Integrador II: `python api.py` em um terminal e `python cliente.py` em outro.
 ## Validação geral
 
 Na raiz: `python scripts/validar.py`. O script executa os exemplos Python, compila os novos exemplos Java/C quando há compiladores, verifica JavaScript e registra explicitamente as verificações não executadas. Use `--gcc "caminho/do/gcc"` para indicar um compilador fora do PATH e `--relatorio caminho.json` para salvar os resultados.
+
+## Novas trilhas
+
+Java possui programas isolados em `10-trilha-java/01-basico` e `02-poo`, e um projeto Maven em `03-api-banco`: execute `mvn test` nessa pasta. Não compile as classes Spring individualmente com javac. A instalação do JDK, IDE e Maven está explicada no README da trilha.
+
+Os seis projetos Arduino estão em `10-projetos-arduino`, cada um com pasta e sketch do mesmo nome, montagem e roteiro de ensaio. Use Arduino Uno. O novo laboratório C# usa `dotnet run --project 20-aplicacao/Aplicacao.csproj`. O cliente fetch de DAW II deve ser aberto pelo servidor PHP, não como arquivo local.

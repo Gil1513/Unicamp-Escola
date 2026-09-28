@@ -8,7 +8,7 @@ Responsável pela organização e identificação das atividades: **Gilmar da Si
 - 292 arquivos foram incorporados de Atividades-Java.
 - 34 arquivos foram incorporados de Daw-II.
 - 227 arquivos gerados/configurações locais dos repositórios de origem não foram importados: classes compiladas, build/dist/target/out e dados privados de IDE. Os fontes, recursos, configurações de projeto e bibliotecas necessárias disponíveis foram preservados.
-- 82 arquivos compõem os novos exemplos, testes e configurações das atividades complementares.
+- 120 entradas compõem o catálogo de exemplos, testes, configurações e roteiros de atividades.
 - 437 arquivos do acervo/importados receberam cabeçalhos de estudo; 135 campos de autor foram padronizados.
 
 ## Importações verificáveis
@@ -30,3 +30,5 @@ Os comentários do acervo descrevem o papel do exemplo; não significam que todo
 Foram incorporados 66 arquivos de `tbasso/java-cotil`, com licença GPL-3.0 e créditos originais preservados. Os hashes desse acervo correspondem aos arquivos importados sem alterações. A padronização de autoria mencionada acima refere-se à organização anterior, não a esse novo acervo.
 
 Na revisão atual, o projeto Spring foi renomeado para `demo_cadastro` (pacotes, classes e configuração). Identificadores CL numéricos foram substituídos por `201269`. Configurações de bancos antigos precisam corresponder ao ambiente local; não foram realizadas conexões aos servidores do acervo.
+
+A ampliação por conteúdo acrescentou 38 entradas ao catálogo: exercícios de linguagem, roteiros de laboratório e projetos. O mapa de cobertura liga 100 grupos de conteúdo a arquivos concretos nas 15 disciplinas. Consulte [as trilhas](TRILHAS_POR_CONTEUDO.md).

@@ -1,30 +1,34 @@
 # Validação das atividades
 
-Verificação local em 28/09/2026, após a ampliação dos fundamentos.
+Atualização de 28/09/2026, após as trilhas por conteúdo.
 
-## Resultado
+## Rotina geral
 
-O validador automático registrou **70 verificações aprovadas, 17 não executadas e nenhuma falha**. O [relatório detalhado](resultado-validacao.json) contém a saída de cada verificação.
+`python scripts/validar.py` registrou **99 verificações aprovadas e nenhuma falha**. O [relatório automático](resultado-validacao.json) inclui execução de Python, SQLite, C, Java e JavaScript, verificação de arquivos, links das trilhas e cobertura das 15 disciplinas.
 
-- Python: execução dos exemplos e testes, incluindo critérios, estruturas de dados, limites, inventário e integração HTTP com SQLite temporário.
-- SQLite: CRUD, relacionamentos, consultas, transações e restrições exercitados pelos scripts Python.
-- C: oito programas compilados com C11, `-Wall -Wextra -Werror` e executados. Nesta rodada não houve bloqueio do Controle de Aplicativo do Windows.
-- Java: cinco programas novos compilados e executados. Os projetos do acervo são independentes e não fazem parte desse total.
-- JavaScript: o exercício de funções/arrays foi executado com asserções; scripts embutidos em HTML tiveram a sintaxe conferida. A interação no navegador não foi testada nesta rodada.
-- C#: além do validador, `00-fundamentos/Fundamentos.csproj` foi restaurado e executado com .NET 10. Validou média, rejeição de entrada, lista vazia e dois eventos. Os projetos anteriores de console e Windows Forms foram executado/compilado na organização anterior; não houve novo teste manual da interface gráfica.
-- Organização: presença dos arquivos do manifesto, cobertura das 15 matérias, links locais e ausência de colisões de caminhos no Windows.
-- Importação Java: os 66 arquivos de `tbasso/java-cotil` tiveram os hashes comparados com o acervo de origem, sem alterações.
+A rotina geral registra 26 itens como NÃO EXECUTADO: sete PHP, onze Dart/Flutter e oito Arduino. **Os oito Arduino foram compilados separadamente**, como indicado abaixo. Isso não representa execução física dos circuitos.
 
-## Não executado
+## Projetos verificados separadamente
 
-- PHP: cinco arquivos sem execução ou lint, pois o runtime não está instalado.
-- Dart/Flutter: dez arquivos, incluindo dois exemplos de interface e testes de widget, sem execução por ausência do SDK.
-- Arduino: dois sketches sem compilação nem teste físico. Os simuladores de bits, sensor e debounce foram executados.
-- Projetos históricos com Spring, Hibernate, MySQL e .NET Framework requerem suas dependências e configurações. A renomeação do projeto Spring foi conferida nos caminhos, pacotes, classes e configurações; não foi realizado build com dependências nem conexão aos bancos antigos.
-- O envio ao GitHub não confirma aprovação do workflow remoto. Consulte a aba Actions para o resultado de cada execução.
+Veja o [relatório de projetos](resultado-projetos.json).
+
+- **Java avançado:** `mvn test`, com Maven 3.9.9/JDK 26/Spring Boot 4.1.1, passou dois testes de integração. Um usa HTTP real para criar, consultar, editar, concluir e excluir via JPA/Hibernate, incluindo 400 e 404. Outro valida SQL parametrizado e rollback JDBC. O banco usado foi H2 em memória.
+- **C#:** o novo projeto `20-aplicacao/Aplicacao.csproj` foi restaurado e executado com .NET 10. A gravação/leitura JSON assíncrona e o filtro LINQ retornaram o aluno esperado.
+- **Arduino:** os oito sketches compilaram para `arduino:avr:uno`, com Arduino CLI 1.3.1 e core AVR 1.8.8. Foram verificados os dois anteriores e os seis novos projetos. Os logs registram memória ocupada.
+
+## Limites da verificação
+
+- Não houve montagem ou ensaio físico: sensores, precisão de distância, calibração do LDR e retenção real da EEPROM precisam ser conferidos na placa.
+- PHP e Dart/Flutter não foram executados nesta máquina por ausência dos runtimes/SDKs.
+- PostgreSQL e MySQL não foram usados nos testes; o projeto inclui drivers e roteiro de configuração para bases locais de laboratório.
+- HTML/JavaScript tiveram revisão de código e verificação de sintaxe, sem teste interativo no navegador. O exercício Bootstrap depende da folha CSS por CDN.
+- Projetos antigos/importados continuam com dependências e configurações próprias. Os novos testes não certificam todo o acervo.
+- O job Maven foi adicionado ao workflow do GitHub, mas aprovação local não confirma execução remota.
 
 ## Reproduzir
 
-Na raiz: `python scripts/validar.py --relatorio docs/resultado-validacao.json`. Use `--gcc "caminho/do/gcc"` se necessário. Na pasta das atividades Desktop: `dotnet run --project 00-fundamentos/Fundamentos.csproj`. Na pasta `03-flutter`: `flutter test`; execute as telas com `flutter run -t lib/formulario.dart`, `flutter run -t lib/carregamento.dart` ou `flutter run`.
+Na raiz: `python scripts/validar.py --relatorio docs/resultado-validacao.json`. Se necessário, passe `--gcc "caminho/do/gcc"`.
 
-Ferramentas ausentes são registradas como NÃO EXECUTADO e não contam como testes aprovados.
+Na pasta `10-trilha-java/03-api-banco`: `mvn test`. No novo projeto C#: `dotnet run --project Aplicacao.csproj`. Na pasta de cada sketch: `arduino-cli compile --fqbn arduino:avr:uno .`, após `arduino-cli core install arduino:avr`.
+
+As instalações portáteis utilizadas na verificação ficaram fora do repositório; não são dependências ocultas do código. Cada projeto declara seus requisitos e comandos.

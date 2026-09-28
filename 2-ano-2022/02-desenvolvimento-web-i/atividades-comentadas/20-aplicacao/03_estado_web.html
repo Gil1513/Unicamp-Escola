@@ -1,0 +1,27 @@
+<!--
+Web: formulário, DOM, estado e localStorage
+Gilmar da Silva — 201269
+Conceitos: Eventos alteram o estado, renderização atualiza a tela e JSON permite salvar uma lista entre visitas.
+Execute: Abra 20-aplicacao/03_estado_web.html no navegador
+Desafio: Recarregue a página, remova um item e tente inserir marcação HTML; explique o uso de textContent.
+-->
+
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estudos por matéria</title><style>body{font:1rem system-ui;max-width:40rem;margin:auto;padding:1rem}form{display:flex;gap:.5rem;flex-wrap:wrap}input,button{padding:.6rem}li{margin:.6rem 0}:focus-visible{outline:3px solid blue}</style>
+<main><h1>Estudos — Gilmar da Silva</h1><form><label>Matéria <input required maxlength="80"></label><button>Adicionar</button></form><p role="status"></p><ul></ul></main>
+<script>
+let itens=[];
+const status=document.querySelector('[role=status]');
+try { const dados=JSON.parse(localStorage.getItem('cotil-estudos') || '[]');
+  if(!Array.isArray(dados) || dados.some(x=>typeof x!=='string')) throw Error('Formato');
+  itens=dados;
+} catch { status.textContent='Dados locais inválidos: lista iniciada vazia.'; }
+function salvar(){try{localStorage.setItem('cotil-estudos',JSON.stringify(itens));}catch{status.textContent='Não foi possível salvar neste navegador.';}}
+function render(){const ul=document.querySelector('ul'); ul.replaceChildren();
+  itens.forEach((nome,i)=>{const li=document.createElement('li'),b=document.createElement('button');
+    li.append(document.createTextNode(nome+' ')); b.textContent='Remover'; b.setAttribute('aria-label','Remover '+nome);
+    b.onclick=()=>{itens.splice(i,1);salvar();render();};li.append(b);ul.append(li);});}
+document.querySelector('form').onsubmit=e=>{e.preventDefault();const campo=e.target.querySelector('input');
+  if(!campo.value.trim()) {status.textContent='Informe uma matéria.';return;}
+  itens.push(campo.value.trim());campo.value='';salvar();render();};render();
+</script></html>

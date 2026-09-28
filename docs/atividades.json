@@ -736,5 +736,347 @@
     "executar": "python -m unittest discover -s . -p test_buscas.py -v",
     "resultado": "Conferir buscas em listas vazias e preenchidas, incluindo alvo ausente.",
     "pratique": "Acrescente elementos repetidos; defina se o contrato deve devolver qualquer ocorrência ou a primeira."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Ambiente.java",
+    "titulo": "01 — Ambiente JDK e IDE",
+    "conceitos": "JDK inclui javac e java; a classe pública deve ter o mesmo nome do arquivo.",
+    "executar": "cd 10-trilha-java/01-basico; javac -encoding UTF-8 Ambiente.java; java Ambiente",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Compile no terminal e execute pela IDE; coloque um breakpoint antes do primeiro println."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Sintaxe.java",
+    "titulo": "02 — Variáveis, tipos e strings",
+    "conceitos": "int é inteiro, double representa ponto flutuante, boolean guarda uma condição; strings são imutáveis.",
+    "executar": "cd 10-trilha-java/01-basico; javac -encoding UTF-8 Sintaxe.java; java Sintaxe",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Compare equals com == usando new String; explique divisão inteira e arredondamento."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Fluxo.java",
+    "titulo": "03 — if, else, switch, for e while",
+    "conceitos": "Condicionais selecionam caminhos; laços repetem um bloco até cumprir um limite.",
+    "executar": "cd 10-trilha-java/01-basico; javac -encoding UTF-8 Fluxo.java; java Fluxo",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Implemente um menu switch com opção inválida e tente os valores 0, 5, 6, 10 e 11."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/MetodosArrays.java",
+    "titulo": "04 — Métodos, parâmetros, retornos, arrays e listas",
+    "conceitos": "Métodos isolam regras. Array tem tamanho fixo; ArrayList pode crescer. Não altere a entrada sem necessidade.",
+    "executar": "cd 10-trilha-java/01-basico; javac -encoding UTF-8 MetodosArrays.java; java MetodosArrays",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Escreva uma função que retorne o maior valor; defina o comportamento para lista vazia."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Objetos.java",
+    "titulo": "05 — Classes, objetos, construtores e encapsulamento",
+    "conceitos": "Cada objeto tem seu estado. O construtor estabelece invariantes; atributos privados são alterados por métodos que validam regras.",
+    "executar": "cd 10-trilha-java/02-poo; javac -encoding UTF-8 Objetos.java; java Objetos",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Crie duas instâncias e comprove que mudar a nota de uma não altera a outra."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Polimorfismo.java",
+    "titulo": "06 — Herança, interface e polimorfismo",
+    "conceitos": "Uma referência da interface chama a implementação concreta. Use super para reaproveitar a construção do estado herdado.",
+    "executar": "cd 10-trilha-java/02-poo; javac -encoding UTF-8 Polimorfismo.java; java Polimorfismo",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Adicione Seminario sem alterar o laço; explique quando composição seria mais adequada que herança."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Excecoes.java",
+    "titulo": "07 — Exceções e recuperação",
+    "conceitos": "Exceção comunica uma falha; capture o tipo específico. Uma regra de domínio pode definir sua própria exceção.",
+    "executar": "cd 10-trilha-java/02-poo; javac -encoding UTF-8 Excecoes.java; java Excecoes",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Trate saque zero e negativo; não use catch(Exception) para esconder erros de programação."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/DatasColecoesStreams.java",
+    "titulo": "08 — Datas, List, Set, Map e Streams",
+    "conceitos": "LocalDate representa uma data sem horário. Set elimina duplicatas; Map agrupa por chave; streams encadeiam operações.",
+    "executar": "cd 10-trilha-java/02-poo; javac -encoding UTF-8 DatasColecoesStreams.java; java DatasColecoesStreams",
+    "resultado": "Verificações internas passam sem AssertionError.",
+    "pratique": "Inclua uma entrega na data limite e agrupe as entregas por mês; use data fixa no teste."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/03-api-banco/README.md",
+    "titulo": "JDBC, JPA, Spring Boot e Maven",
+    "conceitos": "SQL, ORM, REST e gerenciamento de dependências",
+    "executar": "Siga os comandos do laboratório.",
+    "resultado": "Entregas e critérios descritos no README.",
+    "pratique": "Conclua os desafios e confira os resultados."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/04-git-github/README.md",
+    "titulo": "Git e GitHub",
+    "conceitos": "Branch, commit, diff, push e pull request",
+    "executar": "Siga os comandos do laboratório.",
+    "resultado": "Entregas e critérios descritos no README.",
+    "pratique": "Conclua os desafios e confira os resultados."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/01_semaforo/01_semaforo.ino",
+    "titulo": "Semáforo com máquina de estados",
+    "conceitos": "Saídas digitais, enum, switch, millis e temporização sem delay.",
+    "executar": "Arduino IDE: abra 10-projetos-arduino/01_semaforo/01_semaforo.ino",
+    "resultado": "Ao ligar, vermelho por 3 s, verde por 3 s e amarelo por 1 s. Observe três ciclos: somente um LED deve ficar ligado por vez. A subtração unsigned de millis também funciona quando o contador transborda.",
+    "pratique": "Adicione um botão de pedido de travessia; só atenda quando terminar o verde e o amarelo."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/02_luz_automatica/02_luz_automatica.ino",
+    "titulo": "Luz automática com LDR e histerese",
+    "conceitos": "Divisor de tensão, analogRead, calibração, histerese e monitor serial.",
+    "executar": "Arduino IDE: abra 10-projetos-arduino/02_luz_automatica/02_luz_automatica.ino",
+    "resultado": "Abra Serial em 9600. Cubra e ilumine o LDR; nessa montagem a leitura cai no escuro. Ajuste os limites às medições reais. O LED liga abaixo de 350 e só desliga acima de 500, evitando oscilação perto do limiar.",
+    "pratique": "Registre mínimo e máximo do sensor e calcule limites proporcionais ao ambiente."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/03_instrumento/03_instrumento.ino",
+    "titulo": "Instrumento com potenciômetro e buzzer",
+    "conceitos": "Entrada analógica, map, tone, botão INPUT_PULLUP e condicionais.",
+    "executar": "Arduino IDE: abra 10-projetos-arduino/03_instrumento/03_instrumento.ino",
+    "resultado": "Segure o botão e gire o potenciômetro: a frequência varia de 220 a 880 Hz. Solte o botão: o som deve parar. Use buzzer piezo passivo de baixa corrente, não alto-falante ou buzzer de potência.",
+    "pratique": "Divida a leitura em oito faixas e use um array com frequências de notas musicais."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/04_distancia/04_distancia.ino",
+    "titulo": "Medidor de distância com HC-SR04",
+    "conceitos": "Pulso de disparo, duração, timeout, unidades e validação de leitura.",
+    "executar": "Arduino IDE: abra 10-projetos-arduino/04_distancia/04_distancia.ino",
+    "resultado": "Serial em 9600: posicione uma superfície plana a 10, 20 e 50 cm. Compare com uma régua. Sem eco em 30 ms, imprime SEM_ECO. O tempo corresponde à ida e volta; por isso a distância é dividida por dois.",
+    "pratique": "Filtre cinco medidas válidas pela mediana e compare a estabilidade perto de uma borda."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/05_comandos_serial/05_comandos_serial.ino",
+    "titulo": "Controle de LED por protocolo serial",
+    "conceitos": "Comunicação serial, buffer limitado, strings C e confirmação de comandos.",
+    "executar": "Arduino IDE: abra 10-projetos-arduino/05_comandos_serial/05_comandos_serial.ino",
+    "resultado": "Envie LIGAR, DESLIGAR e ESTADO. Espere OK ou o estado atual. Comando desconhecido retorna ERRO_COMANDO; mais de 19 caracteres retorna ERRO_TAMANHO e descarta a linha inteira.",
+    "pratique": "Crie BRILHO 0..255 em um LED PWM, validando o número antes de aplicar analogWrite."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/06_contador_persistente/06_contador_persistente.ino",
+    "titulo": "Contador com debounce e EEPROM",
+    "conceitos": "Bordas, pull-up interno, debounce, unsigned long, memória não volátil e escrita sob comando.",
+    "executar": "Arduino IDE: abra 10-projetos-arduino/06_contador_persistente/06_contador_persistente.ino",
+    "resultado": "Cada pressionamento estável por 30 ms soma um. Segurar o botão não deve repetir. Conte três, envie S, reinicie a placa e confira que três foi recuperado. A EEPROM é escrita apenas ao salvar/zerar, evitando gravar continuamente no loop.",
+    "pratique": "Adicione uma soma de verificação ao registro e trate memória corrompida; explique o limite de ciclos de escrita."
+  },
+  {
+    "materia": 0,
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/20-aplicacao/03_regras_estados.py",
+    "titulo": "Análise: estados, invariantes e critérios de aceitação",
+    "conceitos": "Modele transições permitidas antes da implementação. O diagrama de estados pode ser traduzido em tabela e teste.",
+    "executar": "python 20-aplicacao/03_regras_estados.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Desenhe o diagrama, acrescente cancelamento e escreva pré/pós-condições para cada evento."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/20-aplicacao/03_indices_views.py",
+    "titulo": "SQL: JOIN, GROUP BY, view, índice e plano",
+    "conceitos": "Uma view nomeia uma consulta; um índice acelera determinadas buscas com custo em armazenamento e escrita.",
+    "executar": "python 20-aplicacao/03_indices_views.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Inclua um curso sem inscrições e explique NULL no resultado do LEFT JOIN."
+  },
+  {
+    "materia": 2,
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/20-aplicacao/03_organizacao_documentos.py",
+    "titulo": "Informática: caminhos, extensões e inventário de arquivos",
+    "conceitos": "Separar nome, extensão e tamanho permite organizar documentos; operações ficam em diretório temporário.",
+    "executar": "python 20-aplicacao/03_organizacao_documentos.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Abra o CSV em uma planilha e filtre por extensão; compare caminho relativo e absoluto."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/20-aplicacao/03_memoria_dinamica.c",
+    "titulo": "C: alocação dinâmica, ponteiros e ordenação",
+    "conceitos": "malloc reserva memória; verifique NULL e libere com free. Ordenação altera o vetor recebido por ponteiro.",
+    "executar": "gcc -std=c11 -Wall -Wextra 20-aplicacao/03_memoria_dinamica.c -o memoria; ./memoria",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Use uma struct Aluno e ordene por nota; explique por que não acessar o vetor depois de free."
+  },
+  {
+    "materia": 4,
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/20-aplicacao/03_socket_local.py",
+    "titulo": "Redes: cliente/servidor TCP e enquadramento",
+    "conceitos": "TCP entrega fluxo de bytes, não mensagens completas. Um delimitador informa onde termina uma mensagem.",
+    "executar": "python 20-aplicacao/03_socket_local.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Envie a mensagem em duas partes e explique por que um único recv não é suficiente."
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/20-aplicacao/Program.cs",
+    "titulo": "C#: interface, LINQ, async/await e persistência JSON",
+    "conceitos": "Separe a regra do armazenamento por uma interface; await aguarda I/O e LINQ consulta objetos.",
+    "executar": "dotnet run --project 20-aplicacao/Aplicacao.csproj",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Crie um repositório em memória e troque a implementação sem alterar a consulta."
+  },
+  {
+    "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/20-aplicacao/03_estado_web.html",
+    "titulo": "Web: formulário, DOM, estado e localStorage",
+    "conceitos": "Eventos alteram o estado, renderização atualiza a tela e JSON permite salvar uma lista entre visitas.",
+    "executar": "Abra 20-aplicacao/03_estado_web.html no navegador",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Recarregue a página, remova um item e tente inserir marcação HTML; explique o uso de textContent."
+  },
+  {
+    "materia": 7,
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/20-aplicacao/03_precificacao.py",
+    "titulo": "Empreendedorismo: margem, canais e cenários",
+    "conceitos": "Margem de contribuição desconta custos variáveis; receita não equivale a lucro. Compare cenários antes da decisão.",
+    "executar": "python 20-aplicacao/03_precificacao.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Calcule quantidade de equilíbrio por canal e preencha proposta de valor, público e hipótese de compra."
+  },
+  {
+    "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/20-aplicacao/03_integracao_camadas.py",
+    "titulo": "Integrador I: serviço, repositório e testes de aceitação",
+    "conceitos": "Injeção de dependência permite testar a regra sem arquivo. O repositório tem um contrato mínimo para cadastro e consulta.",
+    "executar": "python 20-aplicacao/03_integracao_camadas.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Implemente o mesmo contrato com JSON e rode os critérios sem mudar a classe Cadastro."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/03_poo_php.php",
+    "titulo": "PHP: classes, interfaces e exceções",
+    "conceitos": "Uma interface define o contrato; propriedades privadas protegem o estado. A implementação pode ser substituída.",
+    "executar": "php 20-aplicacao/03_poo_php.php",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Crie RepositorioPDO com o mesmo contrato, usando comandos parametrizados."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/04_http_json.php",
+    "titulo": "PHP: endpoint JSON e contrato HTTP",
+    "conceitos": "Separe método HTTP, tipo de conteúdo, parsing e validação de domínio. Responda com status coerente.",
+    "executar": "php -S 127.0.0.1:8081 -t 20-aplicacao",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Teste GET, POST válido, JSON inválido, nome vazio e método DELETE; integre a um formulário via fetch."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/05_fetch.html",
+    "titulo": "JavaScript: fetch, async/await e erros HTTP",
+    "conceitos": "fetch não rejeita automaticamente status 400/500: confira response.ok. O formulário está na mesma origem do endpoint.",
+    "executar": "Inicie PHP e abra http://127.0.0.1:8081/05_fetch.html",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Pare o servidor e observe a falha; depois trate timeout usando AbortController."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/20-aplicacao/03_repositorio_dart.dart",
+    "titulo": "Dart: interface, composição, JSON e repositório assíncrono",
+    "conceitos": "Um contrato desacopla a tela da persistência. JSON não garante formato; valide antes de construir o objeto.",
+    "executar": "dart run 20-aplicacao/03_repositorio_dart.dart",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Implemente um repositório HTTP e injete-o no carregador da tela Flutter existente."
+  },
+  {
+    "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/20-aplicacao/03_migracao_sql.py",
+    "titulo": "Integrador II: migração versionada e repetição segura",
+    "conceitos": "Uma migração registra a versão aplicada. Reexecutar o processo não deve duplicar colunas ou dados.",
+    "executar": "python 20-aplicacao/03_migracao_sql.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Adicione uma terceira migração e teste atualização de uma base que já está na versão 1."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/20-aplicacao/03_busca_complexidade.py",
+    "titulo": "TI: recursão, divide-and-conquer e custo",
+    "conceitos": "Busca binária reduz pela metade um intervalo ordenado. Conte comparações; tempo real depende também do ambiente.",
+    "executar": "python 20-aplicacao/03_busca_complexidade.py",
+    "resultado": "Confira os critérios e verificações do exemplo.",
+    "pratique": "Compare vetores de 16, 256 e 4096 elementos e explique o custo extra dos slices na recursão."
+  },
+  {
+    "materia": 0,
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/20-aplicacao/04_modelagem.md",
+    "titulo": "Modelagem UML, entidades e documentação",
+    "conceitos": "Modelagem UML, entidades e documentação",
+    "executar": "Siga o roteiro neste arquivo.",
+    "resultado": "Entregue os artefatos e confira os critérios do roteiro.",
+    "pratique": "Complete o desafio final."
+  },
+  {
+    "materia": 2,
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/20-aplicacao/04_terminal.md",
+    "titulo": "Windows/Linux, diretórios e documentos",
+    "conceitos": "Windows/Linux, diretórios e documentos",
+    "executar": "Siga o roteiro neste arquivo.",
+    "resultado": "Entregue os artefatos e confira os critérios do roteiro.",
+    "pratique": "Complete o desafio final."
+  },
+  {
+    "materia": 7,
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/20-aplicacao/04_canvas.md",
+    "titulo": "Problema, público, proposta de valor e MVP",
+    "conceitos": "Problema, público, proposta de valor e MVP",
+    "executar": "Siga o roteiro neste arquivo.",
+    "resultado": "Entregue os artefatos e confira os critérios do roteiro.",
+    "pratique": "Complete o desafio final."
+  },
+  {
+    "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/20-aplicacao/04_entrega.md",
+    "titulo": "Planejamento, protótipo, documentação e apresentação",
+    "conceitos": "Planejamento, protótipo, documentação e apresentação",
+    "executar": "Siga o roteiro neste arquivo.",
+    "resultado": "Entregue os artefatos e confira os critérios do roteiro.",
+    "pratique": "Complete o desafio final."
+  },
+  {
+    "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/20-aplicacao/04_entrega_api.md",
+    "titulo": "Contrato HTTP, integração, testes e entrega",
+    "conceitos": "Contrato HTTP, integração, testes e entrega",
+    "executar": "Siga o roteiro neste arquivo.",
+    "resultado": "Entregue os artefatos e confira os critérios do roteiro.",
+    "pratique": "Complete o desafio final."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/20-aplicacao/04_ci.md",
+    "titulo": "Git, testes, integração contínua e entrega",
+    "conceitos": "Git, testes, integração contínua e entrega",
+    "executar": "Siga o roteiro neste arquivo.",
+    "resultado": "Entregue os artefatos e confira os critérios do roteiro.",
+    "pratique": "Complete o desafio final."
+  },
+  {
+    "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/20-aplicacao/04_bootstrap.html",
+    "titulo": "Bootstrap: grid e componentes",
+    "conceitos": "Grid, breakpoints, cards e utilitários.",
+    "executar": "Abra 20-aplicacao/04_bootstrap.html no navegador.",
+    "resultado": "Uma coluna no celular e duas a partir de md.",
+    "pratique": "Inclua um terceiro cartão e compare com CSS puro."
   }
 ]

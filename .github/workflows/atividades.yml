@@ -13,3 +13,6 @@ jobs:
           distribution: temurin
           java-version: '17'
       - run: python scripts/validar.py
+      - name: Testar JDBC, JPA e API Spring
+        working-directory: 2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/03-api-banco
+        run: mvn --batch-mode test

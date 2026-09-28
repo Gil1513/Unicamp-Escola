@@ -6,6 +6,8 @@
 
 Comece por `atividades-comentadas/00-fundamentos/`, na ordem indicada abaixo, e avance para os exemplos e projetos.
 
+Veja a [trilha por conteúdo, com atividades e desafios](TRILHA_COMPLETA.md).
+
 ## Sequência de estudo
 
 1. JavaScript.

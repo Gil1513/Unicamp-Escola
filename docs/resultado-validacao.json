@@ -1,7 +1,7 @@
 {
   "resumo": {
-    "OK": 70,
-    "NÃO EXECUTADO": 17
+    "OK": 99,
+    "NÃO EXECUTADO": 26
   },
   "resultados": [
     {
@@ -13,6 +13,11 @@
       "verificacao": "Cobertura das 15 disciplinas",
       "status": "OK",
       "detalhe": ""
+    },
+    {
+      "verificacao": "Tópicos ligados a atividades existentes",
+      "status": "OK",
+      "detalhe": "[]"
     },
     {
       "verificacao": "Ausência de colisões de nomes no Windows",
@@ -282,7 +287,7 @@
     {
       "verificacao": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/test_inventario.py",
       "status": "OK",
-      "detalhe": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n"
+      "detalhe": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.004s\n\nOK\n"
     },
     {
       "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/01_php_basico.php",
@@ -407,7 +412,7 @@
     {
       "verificacao": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/test_api.py",
       "status": "OK",
-      "detalhe": ".....\n----------------------------------------------------------------------\nRan 5 tests in 2.726s\n\nOK\n"
+      "detalhe": ".....\n----------------------------------------------------------------------\nRan 5 tests in 2.656s\n\nOK\n"
     },
     {
       "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/01_estruturas.py",
@@ -438,6 +443,191 @@
       "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/test_buscas.py",
       "status": "OK",
       "detalhe": ".\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Ambiente.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Ambiente.java execução",
+      "status": "OK",
+      "detalhe": "Gilmar da Silva � 201269\nJava: 26.0.2\nPasta: C:\\Users\\gilma\\Documents\\Codex\\2026-09-28\\c\\Unicamp-Escola\\2-ano-2022\\04-linguagem-de-programacao-java\\atividades-comentadas\\10-trilha-java\\01-basico\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Sintaxe.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Sintaxe.java execução",
+      "status": "OK",
+      "detalhe": "201269 - Gilmar da Silva: 70,0% (true)\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Fluxo.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Fluxo.java execução",
+      "status": "OK",
+      "detalhe": "Soma=15; tentativas=3\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/MetodosArrays.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/MetodosArrays.java execução",
+      "status": "OK",
+      "detalhe": "[2, 4, 6]\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Objetos.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Objetos.java execução",
+      "status": "OK",
+      "detalhe": "Nota inv�lida\n201269 - Gilmar da Silva: 8.0\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Polimorfismo.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Polimorfismo.java execução",
+      "status": "OK",
+      "detalhe": "Pontua��o: 16\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Excecoes.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Excecoes.java execução",
+      "status": "OK",
+      "detalhe": "Saldo insuficiente\nDigite um n�mero inteiro\n"
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/DatasColecoesStreams.java compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/DatasColecoesStreams.java execução",
+      "status": "OK",
+      "detalhe": "{Java=14, Web=10}\n[Entrega[materia=Java, prazo=2023-10-03, pontos=8], Entrega[materia=Java, prazo=2023-10-06, pontos=6]]\n"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/01_semaforo/01_semaforo.ino",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/02_luz_automatica/02_luz_automatica.ino",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/03_instrumento/03_instrumento.ino",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/04_distancia/04_distancia.ino",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/05_comandos_serial/05_comandos_serial.ino",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/06_contador_persistente/06_contador_persistente.ino",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/20-aplicacao/03_regras_estados.py",
+      "status": "OK",
+      "detalhe": "Aprovação sem envio rejeitada.\n{('rascunho', 'enviar'): 'enviado', ('enviado', 'aprovar'): 'aprovado', ('enviado', 'rejeitar'): 'rascunho'}\n"
+    },
+    {
+      "verificacao": "1-ano-2021/02-banco-de-dados/atividades-comentadas/20-aplicacao/03_indices_views.py",
+      "status": "OK",
+      "detalhe": "[('Java', 7.0), ('Web', 9.0)] [(3, 0, 62, 'SEARCH inscricao USING INDEX idx_inscricao_curso (curso_id=?)')]\n"
+    },
+    {
+      "verificacao": "1-ano-2021/03-informatica/atividades-comentadas/20-aplicacao/03_organizacao_documentos.py",
+      "status": "OK",
+      "detalhe": "nome,extensao,bytes\naula.txt,.txt,10\ndados.csv,.csv,31\n\n"
+    },
+    {
+      "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/20-aplicacao/03_memoria_dinamica.c compilação",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/20-aplicacao/03_memoria_dinamica.c execução",
+      "status": "OK",
+      "detalhe": "-1 0 3 3 5 \n"
+    },
+    {
+      "verificacao": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/20-aplicacao/03_socket_local.py",
+      "status": "OK",
+      "detalhe": "JAVA\n"
+    },
+    {
+      "verificacao": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/20-aplicacao/03_estado_web.html sintaxe JavaScript",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/20-aplicacao/03_precificacao.py",
+      "status": "OK",
+      "detalhe": "direto margem 30 resultado 100\nplataforma margem 22.50 resultado 25.00\nDados fictícios para análise de cenários.\n"
+    },
+    {
+      "verificacao": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/20-aplicacao/03_integracao_camadas.py",
+      "status": "OK",
+      "detalhe": "Duplicidade rejeitada\n{1: 'Cabo'}\n"
+    },
+    {
+      "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/03_poo_php.php",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "PHP ausente"
+    },
+    {
+      "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/04_http_json.php",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "PHP ausente"
+    },
+    {
+      "verificacao": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/05_fetch.html sintaxe JavaScript",
+      "status": "OK",
+      "detalhe": ""
+    },
+    {
+      "verificacao": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/20-aplicacao/03_repositorio_dart.dart",
+      "status": "NÃO EXECUTADO",
+      "detalhe": "Exige Dart/Flutter ou Arduino IDE; confira instruções da matéria"
+    },
+    {
+      "verificacao": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/20-aplicacao/03_migracao_sql.py",
+      "status": "OK",
+      "detalhe": "[(0, 'id', 'INTEGER', 0, None, 1), (1, 'nome', 'TEXT', 1, None, 0), (2, 'quantidade', 'INTEGER', 1, '0', 0)]\n"
+    },
+    {
+      "verificacao": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/20-aplicacao/03_busca_complexidade.py",
+      "status": "OK",
+      "detalhe": "Binária: 11 comparações; linear até 1024\n"
     }
   ]
 }

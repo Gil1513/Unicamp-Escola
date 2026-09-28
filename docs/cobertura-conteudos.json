@@ -1,0 +1,502 @@
+[
+  {
+    "materia": 0,
+    "conteudo": "Requisitos, atores, regras e casos de uso",
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/00-fundamentos/01_casos_de_uso.py"
+  },
+  {
+    "materia": 0,
+    "conteudo": "Critérios de aceitação e rastreabilidade",
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/00-fundamentos/02_rastreabilidade.py"
+  },
+  {
+    "materia": 0,
+    "conteudo": "Classes, entidades, cardinalidade e UML",
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/20-aplicacao/04_modelagem.md"
+  },
+  {
+    "materia": 0,
+    "conteudo": "Estados e invariantes",
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/20-aplicacao/03_regras_estados.py"
+  },
+  {
+    "materia": 1,
+    "conteudo": "Tipos, tabelas, chaves, restrições e CRUD",
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/00-fundamentos/01_crud_sql.py"
+  },
+  {
+    "materia": 1,
+    "conteudo": "Normalização, cardinalidade e relacionamento N:N",
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/00-fundamentos/02_normalizacao.py"
+  },
+  {
+    "materia": 1,
+    "conteudo": "SELECT, JOIN, filtros e agregações",
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/02_consultas.sql"
+  },
+  {
+    "materia": 1,
+    "conteudo": "Transações, commit e rollback",
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/03_transacao.sql"
+  },
+  {
+    "materia": 1,
+    "conteudo": "Views, índices e plano de consulta",
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/20-aplicacao/03_indices_views.py"
+  },
+  {
+    "materia": 2,
+    "conteudo": "Windows/Linux, terminal, caminhos e permissões",
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/20-aplicacao/04_terminal.md"
+  },
+  {
+    "materia": 2,
+    "conteudo": "Arquivos, diretórios e extensões",
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/20-aplicacao/03_organizacao_documentos.py"
+  },
+  {
+    "materia": 2,
+    "conteudo": "Codificação, bits e representação",
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/02_representacao.py"
+  },
+  {
+    "materia": 2,
+    "conteudo": "CSV e planilhas",
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/00-fundamentos/01_csv.py"
+  },
+  {
+    "materia": 2,
+    "conteudo": "Backup e conferência",
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/00-fundamentos/02_backup.py"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Tipos, variáveis, operadores e conversão",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/01_tipos.c"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Entrada, saída, decisões e laços",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/01_decisoes_e_lacos.c"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Arrays, matrizes e índices",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/02_vetores_e_matrizes.c"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Funções, parâmetros e strings",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/00-fundamentos/02_funcoes_strings.c"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Structs e ponteiros",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/03_estruturas_e_ponteiros.c"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Arquivos e recursão",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/04_arquivos_e_recursao.c"
+  },
+  {
+    "materia": 3,
+    "conteudo": "Memória dinâmica e ordenação",
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/20-aplicacao/03_memoria_dinamica.c"
+  },
+  {
+    "materia": 4,
+    "conteudo": "Programa, processo, pilha e fila",
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/00-fundamentos/01_pilhas_processos.py"
+  },
+  {
+    "materia": 4,
+    "conteudo": "Escalonamento",
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/01_escalonamento.py"
+  },
+  {
+    "materia": 4,
+    "conteudo": "Memória e paginação",
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/02_memoria.py"
+  },
+  {
+    "materia": 4,
+    "conteudo": "IPv4, máscaras e sub-redes",
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/03_subredes.py"
+  },
+  {
+    "materia": 4,
+    "conteudo": "URL, portas e protocolos",
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/00-fundamentos/02_protocolos.py"
+  },
+  {
+    "materia": 4,
+    "conteudo": "TCP, cliente/servidor e mensagens",
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/20-aplicacao/03_socket_local.py"
+  },
+  {
+    "materia": 5,
+    "conteudo": "C# tipos, controle, métodos, coleções e exceções",
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/00-fundamentos/Program.cs"
+  },
+  {
+    "materia": 5,
+    "conteudo": "Encapsulamento e eventos",
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/00-fundamentos/02_eventos.cs"
+  },
+  {
+    "materia": 5,
+    "conteudo": "Classes, validação e JSON",
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/01-console/Program.cs"
+  },
+  {
+    "materia": 5,
+    "conteudo": "Windows Forms, controles e interação",
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/02-interface/Program.cs"
+  },
+  {
+    "materia": 5,
+    "conteudo": "Interfaces, LINQ, async/await, camadas e persistência",
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/20-aplicacao/Program.cs"
+  },
+  {
+    "materia": 6,
+    "conteudo": "HTML semântico, formulários e validação",
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/00-fundamentos/01_formulario.html"
+  },
+  {
+    "materia": 6,
+    "conteudo": "CSS, layout e responsividade",
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/02_layout.html"
+  },
+  {
+    "materia": 6,
+    "conteudo": "JavaScript: tipos, funções, arrays e objetos",
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/00-fundamentos/02_javascript.js"
+  },
+  {
+    "materia": 6,
+    "conteudo": "DOM, eventos e acessibilidade",
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/03_dom.html"
+  },
+  {
+    "materia": 6,
+    "conteudo": "Estado, JSON e armazenamento local",
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/20-aplicacao/03_estado_web.html"
+  },
+  {
+    "materia": 7,
+    "conteudo": "Problema, público, proposta de valor e modelo de negócio",
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/20-aplicacao/04_canvas.md"
+  },
+  {
+    "materia": 7,
+    "conteudo": "Hipóteses, indicadores e validação",
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/00-fundamentos/01_hipoteses.py"
+  },
+  {
+    "materia": 7,
+    "conteudo": "MVP e priorização",
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/02_mvp.py"
+  },
+  {
+    "materia": 7,
+    "conteudo": "Custos, receita e equilíbrio",
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/01_viabilidade.py"
+  },
+  {
+    "materia": 7,
+    "conteudo": "Caixa, entradas e saídas",
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/00-fundamentos/02_fluxo_caixa.py"
+  },
+  {
+    "materia": 7,
+    "conteudo": "Preço, margem e canais",
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/20-aplicacao/03_precificacao.py"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Ambiente: JDK, terminal e IDE",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Ambiente.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Sintaxe, variáveis, tipos e strings",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Sintaxe.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "if/else, switch, for e while",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/Fluxo.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Métodos, parâmetros, retornos, arrays e listas",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/01-basico/MetodosArrays.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Classes, objetos, atributos, métodos, construtores e encapsulamento",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Objetos.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Herança, polimorfismo e interfaces",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Polimorfismo.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "try/catch e exceções",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/Excecoes.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Datas, List, Set, Map e Streams",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/02-poo/DatasColecoesStreams.java"
+  },
+  {
+    "materia": 8,
+    "conteudo": "JDBC, SQL, MySQL/PostgreSQL, JPA/Hibernate, REST e Maven",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/03-api-banco/README.md"
+  },
+  {
+    "materia": 8,
+    "conteudo": "Git, GitHub, branch, commit e PR",
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/10-trilha-java/04-git-github/README.md"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Requisitos e critérios",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/01_requisitos.py"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Planejamento e dependências",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/00-fundamentos/02_planejamento.py"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Contrato, validação e domínio",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/00-fundamentos/01_contrato.py"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Cadastro e persistência",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/inventario.py"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Separação de camadas e integração",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/20-aplicacao/03_integracao_camadas.py"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Testes",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/test_inventario.py"
+  },
+  {
+    "materia": 9,
+    "conteudo": "Documentação e apresentação",
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/20-aplicacao/04_entrega.md"
+  },
+  {
+    "materia": 10,
+    "conteudo": "PHP: tipos, condições, laços, funções e arrays",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/01_php_basico.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "JSON, tipos e erros",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/00-fundamentos/02_json.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "POO, interfaces e exceções",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/03_poo_php.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "Cliente/servidor, formulário e validação",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/01_formulario.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "Sessões, autenticação e CSRF",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/02_sessoes.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "Banco de dados, PDO e SQL",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/03_pdo.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "Métodos HTTP e API JSON",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/04_http_json.php"
+  },
+  {
+    "materia": 10,
+    "conteudo": "JavaScript assíncrono, fetch e integração",
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/20-aplicacao/05_fetch.html"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Dart: tipos, funções, listas e null safety",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/00-fundamentos/01_dart.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Classes e modelo",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/01_modelo.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Future, await e erros",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/00-fundamentos/02_async.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "JSON e persistência",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/02_json_e_persistencia.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Flutter: widgets, layout, formulário e validação",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/formulario.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Flutter: estado e navegação",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/main.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Flutter: carregamento, erro, vazio e nova tentativa",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/carregamento.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "HTTP",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/04_http.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Interface de repositório, composição e serialização",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/20-aplicacao/03_repositorio_dart.dart"
+  },
+  {
+    "materia": 11,
+    "conteudo": "Testes de widget",
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/test/fundamentos_test.dart"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Bits, tipos e máscaras",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/00-fundamentos/01_bits.c"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Sensor, conversão e histerese",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/01_sensor.c"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Digital, temporização e máquina de estados",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/01_semaforo/01_semaforo.ino"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Entrada analógica, divisor e calibração",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/02_luz_automatica/02_luz_automatica.ino"
+  },
+  {
+    "materia": 12,
+    "conteudo": "PWM",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/03_analogico_pwm/03_analogico_pwm.ino"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Botão, pull-up, map e som",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/03_instrumento/03_instrumento.ino"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Sensor de distância, pulso e timeout",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/04_distancia/04_distancia.ino"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Serial, buffer, strings e protocolo",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/05_comandos_serial/05_comandos_serial.ino"
+  },
+  {
+    "materia": 12,
+    "conteudo": "Debounce, bordas e EEPROM",
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/10-projetos-arduino/06_contador_persistente/06_contador_persistente.ino"
+  },
+  {
+    "materia": 13,
+    "conteudo": "API, serviço, banco e contrato",
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/20-aplicacao/04_entrega_api.md"
+  },
+  {
+    "materia": 13,
+    "conteudo": "Cliente HTTP",
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/cliente.py"
+  },
+  {
+    "materia": 13,
+    "conteudo": "Testes, validação e erros",
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/test_api.py"
+  },
+  {
+    "materia": 13,
+    "conteudo": "Paginação",
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/00-fundamentos/01_paginacao.py"
+  },
+  {
+    "materia": 13,
+    "conteudo": "Idempotência",
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/00-fundamentos/02_idempotencia.py"
+  },
+  {
+    "materia": 13,
+    "conteudo": "Migrações e versionamento do banco",
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/20-aplicacao/03_migracao_sql.py"
+  },
+  {
+    "materia": 14,
+    "conteudo": "Estruturas de dados",
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/01_estruturas.py"
+  },
+  {
+    "materia": 14,
+    "conteudo": "Complexidade, busca e recursão",
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/20-aplicacao/03_busca_complexidade.py"
+  },
+  {
+    "materia": 14,
+    "conteudo": "Integridade e hash",
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/02_integridade.py"
+  },
+  {
+    "materia": 14,
+    "conteudo": "Testes, limites e invariantes",
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/00-fundamentos/02_testes_limites.py"
+  },
+  {
+    "materia": 14,
+    "conteudo": "Git e histórico",
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/03_git_laboratorio.py"
+  },
+  {
+    "materia": 14,
+    "conteudo": "Integração contínua e entrega",
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/20-aplicacao/04_ci.md"
+  },
+  {
+    "materia": 6,
+    "conteudo": "Bootstrap, grid, componentes e breakpoints",
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/20-aplicacao/04_bootstrap.html"
+  }
+]

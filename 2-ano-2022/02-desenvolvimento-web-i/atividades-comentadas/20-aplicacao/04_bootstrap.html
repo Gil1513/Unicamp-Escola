@@ -1,0 +1,40 @@
+<!--
+Bootstrap: grid, componentes e utilitários — Gilmar da Silva, 201269.
+container limita a largura; row organiza colunas; col-md-6 divide a linha a
+partir do breakpoint md. Compare com o exercício de CSS sem framework.
+Atividade: abra em 375 px e 1024 px; conte as colunas e observe espaçamento.
+Desafio: acrescente um terceiro cartão, usando col-lg-4 e mantendo uma coluna
+no celular. Explique cada classe utilizada. A folha CSS por CDN exige internet.
+Fonte: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+-->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Grade de estudos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<main class="container py-4">
+  <h1>Grade de estudos</h1>
+  <p class="text-secondary">Gilmar da Silva — 201269</p>
+  <div class="row g-3">
+    <section class="col-12 col-md-6" aria-labelledby="java">
+      <div class="card h-100"><div class="card-body">
+        <h2 class="card-title h4" id="java">Java</h2>
+        <p class="card-text">Tipos, objetos e coleções.</p>
+        <span class="badge text-bg-primary">2º ano</span>
+      </div></div>
+    </section>
+    <section class="col-12 col-md-6" aria-labelledby="flutter">
+      <div class="card h-100"><div class="card-body">
+        <h2 class="card-title h4" id="flutter">Flutter</h2>
+        <p class="card-text">Layout, estado e navegação.</p>
+        <span class="badge text-bg-success">3º ano</span>
+      </div></div>
+    </section>
+  </div>
+</main>
+</body>
+</html>

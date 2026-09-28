@@ -50,10 +50,13 @@ def main():
     registrar('Arquivos originais e importados preservados','FALHA' if faltantes else 'OK',str(faltantes))
     materias={item['materia'] for item in catalogo}
     registrar('Cobertura das 15 disciplinas','OK' if materias==set(range(15)) else 'FALHA')
+    cobertura=json.loads((ROOT/'docs/cobertura-conteudos.json').read_text(encoding='utf-8'))
+    sem_atividade=[r for r in cobertura if not (ROOT/r['arquivo']).is_file()]
+    registrar('Tópicos ligados a atividades existentes','FALHA' if sem_atividade else 'OK',str(sem_atividade))
     nomes=[r['arquivo'].casefold() for r in manifesto['arquivos']]
     registrar('Ausência de colisões de nomes no Windows','OK' if len(nomes)==len(set(nomes)) else 'FALHA')
     for readme in ROOT.rglob('*.md'):
-        if not (readme.name=='README.md' and 'acervo' not in readme.parts and 'importados' not in readme.parts):continue
+        if any(parte in readme.parts for parte in ('acervo','importados','.git','target','bin','obj')):continue
         for link in re.findall(r'\]\(([^)]+)\)',readme.read_text(encoding='utf-8')):
             if '://' in link or link.startswith('#'):continue
             destino=unquote(link.split('#')[0])
