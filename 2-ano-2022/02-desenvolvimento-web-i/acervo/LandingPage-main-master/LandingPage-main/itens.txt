@@ -1,0 +1,27 @@
+- Pseudo-classes{
+    arquivo style.css : linha 212 
+}
+- Formatação de forms{
+    arquivo form.css : apartir da linha 65 
+}
+- Box-shadow{
+    arquivo style.css : linha 103
+}
+- Gradientes {
+    arquivo style.css : linha 17
+}
+- Transições/animações{ 
+    arquivo form : linha 266
+}
+- Prefixos{
+    arquivo style.css : linha 168
+}
+- Flexbox{
+    arquivo style.css : linhas 44,71,78 e 172 
+}
+- Breakpoint{
+    arquivo style.css : linha 237
+}
+- Media print {
+    arquivo style.css : linha 231
+}

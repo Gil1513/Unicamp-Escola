@@ -1,0 +1,28 @@
+<!doctype html>
+<!--
+CSS, box model e responsividade
+Autor: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
+Conceitos: O box model soma conteúdo, padding e borda. Grid organiza cartões; uma media query adapta a apresentação à largura. Foco visível permite navegação pelo teclado.
+Objetivo: Exibir uma coluna em telas estreitas e três em telas maiores.
+Execução (nesta pasta): Abra 02_layout.html e redimensione a janela
+Pratique: Adicione um quarto cartão e observe a distribuição sem posicionamento absoluto.
+-->
+<html lang="pt-BR">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matérias do técnico</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 2rem; font: 1rem/1.5 system-ui; color: #132e40; background: #f3f6f8; }
+main { max-width: 65rem; margin: auto; }
+.grade { display: grid; gap: 1rem; }
+article { padding: 1.5rem; border: 1px solid #a0b4c0; border-radius: .5rem; background: white; }
+a { color: #064e85; } a:focus-visible { outline: 3px solid #9b4500; }
+@media (min-width: 48rem) { .grade { grid-template-columns: repeat(3, 1fr); } }
+</style>
+<main><h1>Matérias do técnico</h1><p>Gilmar da Silva Filho</p><div class="grade">
+<article><h2>Lógica</h2><p>Decisões, repetições e funções.</p></article>
+<article><h2>Banco de Dados</h2><p>Entidades, relações e consultas.</p></article>
+<article><h2>Web</h2><p>Estrutura, apresentação e comportamento.</p><a href="01_estrutura.html">Praticar formulários</a></article>
+</div></main></html>

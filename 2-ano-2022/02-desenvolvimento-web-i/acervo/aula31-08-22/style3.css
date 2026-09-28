@@ -1,0 +1,15 @@
+/*
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Arquivo de estudo: style3.css
+Explicação: seletores CSS definem a quais elementos aplicar as propriedades.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-iteration-count: infinite;
+}

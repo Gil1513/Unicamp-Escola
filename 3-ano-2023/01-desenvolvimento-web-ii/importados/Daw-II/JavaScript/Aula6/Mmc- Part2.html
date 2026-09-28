@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Mmc- Part2.html
+Explicação: HTML organiza a estrutura da página; formulários coletam entradas com campos e rótulos; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMC</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript">
+        function verificarIMC(){
+            var peso = document.getElementById("peso").value;
+            var altura = document.getElementById("altura").value;
+
+            if((peso == "") || (altura == "")){
+                Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'peso e altura são obrigatórios!!',
+                footer: ''
+                })
+            }else{
+                imc = 0;
+                imc = peso/(altura * altura);
+
+                if(imc < 18.5){
+                    alert("Abaixo do peso. IMC = " + imc);
+                }else if((imc >= 18.6) && (imc <= 24.9)){
+                    alert("Peso ideal parabéns. IMC = " + imc);
+                }else if((imc >= 25.0) && (imc <= 29.9)){
+                    alert("Levantamento acima do peso. IMC = " + imc);
+                }else if((imc >= 30.0) && (imc <= 34.9)){
+                    alert("Obsidade grau 1. IMC = " + imc);
+                }else if((imc >= 35.0) && (imc <= 39.0)){
+                    alert("Obsidade grau 2(Severa). IMC = " + imc);
+                }else{
+                    alert("Obsidade grau 3(Mórbida). IMC = " + imc);
+                }
+        }
+    }
+    </script>
+    
+
+</head>
+    Introdução ao javascript - peso ideal
+    
+    <br><br>
+
+    peso: <br>
+    <input type="text" id ="peso" name = "peso">
+
+    <br><br>
+
+    Altura: <br>
+    <input type="text" id = "altura" name = "altura">
+
+    <br><br>
+
+    <input type="button" values="verificar" onclick="verificarIMC();"> 
+</body>
+</html>

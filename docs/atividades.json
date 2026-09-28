@@ -1,0 +1,443 @@
+[
+  {
+    "materia": 0,
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/01_requisitos.py",
+    "titulo": "Requisitos e critérios de aceitação",
+    "conceitos": "Requisito funcional descreve uma ação; uma regra de negócio limita quando ela é válida. Critérios verificáveis ligam a necessidade ao teste.",
+    "executar": "python 01_requisitos.py",
+    "resultado": "Rastrear RF01 e rejeitar empréstimo sem exemplar ou com três empréstimos ativos.",
+    "pratique": "Acrescente a regra de bloquear um usuário com devolução em atraso e crie um novo cenário."
+  },
+  {
+    "materia": 0,
+    "arquivo": "1-ano-2021/01-analise-e-projeto-de-sistemas/atividades-comentadas/02_modelagem.py",
+    "titulo": "Entidades e transições de estado",
+    "conceitos": "Uma entidade tem identidade e comportamento. Encapsular a transição protege a regra: só se devolve um empréstimo ativo.",
+    "executar": "python 02_modelagem.py",
+    "resultado": "Modelar o vínculo entre um livro e um leitor; bloquear a segunda devolução.",
+    "pratique": "Desenhe as classes e a associação Leitor 1:N Empréstimo; acrescente a data prevista."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/01_modelagem.sql",
+    "titulo": "Modelagem relacional e integridade",
+    "conceitos": "Chaves primárias identificam registros. A tabela emprestimo resolve o relacionamento entre leitor e livro sem repetir os dados do leitor; FKs mantêm referências válidas.",
+    "executar": "python executar_sql.py",
+    "resultado": "Criar três tabelas e registrar um empréstimo; rejeitar quantidade negativa e referência inexistente.",
+    "pratique": "Adicione data_devolucao e uma consulta de empréstimos pendentes."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/02_consultas.sql",
+    "titulo": "Junções e agregações",
+    "conceitos": "JOIN reúne registros pelas chaves. LEFT JOIN mantém livros sem empréstimos. COUNT(coluna) não conta NULL; COUNT(*) contaria a linha vazia produzida pela junção.",
+    "executar": "python executar_sql.py",
+    "resultado": "Listar Algoritmos com um empréstimo e Redes com zero.",
+    "pratique": "Filtre livros com dois ou mais empréstimos usando HAVING."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/03_transacao.sql",
+    "titulo": "Atomicidade com SAVEPOINT",
+    "conceitos": "Uma transação agrupa alterações. ROLLBACK TO desfaz operações posteriores ao ponto salvo. Não se deve confirmar metade de uma operação de negócio.",
+    "executar": "python executar_sql.py",
+    "resultado": "Simular uma baixa de estoque e desfazê-la, mantendo duas unidades de Algoritmos.",
+    "pratique": "Crie uma transação que registre o empréstimo e diminua o estoque apenas se houver disponibilidade."
+  },
+  {
+    "materia": 1,
+    "arquivo": "1-ano-2021/02-banco-de-dados/atividades-comentadas/executar_sql.py",
+    "titulo": "Laboratório SQL em memória",
+    "conceitos": "SQLite permite praticar SQL sem instalar um servidor. O banco deste exemplo só existe durante o processo. PRAGMA é específico de SQLite; MySQL usa configuração própria.",
+    "executar": "python executar_sql.py",
+    "resultado": "Executar a sequência SQL, exibir consultas e verificar as restrições do esquema.",
+    "pratique": "Reproduza as tabelas em MySQL e identifique as diferenças de dialeto."
+  },
+  {
+    "materia": 2,
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/01_arquivos_e_caminhos.py",
+    "titulo": "Arquivos, diretórios e caminhos portáveis",
+    "conceitos": "Diretórios organizam arquivos; um caminho relativo depende do diretório atual. pathlib evita concatenar separadores diferentes no Windows e no Linux.",
+    "executar": "python 01_arquivos_e_caminhos.py",
+    "resultado": "Criar, ler e listar documentos em um diretório temporário, removido automaticamente.",
+    "pratique": "Crie subpastas por matéria e compare caminho absoluto com caminho relativo."
+  },
+  {
+    "materia": 2,
+    "arquivo": "1-ano-2021/03-informatica/atividades-comentadas/02_representacao.py",
+    "titulo": "Bits, bytes e codificação de texto",
+    "conceitos": "Um byte possui 8 bits. UTF-8 usa quantidade variável de bytes por caractere; quantidade de caracteres não é necessariamente tamanho em bytes. KiB equivale a 1024 bytes.",
+    "executar": "python 02_representacao.py",
+    "resultado": "Mostrar 13 em binário e comparar os caracteres e bytes de ação.",
+    "pratique": "Teste um emoji e explique por que o tamanho em bytes aumenta."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/01_decisoes_e_lacos.c",
+    "titulo": "Decisões, laços e validação de notas",
+    "conceitos": "Laços percorrem entradas; acumuladores guardam resultados parciais. Uma função separa o cálculo da apresentação e rejeita conjuntos vazios.",
+    "executar": "gcc -std=c11 -Wall -Wextra 01_decisoes_e_lacos.c -o notas; ./notas",
+    "resultado": "Calcular média 7.00 e classificar a situação com limite 6.0.",
+    "pratique": "Inclua uma nota inválida e verifique a rejeição antes de calcular a média."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/02_vetores_e_matrizes.c",
+    "titulo": "Busca em vetores e diagonal de matriz",
+    "conceitos": "Um vetor usa um índice; uma matriz usa linha e coluna. Índices começam em zero. A busca linear visita até n elementos, com custo O(n).",
+    "executar": "gcc -std=c11 -Wall -Wextra 02_vetores_e_matrizes.c -o vetores; ./vetores",
+    "resultado": "Encontrar 7 no índice 1 e somar a diagonal para obter 15.",
+    "pratique": "Procure um valor ausente e some a diagonal secundária."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/03_estruturas_e_ponteiros.c",
+    "titulo": "Struct, memória dinâmica e ponteiros",
+    "conceitos": "Struct reúne campos. malloc reserva memória; um ponteiro guarda seu endereço. Conferir NULL e liberar a alocação evita falha de acesso e vazamento.",
+    "executar": "gcc -std=c11 -Wall -Wextra 03_estruturas_e_ponteiros.c -o estruturas; ./estruturas",
+    "resultado": "Criar um cadastro em memória e calcular o maior valor, inclusive com números negativos.",
+    "pratique": "Crie uma função que retorne também o menor valor por um ponteiro de saída."
+  },
+  {
+    "materia": 3,
+    "arquivo": "1-ano-2021/04-logica-de-programacao/atividades-comentadas/04_arquivos_e_recursao.c",
+    "titulo": "Arquivos e função recursiva",
+    "conceitos": "Recursão precisa de um caso base e de avanço até ele. Arquivos têm operações de abertura, escrita, leitura e fechamento; sempre verifique erros.",
+    "executar": "gcc -std=c11 -Wall -Wextra 04_arquivos_e_recursao.c -o arquivos; ./arquivos",
+    "resultado": "Gravar e recuperar o fatorial de 5 em arquivo temporário, exibindo 120.",
+    "pratique": "Explique por que restringir o argumento evita estouro de unsigned long long."
+  },
+  {
+    "materia": 4,
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/01_escalonamento.py",
+    "titulo": "Escalonamento FCFS",
+    "conceitos": "First Come First Served atende por ordem de chegada, sem preempção. Espera = início menos chegada; retorno = fim menos chegada. A CPU pode ficar ociosa.",
+    "executar": "python 01_escalonamento.py",
+    "resultado": "Calcular espera e retorno e tratar um intervalo sem processos prontos.",
+    "pratique": "Compare com uma ordem que priorize tarefas curtas; discuta o risco de espera prolongada."
+  },
+  {
+    "materia": 4,
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/02_memoria.py",
+    "titulo": "Paginação e substituição FIFO",
+    "conceitos": "Memória virtual divide endereços em páginas. Quando a página solicitada não está nos quadros disponíveis, ocorre falta de página. FIFO remove a página carregada há mais tempo, não a menos usada.",
+    "executar": "python 02_memoria.py",
+    "resultado": "Simular três quadros e contar 9 faltas na sequência de referência.",
+    "pratique": "Implemente LRU e compare com FIFO usando a mesma sequência."
+  },
+  {
+    "materia": 4,
+    "arquivo": "1-ano-2021/05-sistemas-operacionais-e-redes/atividades-comentadas/03_subredes.py",
+    "titulo": "IPv4 e pertencimento a uma sub-rede",
+    "conceitos": "O prefixo /24 fixa 24 bits da rede. Rede e broadcast não são endereços de hosts nesse exemplo. Portas identificam serviços, enquanto IP identifica a interface.",
+    "executar": "python 03_subredes.py",
+    "resultado": "Obter 254 hosts em 192.168.10.0/24 e identificar um endereço de fora da rede.",
+    "pratique": "Compare /24 e /26. Por que /31 e /32 precisam de tratamento diferente?"
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/01-console/Cadastro.csproj",
+    "titulo": "Projeto C# de console",
+    "conceitos": "O arquivo de projeto declara o SDK e a plataforma alvo.",
+    "executar": "dotnet run --project 01-console",
+    "resultado": "Executar o cadastro e a leitura de JSON.",
+    "pratique": "Separe a classe Produto em um arquivo próprio."
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/01-console/Program.cs",
+    "titulo": "Classes, validação e persistência em C#",
+    "conceitos": "Propriedades encapsulam dados; decimal evita erros binários comuns em valores decimais. JSON serializa objetos. try/finally assegura a limpeza do arquivo temporário.",
+    "executar": "dotnet run --project 01-console",
+    "resultado": "Recuperar o produto Caderno com preço 12.50 e rejeitar preço negativo.",
+    "pratique": "Acrescente quantidade e calcule o valor em estoque, validando a entrada."
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/02-interface/CadastroVisual.csproj",
+    "titulo": "Projeto Windows Forms",
+    "conceitos": "UseWindowsForms habilita controles e eventos da interface Windows.",
+    "executar": "dotnet run --project 02-interface",
+    "resultado": "Abrir uma janela de cadastro no Windows.",
+    "pratique": "Compare eventos da interface com entrada sequencial no console."
+  },
+  {
+    "materia": 5,
+    "arquivo": "2-ano-2022/01-desenvolvimento-desktop-csharp/atividades-comentadas/02-interface/Program.cs",
+    "titulo": "Eventos e validação na interface desktop",
+    "conceitos": "Aplicações gráficas reagem a eventos. O clique lê a entrada, valida e atualiza a lista; campos vazios e cadastros repetidos são rejeitados.",
+    "executar": "dotnet run --project 02-interface",
+    "resultado": "Adicionar nomes à lista e mostrar uma mensagem para entrada vazia ou repetida.",
+    "pratique": "Acrescente exclusão do item selecionado e persistência em JSON usando o exemplo anterior."
+  },
+  {
+    "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/01_estrutura.html",
+    "titulo": "HTML semântico e formulários",
+    "conceitos": "HTML descreve significado. Cabeçalhos organizam a leitura; label associa o campo à descrição; required e min ajudam na validação inicial. Um servidor também deve validar.",
+    "executar": "Abra 01_estrutura.html no navegador",
+    "resultado": "Navegar pelos campos com Tab e verificar bloqueio de nome vazio e quantidade negativa.",
+    "pratique": "Adicione um campo de e-mail e explique a diferença entre name e id."
+  },
+  {
+    "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/02_layout.html",
+    "titulo": "CSS, box model e responsividade",
+    "conceitos": "O box model soma conteúdo, padding e borda. Grid organiza cartões; uma media query adapta a apresentação à largura. Foco visível permite navegação pelo teclado.",
+    "executar": "Abra 02_layout.html e redimensione a janela",
+    "resultado": "Exibir uma coluna em telas estreitas e três em telas maiores.",
+    "pratique": "Adicione um quarto cartão e observe a distribuição sem posicionamento absoluto."
+  },
+  {
+    "materia": 6,
+    "arquivo": "2-ano-2022/02-desenvolvimento-web-i/atividades-comentadas/03_dom.html",
+    "titulo": "DOM, eventos e armazenamento local",
+    "conceitos": "O DOM representa a página em objetos. Eventos alteram o estado e a renderização. JSON converte a lista em texto para localStorage; dados lidos precisam de validação.",
+    "executar": "Abra 03_dom.html no navegador",
+    "resultado": "Adicionar e concluir tarefas; recuperar a lista ao recarregar, quando o navegador permitir armazenamento local.",
+    "pratique": "Implemente remoção e um filtro de tarefas pendentes."
+  },
+  {
+    "materia": 7,
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/01_viabilidade.py",
+    "titulo": "Custos, receita e ponto de equilíbrio",
+    "conceitos": "Margem de contribuição = preço menos custo variável. O ponto de equilíbrio cobre o custo fixo; arredondamos para cima porque vendemos unidades inteiras. Valores são fictícios para exercício.",
+    "executar": "python 01_viabilidade.py",
+    "resultado": "Calcular 20 unidades para cobrir 600 de custo fixo com margem de 30.",
+    "pratique": "Simule mudança de preço e teste margem nula ou negativa; explique por que o modelo deixa de ter equilíbrio."
+  },
+  {
+    "materia": 7,
+    "arquivo": "2-ano-2022/03-inovacao-e-empreendedorismo/atividades-comentadas/02_mvp.py",
+    "titulo": "Priorização de um MVP e hipótese de validação",
+    "conceitos": "MVP é uma versão mínima que testa uma hipótese de valor. Uma pontuação impacto/esforço ajuda a discutir prioridades, mas não substitui observar usuários; os dados abaixo são simulados.",
+    "executar": "python 02_mvp.py",
+    "resultado": "Selecionar funcionalidades sob um orçamento de cinco dias; explicitar uma hipótese mensurável.",
+    "pratique": "Inclua dependências e explique por que escolher sempre a maior razão não garante a solução ótima."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/01-poo/ContaDemo.java",
+    "titulo": "Encapsulamento, herança e polimorfismo",
+    "conceitos": "Campos privados protegem invariantes. Uma subclasse especializa o cálculo de tarifa. Chamar um método pela referência da classe base executa a implementação do objeto.",
+    "executar": "java 01-poo/ContaDemo.java",
+    "resultado": "Debitar 10 mais tarifa de 1 de uma conta com saldo 100, resultando em 89.",
+    "pratique": "Crie outra conta sem tarifa e trate tentativa de saque maior que o saldo."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/02-colecoes/ColecoesDemo.java",
+    "titulo": "Interfaces, coleções e exceções",
+    "conceitos": "List mantém uma sequência; Map associa chave e valor. Uma interface especifica um contrato. Exceções comunicam entradas inválidas sem inventar um resultado.",
+    "executar": "java 02-colecoes/ColecoesDemo.java",
+    "resultado": "Agrupar notas por matéria e calcular média 8.0; rejeitar lista vazia.",
+    "pratique": "Use Set para deduplicar matérias e ordene o resultado alfabeticamente."
+  },
+  {
+    "materia": 8,
+    "arquivo": "2-ano-2022/04-linguagem-de-programacao-java/atividades-comentadas/03-arquivos/ArquivoDemo.java",
+    "titulo": "Persistência com arquivos e tratamento de recursos",
+    "conceitos": "Persistir significa manter dados além da execução. Files lê e escreve texto UTF-8; try/finally garante limpeza. Aqui o arquivo é temporário para que a demonstração não deixe dados pessoais.",
+    "executar": "java 03-arquivos/ArquivoDemo.java",
+    "resultado": "Gravar três matérias, reler e localizar Java.",
+    "pratique": "Troque o arquivo temporário por um caminho recebido em argumento e defina uma regra para não sobrescrever arquivos existentes."
+  },
+  {
+    "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/01_requisitos.py",
+    "titulo": "Planejamento e rastreabilidade do protótipo",
+    "conceitos": "Cada requisito deve ter um critério observável. O backlog organiza trabalho e a rastreabilidade conecta requisito, módulo e verificação.",
+    "executar": "python 01_requisitos.py",
+    "resultado": "Listar três requisitos de um inventário com o módulo e a verificação correspondente.",
+    "pratique": "Adicione RF04: impedir remoção de um item que não existe; implemente e teste."
+  },
+  {
+    "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/inventario.py",
+    "titulo": "Protótipo integrado de inventário",
+    "conceitos": "A camada de domínio valida regras antes de alterar dados. Persistência converte a lista em JSON. Ao carregar, reconstruímos a lista usando as mesmas regras, sem confiar cegamente no arquivo.",
+    "executar": "python inventario.py",
+    "resultado": "Cadastrar dois materiais e recuperar o inventário de um arquivo temporário.",
+    "pratique": "Acrescente atualização de quantidade e mantenha as regras de integridade."
+  },
+  {
+    "materia": 9,
+    "arquivo": "2-ano-2022/05-projeto-integrador-i/atividades-comentadas/test_inventario.py",
+    "titulo": "Verificação dos critérios de aceitação",
+    "conceitos": "Testes verificam comportamentos observáveis: duplicidade, limite de quantidade e recuperação. Cada teste cria um estado independente.",
+    "executar": "python -m unittest discover -s . -p test_inventario.py -v",
+    "resultado": "Passar os testes de cadastro, entrada inválida, duplicidade e persistência.",
+    "pratique": "Teste um JSON com estrutura incorreta e um arquivo inexistente."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/01_formulario.php",
+    "titulo": "PHP, HTTP e validação no servidor",
+    "conceitos": "GET consulta recursos e POST envia dados. O servidor deve validar mesmo quando o HTML usa required. htmlspecialchars protege a saída de texto interpretado como HTML.",
+    "executar": "php -S 127.0.0.1:8000; abra http://127.0.0.1:8000/01_formulario.php",
+    "resultado": "Receber nome e nota, rejeitar arrays ou nota fora de 0 a 10 e mostrar texto escapado.",
+    "pratique": "Envie um nome com sinais < e > e confirme que o navegador mostra texto, sem executar marcação."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/02_sessoes.php",
+    "titulo": "Sessões e autenticação demonstrativa",
+    "conceitos": "HTTP não mantém estado por si só. Uma sessão associa requisições a um identificador; regenerar o ID após login evita reutilizar o identificador anterior. Token CSRF protege formulários.",
+    "executar": "php -S 127.0.0.1:8000; abra /02_sessoes.php",
+    "resultado": "Entrar usando usuário gilmar e senha estudo-local, sair por POST e rejeitar token inválido.",
+    "pratique": "Substitua a conta de demonstração por consulta preparada a uma tabela com hashes de senha."
+  },
+  {
+    "materia": 10,
+    "arquivo": "3-ano-2023/01-desenvolvimento-web-ii/atividades-comentadas/03_pdo.php",
+    "titulo": "CRUD, PDO e consultas preparadas",
+    "conceitos": "PDO separa SQL dos valores recebidos. Placeholders representam valores, não nomes de tabelas. Uma transação confirma ou desfaz um conjunto de operações.",
+    "executar": "php 03_pdo.php (requer pdo_sqlite)",
+    "resultado": "Criar, inserir, consultar, atualizar e excluir em um banco SQLite em memória.",
+    "pratique": "Adapte a conexão para MySQL via variáveis de ambiente e mantenha os parâmetros preparados."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/01_modelo.dart",
+    "titulo": "Dart, null safety e modelo de tarefa",
+    "conceitos": "Classes agrupam estado e comportamento. Tipos não anuláveis evitam uso acidental de null. Métodos expressam ações válidas sobre o modelo.",
+    "executar": "dart run 01_modelo.dart",
+    "resultado": "Criar uma tarefa, concluí-la e rejeitar descrição vazia.",
+    "pratique": "Adicione uma prioridade enum e ordene tarefas por prioridade."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/02_json_e_persistencia.dart",
+    "titulo": "Operações assíncronas, JSON e persistência",
+    "conceitos": "Future representa um resultado futuro; await permite aguardar sem bloquear o fluxo assíncrono. JSON é um formato de intercâmbio; validar a estrutura é necessário antes de usá-la.",
+    "executar": "dart run 02_json_e_persistencia.dart",
+    "resultado": "Simular a resposta de um serviço e salvar/recuperar uma tarefa em diretório temporário.",
+    "pratique": "Troque a simulação por HttpClient, verificando status HTTP, timeout e falhas de conexão."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/lib/main.dart",
+    "titulo": "Interface, estado, validação e navegação",
+    "conceitos": "Widgets descrevem a interface. setState solicita reconstrução após mudar o estado. Navigator empilha uma tela de detalhe; TextEditingController deve ser descartado.",
+    "executar": "cd 03-flutter; flutter create --platforms=web,android .; flutter pub get; flutter run",
+    "resultado": "Cadastrar assuntos, concluir itens e abrir os detalhes por toque; estado fica em memória.",
+    "pratique": "Integre persistência e mostre estados de carregamento e erro ao buscar tarefas."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/pubspec.yaml",
+    "titulo": "Dependências do aplicativo Flutter",
+    "conceitos": "O pubspec declara o SDK e as dependências do aplicativo.",
+    "executar": "Nesta pasta: flutter pub get; flutter run -d chrome",
+    "resultado": "Resolver o SDK Flutter e iniciar a aplicação web de estudo.",
+    "pratique": "Execute também em um emulador Android disponível."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/03-flutter/test/widget_test.dart",
+    "titulo": "Teste da interação com a lista",
+    "conceitos": "Um teste de widget monta a interface, simula entrada e eventos e verifica o estado visível. pump reconstrói o quadro após uma alteração.",
+    "executar": "Na pasta 03-flutter: flutter test",
+    "resultado": "Adicionar um assunto pela interface, concluir a tarefa e abrir a tela de detalhes.",
+    "pratique": "Adicione um teste para título vazio e confirme a mensagem de validação."
+  },
+  {
+    "materia": 11,
+    "arquivo": "3-ano-2023/02-dispositivos-moveis/atividades-comentadas/04_http.dart",
+    "titulo": "Consumindo uma API pela rede",
+    "conceitos": "HttpClient envia uma requisição assíncrona. Status HTTP e timeout devem ser tratados. O JSON precisa ser validado antes de acessar os campos. Este exemplo usa a API de Projeto Integrador II.",
+    "executar": "Inicie api.py de Projeto Integrador II; execute dart run 04_http.dart",
+    "resultado": "Ler a lista de materiais do servidor local ou mostrar erro compreensível se estiver desligado.",
+    "pratique": "Implemente POST e use um endereço configurável para executar fora do computador do servidor."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/01_sensor.c",
+    "titulo": "Conversão analógica e histerese",
+    "conceitos": "Um ADC de 10 bits retorna 0 a 1023. Histerese usa limites diferentes para ligar e desligar, reduzindo oscilações próximas a um limiar. Exemplo simulado, sem hardware.",
+    "executar": "gcc -std=c11 -Wall -Wextra 01_sensor.c -o sensor; ./sensor",
+    "resultado": "Manter a saída ligada entre os limiares e desligar abaixo de 400.",
+    "pratique": "Converta a leitura em tensão para uma referência de 5 V e explique o erro de quantização."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/02_pisca_sem_bloqueio/02_pisca_sem_bloqueio.ino",
+    "titulo": "Temporização com millis e saída digital",
+    "conceitos": "delay bloqueia o fluxo principal. Comparar millis com o instante anterior permite executar outras tarefas. Subtração sem sinal suporta o retorno do contador a zero.",
+    "executar": "Abra a pasta na Arduino IDE, selecione Arduino Uno e compile",
+    "resultado": "Alternar o LED interno a cada 500 ms sem usar delay.",
+    "pratique": "Adicione leitura de botão com INPUT_PULLUP e debounce, sem interromper a temporização."
+  },
+  {
+    "materia": 12,
+    "arquivo": "3-ano-2023/03-sistemas-embarcados/atividades-comentadas/03_analogico_pwm/03_analogico_pwm.ino",
+    "titulo": "Entrada analógica e PWM",
+    "conceitos": "analogRead lê o ADC; analogWrite no Uno ajusta o ciclo de trabalho de PWM, não uma tensão analógica contínua. Um potenciômetro em A0 controla o brilho de um LED no pino 9 com resistor.",
+    "executar": "Compile para Arduino Uno; ligue o potenciômetro entre 5V/GND e cursor em A0; LED com resistor de 220 a 330 ohms no pino 9",
+    "resultado": "Mapear a leitura 0–1023 para PWM 0–255 e exibir o valor na Serial.",
+    "pratique": "Calcule uma média de leituras para reduzir ruído e substitua o atraso por millis."
+  },
+  {
+    "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/api.py",
+    "titulo": "Projeto integrado: API HTTP e banco de dados",
+    "conceitos": "Uma API define rotas, métodos e códigos de resposta. JSON transporta dados; SQLite persiste registros. Consultas parametrizadas separam dados e comandos. Servidor didático local, sem autenticação.",
+    "executar": "python api.py; em outro terminal execute python cliente.py",
+    "resultado": "Criar e consultar materiais por HTTP, rejeitando entrada inválida com 422; banco em inventario.sqlite3.",
+    "pratique": "Implemente PATCH e DELETE com validação de ID e resposta 404 para registros ausentes."
+  },
+  {
+    "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/cliente.py",
+    "titulo": "Integração de cliente e serviço HTTP",
+    "conceitos": "O cliente serializa o corpo, define Content-Type e interpreta o código HTTP. Uma resposta 409 é um conflito de negócio; falha de conexão é outro tipo de erro.",
+    "executar": "Com api.py em execução: python cliente.py",
+    "resultado": "Enviar Caderno e consultar a lista; reconhecer conflito caso execute novamente.",
+    "pratique": "Acrescente uma opção de terminal para informar nome e quantidade."
+  },
+  {
+    "materia": 13,
+    "arquivo": "3-ano-2023/04-projeto-integrador-ii/atividades-comentadas/test_api.py",
+    "titulo": "Testes de integração com HTTP real",
+    "conceitos": "Um teste de integração atravessa cliente, servidor e banco. Porta aleatória e banco temporário isolam a execução; servidor e thread são encerrados ao final.",
+    "executar": "python -m unittest discover -s . -p test_api.py -v",
+    "resultado": "Verificar cadastro, persistência, conflito, JSON inválido, tipos incorretos e rota desconhecida.",
+    "pratique": "Acrescente testes para os endpoints PATCH e DELETE propostos."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/01_complexidade.py",
+    "titulo": "Busca linear e binária",
+    "conceitos": "Busca linear custa O(n). Busca binária reduz o intervalo pela metade, O(log n), mas exige dados ordenados. Ordenar tem custo próprio e não deve ser omitido na comparação.",
+    "executar": "python 01_complexidade.py",
+    "resultado": "Localizar o índice 3 de 8 em [2,4,6,8,10] e devolver -1 quando ausente.",
+    "pratique": "Conte as comparações para diferentes tamanhos e compare o custo de uma consulta com muitas consultas."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/02_integridade.py",
+    "titulo": "Hash e integridade de arquivos",
+    "conceitos": "SHA-256 gera um resumo do conteúdo; mudar um byte altera o resumo com altíssima probabilidade. Hash não é criptografia, não recupera o arquivo e sozinho não comprova autoria.",
+    "executar": "python 02_integridade.py",
+    "resultado": "Comparar resumos iguais e diferentes, lendo arquivos por blocos para economizar memória.",
+    "pratique": "Crie um manifesto com hashes e detecte qual arquivo mudou."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/03_git_laboratorio.py",
+    "titulo": "Git: histórico, branch e comparação",
+    "conceitos": "Commit registra uma versão; branch aponta para uma linha de desenvolvimento; diff compara conteúdos. Este laboratório cria um repositório temporário, sem alterar o repositório de estudos nem a configuração global.",
+    "executar": "python 03_git_laboratorio.py (requer Git)",
+    "resultado": "Criar dois commits locais em branches diferentes e exibir o diff.",
+    "pratique": "No repositório temporário, crie mudanças conflitantes em duas branches e explique a resolução."
+  },
+  {
+    "materia": 14,
+    "arquivo": "3-ano-2023/05-topicos-em-tecnologia-da-informacao/atividades-comentadas/test_buscas.py",
+    "titulo": "Testes unitários e casos de borda",
+    "conceitos": "Um teste deve exercitar comportamento observável. Casos de borda como lista vazia, primeiro elemento, último elemento e valor ausente revelam erros nos limites do algoritmo.",
+    "executar": "python -m unittest discover -s . -p test_buscas.py -v",
+    "resultado": "Conferir buscas em listas vazias e preenchidas, incluindo alvo ausente.",
+    "pratique": "Acrescente elementos repetidos; defina se o contrato deve devolver qualquer ocorrência ou a primeira."
+  }
+]

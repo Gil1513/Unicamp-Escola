@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Aula 1 Java.html
+Explicação: HTML organiza a estrutura da página; formulários coletam entradas com campos e rótulos; CSS controla apresentação e disposição; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Exemplo</title>
+
+    <script type="text/JavaScript">
+        function mudarCor(){
+        document.getElementById("minhaPagina").style.backgroundColor = "Thistle";
+        }
+    </script>
+
+    <noscript>
+        <style>
+            body {
+                background-color: red;
+                color: burlywood;
+            }
+
+        </style>
+    </noscript>
+
+</head>
+<body id="minhaPagina">
+    <noscript>
+        Para Usar corretamente, habilite o JavaScrip
+    </noscript>
+
+    <h1  id= "titulo" > Aula 1- JavaScript</h1>
+    <input type="button" value="mudar Cor" onclick="mudarCor();">
+
+</body>
+</html>

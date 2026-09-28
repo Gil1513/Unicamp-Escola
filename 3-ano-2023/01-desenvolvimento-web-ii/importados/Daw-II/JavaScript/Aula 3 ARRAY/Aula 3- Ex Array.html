@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Aula 3- Ex Array.html
+Explicação: HTML organiza a estrutura da página; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 exemplo- Array</title>
+</head>
+<body>
+    <script type ="text/javascript">
+        //criando array
+        var a = new Array (10);
+
+        a[0] = "xyz";
+        a[1] = true;
+        a[2] = 1.500;
+        console.log(a);
+
+        var nomes= ['Felipe'];
+        console.log("--------Array inicial---------");
+        console.log(nomes);
+        console.log(nomes.length);
+        
+        nomes.push('kenedy');
+        console.log("--------------");
+        console.log(nomes);
+        console.log(nomes.length);
+
+        console.log ("-----------");
+        console.log (typeof nomes);
+
+        nomes.push(12);
+        nomes.push(false);
+
+        var multidimensional  = [[1,2,3] , [4,5,6], [7,8,9]];
+        console.log ("---------ArrayMultidimmencional-------");
+        console.log(multidimensional);
+        
+        //delete apenas o valor da posição, mas a posição é mantida
+        delete nomes[1];
+        console.log(nomes);
+
+        //Remover e retornar o último elemento de um array - pop
+        var nome = nomes.pop();
+        console.log("Elementos removidos: " + nome);
+        console.log(nomes);
+
+        //removendo e retornando o 1° elemento de em array - shift
+        nome = nomes.shift();
+        console.log("Elemento removido: " + nome);
+        console.log(nomes);
+
+        console.log("-----------------");
+        console.log(typeof nomes);
+
+        var test = [1, 2, 3, 4];
+        test.splice(2, 1);
+        console.log(test);
+
+        console.log("----------------");
+        console.log(typeof nomes);
+
+</script> 
+</body>
+</html>

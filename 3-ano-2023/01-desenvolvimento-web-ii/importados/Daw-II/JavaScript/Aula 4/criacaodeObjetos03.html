@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: criacaodeObjetos03.html
+Explicação: HTML organiza a estrutura da página; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var curso ={
+            sigla: "TI",
+            nome: "Técnico em informática",
+        };
+
+        curso.sigla = "SI";
+        curso.nome = "Sistema de informação";
+
+        console.log(curso.sigla);
+        console.log(curso.nome);
+
+        var pessoa = {
+            nome: "Simone",
+            idade: 20,
+            cargo:"Professora"
+        };
+        console.log(pessoa);
+
+        var novaPessoa = {
+        ...pessoa,
+        anoAtual: 2020,
+        cidade: "Limeira"
+        };
+
+        console.log(novaPessoa);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

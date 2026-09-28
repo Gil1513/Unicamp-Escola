@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Aula 2.html
+Explicação: HTML organiza a estrutura da página; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script languagem="text/JavaScript">
+        
+        var nome = prompt("Seu Nome:");
+        window.document.write("<h1 id='cor'>" + nome +"</h1>");
+
+        var valor1 = prompt("Digite o primeiro valor: ");
+        var valor2 = prompt("Digite o segundo valor: ");
+
+        var soma = parseFloat(valor1) + parseFloat(valor2);
+        window.document.write("Soma:" + soma);
+
+
+        var str ="Hello"
+
+        var chars = [...str];
+        console.log(chars);
+
+        var nome =' Gilmar';
+        var sobrenome ='da Silva Filho';
+        var idade =20;
+
+        console.log(" meu nome é" + nome + '' + sobrenome + " .eu tenho" + idade + " anos. " );
+
+        var texto = "Mergulhando em tecnologia";
+        console.log (texto.substr(0,11));
+
+        texto ='Unicamp';
+        console.log("Tamanho:" + texto,length);
+        console.log(texto.toUpperCase());
+        console.log(texto.toLowerCase());
+
+        Console.log("--------CharAt--------");
+        Console.log( texto.charAt(3));
+
+        console.log("---------Split()------");
+        texto = "23/10/2021";
+
+        var aux = texto.split("/");
+        console.log(aux);
+
+        
+    </script>
+</head>
+<body>
+   
+</body>
+</html>

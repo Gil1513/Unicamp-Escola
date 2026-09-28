@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Arquivo de estudo: acessKey.html
+Explicação: HTML organiza a estrutura da página; formulários coletam entradas com campos e rótulos.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acess Key</title>
+</head>
+<body>
+
+    <h1>Instituições:</h1>
+    <p>Visite nossas instituições:</p>
+    <ul>
+        <li>
+            <a href="https://www.unicamp.br/unicamp/" target="_blank"></a>
+        </li>
+    </ul>
+    <form action="">
+        
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome" accesskey="n" tabindex="5">
+
+        <br><br>
+
+        <label for="endereco">Endereço</label>
+        <input type="text" name="endereco" id="endereco" accesskey="k" tabindex="4">
+
+        <br><br>Login:<br>
+        <input type="text" name="Login" accesskey="l" tabindex="3">
+
+        <br><br> Senha:<br>
+        <input type="password" name="Senha" accesskey="s" tabindex="2">
+
+        <br><br>
+        <input type="button" value="Entrar" accesskey="r" tabindex="1">
+    </form>
+</body>
+</html>

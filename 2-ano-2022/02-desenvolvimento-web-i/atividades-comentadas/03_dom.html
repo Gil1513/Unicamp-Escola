@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+DOM, eventos e armazenamento local
+Autor: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
+Conceitos: O DOM representa a página em objetos. Eventos alteram o estado e a renderização. JSON converte a lista em texto para localStorage; dados lidos precisam de validação.
+Objetivo: Adicionar e concluir tarefas; recuperar a lista ao recarregar, quando o navegador permitir armazenamento local.
+Execução (nesta pasta): Abra 03_dom.html no navegador
+Pratique: Implemente remoção e um filtro de tarefas pendentes.
+-->
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lista de revisão</title>
+<h1>Lista de revisão</h1><p>Gilmar da Silva Filho</p>
+<form id="form"><label for="tarefa">Assunto</label><input id="tarefa" required maxlength="100"><button>Adicionar</button></form>
+<p id="status" role="status"></p><ul id="lista"></ul>
+<script>
+const chave = 'cotil-revisao';
+let tarefas = [];
+try {
+  const dados = JSON.parse(localStorage.getItem(chave) || '[]');
+  if (Array.isArray(dados)) tarefas = dados.filter(t => t && typeof t.nome === 'string' && typeof t.feita === 'boolean');
+} catch { document.querySelector('#status').textContent = 'Armazenamento indisponível: usando apenas a memória.'; }
+function renderizar() {
+  const lista = document.querySelector('#lista'); lista.replaceChildren();
+  tarefas.forEach((tarefa, indice) => {
+    const item = document.createElement('li');
+    const botao = document.createElement('button');
+    botao.textContent = `${tarefa.feita ? 'Concluída' : 'Pendente'}: ${tarefa.nome}`;
+    botao.addEventListener('click', () => { tarefas[indice].feita = !tarefa.feita; salvar(); });
+    item.append(botao); lista.append(item);
+  });
+}
+function salvar() {
+  try { localStorage.setItem(chave, JSON.stringify(tarefas)); }
+  catch { document.querySelector('#status').textContent = 'Não foi possível salvar; a lista permanece nesta página.'; }
+  renderizar();
+}
+document.querySelector('#form').addEventListener('submit', event => {
+  event.preventDefault(); const campo = document.querySelector('#tarefa');
+  const nome = campo.value.trim(); if (!nome) return;
+  tarefas.push({nome, feita: false}); campo.value = ''; salvar();
+});
+renderizar();
+</script></html>

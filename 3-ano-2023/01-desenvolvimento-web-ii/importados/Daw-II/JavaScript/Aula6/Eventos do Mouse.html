@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Eventos do Mouse.html
+Explicação: HTML organiza a estrutura da página; tabelas representam dados em linhas e colunas; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do mouse</title>
+    <script type="text/javascript">
+        function DestacaTabela(){
+            var tabela = document.getElementById("tabelaAluno");
+            tabela.style.backgroundColor ="Blue";
+            tabela.style.fontSize= "20px";
+            tabela.style.transform = "rotate(30deg)";
+            tabela.style.transitionDuration ="5s";
+        }
+
+        function VoltarTabela(){
+            var tabela = document.getElementById("tabelaAluno");
+            tabela.style.backgroundColor ="whute";
+            tabela.style.fontSize= "16px";
+            tabela.style.transform = "rotate(0deg)";
+            tabela.style.transitionDuration ="2s";
+        }
+
+    </script>
+
+</head>
+<body>
+    <img src="fundo.png"
+    width="100px" id="logo"
+    onmouseover="this.src ='fundo.png';"
+    onmouseout="this.scr ='imagem.png';">
+    <hr>
+    <table border="1px" id="tabelaAluno" onmouseover= "DestacaTabela();"
+    onmouseout="VoltarTabela();">
+        <th>RA</th>
+        <th>Nome</th>
+
+    </tr>
+
+    <tr>
+        <th>201156</th>
+        <th>Gilmar da Silva Filho</th>
+        
+    </tr>
+</table>
+<tr>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Aula 04 - manipulação de Array.html
+Explicação: HTML organiza a estrutura da página; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type ="text/javascript">
+        //concatenando arrays - juntando em um só
+        var tecnico = ["LP", "BD", "DAW"];
+        var media = ["Matemática", "Português", "Biologia"];
+        var formacaoCompleta = tecnico.concat(media);
+    
+        console.log("------Arrays concatenados-----");
+        console.log(formacaoCompleta);
+
+        //gerando String com elementos do array "técnico"
+        var stringResultante = tecnico.join("-");
+        console.log("----string resultante = " + stringResultante);
+
+        //Copiando um pedaço do array
+        var formacaoBasica = media.slice(1,2);
+        console.log("-----formação básica = " + formacaoBasica);
+
+        //invertendo os elementos do array
+        tecnico.reverse();
+        console.log("----- Array invertido-----");
+        console.log(tecnico);
+
+        //sort - organiza o array pelo unicode e modifica o array original
+        console.log("----sort----");
+        const instrumento = ['Guitarra', 'Baixo', 'violão'];
+        instrumento.sort();
+        console.log(instrumento);
+
+        const idade = [32,21,33,43,1,12,8];
+        idade.sort();
+        console.log(idade);
+
+        /*map - nos permite percorrer um vetor e obter um novo array cujos itens são o resultado de uma
+        função de callback que recebe como parâmetro cada item original. Funciona da mesma forma que o 
+        forEach(). porém ao invés de retornar undefined, retorna uma nova array com valores atualizados
+        de acordo com o return de cada interação. Se objetivo for modificar os valores do array atual,
+        sempre utilizando o map
+        */
+       
+        const lista = [1,2,3,4,5,6];
+
+        //item = valor de cada posição
+        const novalista = lista.map(
+            function(item){return item * 5;}
+        );
+        console.log("resultado do map: " + novalista);
+
+        //item = valor do item, indice = indice da array
+        const novalista2 = lista.map(function(item,index){return item + index;}
+        );
+        console.log("resultado do map2:" + novalista2);
+
+        //com arrow function
+        const carros = ['Ford', 'Fiat', 'Honda'];
+
+        const newCarros = carros.map(function(item){return 'Carro ' + carros});
+        /*const newCarros = carros .map(item) => {return 'carro' + item});*/
+
+        /*function concatenaCarros(item){'carro ' + item;}*/
+        
+        console.log(carros);//['Ford', 'Fiat', 'Honda']
+        console.log(newCarros);//'Carro Ford,Fiat,Honda', 'Carro Ford,Fiat,Honda', 'Carro Ford,Fiat,Honda']
+    
+        /*reduce - "reduz" os itens de um vetor a um valor único. um valor
+        especial existe nessa função de callback, ele é chamado de acumulador(retorno da iteração
+        anterior).*/
+
+        const aulas = [10, 25, 30];
+
+        const total1 = aulas.reduce((acumulador, atual) => {return acumulador + atual;});
+
+        console.log(total1); //65
+
+        const total2 = aulas.reduce((acc, cur) => acc + cur, 100/* irá somar 
+        100 a mais do resultado final*/);
+        console.log(total2); //165
+
+        //findIndex - localiza o índice de um item na lista
+        let frutas = ['Banana', 'Pêra', 'uva', 'maçã'];
+        const buscaUva = frutas.findIndex((fruta) => {return fruta === 'Uva';});
+        console.log("posição da Uva: " + buscaUva);//2
+
+        //find - localiza um na lista
+        let numero = [6,43,22,88,10,29];
+        let buscaMaiores45 = numero.find(x => x > 45);//88
+        console.log(buscaMaiores45);
+
+        //includes - verifica se tem algo dentro de um array
+        let nomesTeste = ['Matheus', 'Lucas', 'João'];
+        console.log(nomesTeste.includes('Simone'));//false
+
+        if(nomesTeste.includes('Simone')){
+            console.log("Simone está na lista")
+        }else{
+            console.log("não está na lista");
+        }
+
+        //some: se pelo menos um return da iteração for verdadeira, ele retorna true
+        console.log(nomesTeste.some(nome => nome === 'Lucas'));
+
+        //every: verifica se todos os itens de um array ou de um obj atendem a uma condição/valor
+        numero = [6, 43, 22, 1, 101, 23];
+        const maiorQue3 = numero.every(x => x > 3); //true - verificar
+        console.log(maiorQue3);
+
+        //filter - retorna um array com a lista de valores que durante a sua interação retornarão um valor verdadeiro
+        numero = [6, 43, 22, 88, 101, 29];
+        buscamaior45 = numero.filter(x => x >45);
+        console.log(buscamaior45); //88 e 101
+
+        /*forEach: a função de callback é executada para cada item do array
+        Ela possui três argumentos:
+        itemAtual(valor do item da )
+        */
+       const carros = ['ford', 'Fiat', 'Honda'];
+
+       //com função anônima
+       console.log("Com função anônima\n");
+
+       carros.forEach(function(item, index, array){console.log(item.toUpperCase());});
+
+       //Modifica o array original
+       console.log("\n Modifica o arra original");
+    </script>
+</body>
+</html>

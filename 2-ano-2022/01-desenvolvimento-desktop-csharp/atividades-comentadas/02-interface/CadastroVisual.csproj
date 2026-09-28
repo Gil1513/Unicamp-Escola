@@ -1,0 +1,12 @@
+<!--
+Projeto Windows Forms
+Autor: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Desktop
+Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
+Conceitos: UseWindowsForms habilita controles e eventos da interface Windows.
+Objetivo: Abrir uma janela de cadastro no Windows.
+Pratique: Compare eventos da interface com entrada sequencial no console.
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+</Project>

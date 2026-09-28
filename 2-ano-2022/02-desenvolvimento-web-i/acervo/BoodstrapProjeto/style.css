@@ -1,0 +1,16 @@
+/*
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Arquivo de estudo: style.css
+Explicação: seletores CSS definem a quais elementos aplicar as propriedades.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+*/
+.cabecalho-imagem {
+    height: 100px;
+    width: 100px;
+    margin-left: 0% ;
+    background-image: url('index.html');
+  }
+
+  

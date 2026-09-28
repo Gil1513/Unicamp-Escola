@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Aula 3.html
+Explicação: HTML organiza a estrutura da página; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3</title>
+</head>
+<body>
+    <script language = "JavaScript">
+    var str ="Hello"
+
+    var chars = [...str];
+    console.log(chars);
+
+    var nome =' Gilmar';
+    var sobrenome ='da Silva Filho';
+    var idade =20;
+
+    <!--"2°Parte"-->
+    console.log(" meu nome é" + nome + '' + sobrenome + " .eu tenho" + idade + " anos. " );
+
+    var texto = "Mergulhando em tecnologia";
+    console.log (texto.substr(0,11));
+
+    texto ='Unicamp';
+    console.log("Tamanho:" + texto,length);
+    console.log(texto.toUpperCase());
+    console.log(texto.toLowerCase());
+
+    console.log("--------CharAt--------");
+    console.log( texto.charAt(3));
+
+    console.log("---------Split()------");
+    texto = "23/10/2021";
+    var aux = texto.split("/");
+    console.log(aux);
+
+  //  <!--"3°parte"-->
+        if (aux[1] == '02'){
+         var mes = 'Fevereiro';
+        }
+         console.log('Limeira,' +aux[0] + 'de' + mes + 'de' + aux[2]);
+         var texto2 = "COTIL-UNICAMP-LIMEIRA";
+
+         console.Log("-----indexOf----");
+         console.Log(texto2.indexOf('LIMEIRA'));
+
+         //startswith e endsWith
+         var nomeTeste = "Simone";
+         console.Log(nomeTeste.startsWith('Si')); //true
+         console.Log(nomeTeste.endsWith('ni'));//false
+
+        var nome = "André";
+        var comunidade = "Olá, sr. ,nomeusuario, informamos que a partir da presente data o senhor"
+        console.Log(comunicacao.replace("nomeusuario", nome));
+
+        var login = "andre@gmail.com"
+        let loginSemEspaco = login.trim();
+        console.Log(loginSemEspaco);
+
+
+
+        
+    </script>  
+</body>
+</html>

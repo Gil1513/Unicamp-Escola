@@ -1,0 +1,16 @@
+/*
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Arquivo de estudo: root.css
+Explicação: seletores CSS definem a quais elementos aplicar as propriedades.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+*/
+
+:root {
+    --timberwolf: #dad7cdff;
+    --laurel-green: #a3b18aff;
+    --fern-green: #588157ff;
+    --hunter-green: #3a5a40ff;
+    --brunswick-green: #344e41ff;
+}

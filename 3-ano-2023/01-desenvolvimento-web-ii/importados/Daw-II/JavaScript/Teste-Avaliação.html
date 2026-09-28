@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web II
+Arquivo de estudo: Teste-Avaliação.html
+Explicação: HTML organiza a estrutura da página; formulários coletam entradas com campos e rótulos; JavaScript acrescenta comportamento ao documento.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste - avaliação</title>
+    <script type="text/javascript">
+        
+           
+    function  ResuArea(){
+        var raio = document.getElementById('raio').value;
+        if((raio == "")){
+                Swal.fire({
+                icon: 'error',
+                title: 'Erro...',
+                text: 'Raio é obrigatórios!!',
+                footer: ''
+                })
+            }else{
+                Area = 0;
+                Area = Area/(3.14 * (raio*2));
+
+        }
+    
+    
+        raio = parseFloat(raio);
+        var Area = Math.PI * raio * raio;
+        document.getElementById('Area').value=Area;
+    }
+    function ResuPe(){
+        var raio = document.getElementById('raio').value;
+        raio = parseFloat(raio);
+        var Perímetro = 2 * Math.PI * (raio);
+        document.getElementById('Perímetro').value=Perímetro;
+    }
+   
+   
+    </script>
+    
+
+</head>
+<body>
+
+<h1> Área e Perimetro da Circunferecia</h1>
+
+
+    raio <br>
+    <input type="text" id ="raio" name = "raio">
+
+    <br><br>
+
+    Area: <br>
+    <input type="text" id = "Area" name = "Area">
+
+    <br><br>
+
+    Perímetro: <br>
+    <input type="text" id = "Perímetro" name = "Perímetro">
+
+    <br><br>
+
+    <input type="button" value="CalcularArea" onclick="ResuArea();">
+    <input type="button" value="CalcularPerímetro" onclick="ResuPe();"> 
+</body>
+</html>

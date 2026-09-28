@@ -1,0 +1,28 @@
+/*
+Identificação: Gilmar da Silva Filho
+Matéria: Desenvolvimento de Aplicação Web I
+Arquivo de estudo: default.css
+Explicação: seletores CSS definem a quais elementos aplicar as propriedades.
+Estudo: acompanhe a entrada, o processamento e a saída; teste também um caso limite.
+Consulte o README da matéria para a sequência de estudo e execução.
+*/
+.container .pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2vh;
+  
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

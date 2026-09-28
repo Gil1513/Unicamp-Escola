@@ -1,0 +1,22 @@
+# Dependências do aplicativo Flutter
+# Autor: Gilmar da Silva Filho
+# Matéria: Desenvolvimento para Dispositivos Móveis
+# Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
+# Conceitos: O pubspec declara o SDK e as dependências do aplicativo.
+# Objetivo: Resolver o SDK Flutter e iniciar a aplicação web de estudo.
+# Execução (nesta pasta): Nesta pasta: flutter pub get; flutter run -d chrome
+# Pratique: Execute também em um emulador Android disponível.
+name: revisao_cotil
+description: Atividade de dispositivos moveis de Gilmar da Silva Filho.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
