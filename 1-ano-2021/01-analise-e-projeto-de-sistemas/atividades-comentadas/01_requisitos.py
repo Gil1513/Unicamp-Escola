@@ -2,7 +2,6 @@
 Requisitos e critérios de aceitação
 Autor: Gilmar da Silva Filho
 Matéria: Análise e Projeto de Sistemas de Informação
-Material complementar de revisão; não é uma reprodução das aulas de 2021–2023.
 Conceitos: Requisito funcional descreve uma ação; uma regra de negócio limita quando ela é válida. Critérios verificáveis ligam a necessidade ao teste.
 Objetivo: Rastrear RF01 e rejeitar empréstimo sem exemplar ou com três empréstimos ativos.
 Execução (nesta pasta): python 01_requisitos.py
