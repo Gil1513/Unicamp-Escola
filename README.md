@@ -6,11 +6,7 @@ Exercícios organizados por ano e disciplina, com atividades comentadas para rev
 
 ## Organização
 
-- `acervo/`: arquivos que já estavam neste repositório, mantendo a estrutura interna dos projetos.
-- `importados/`: exercícios dos repositórios Atividades-Java e Daw-II.
-- `atividades-comentadas/`: material complementar de revisão, com conceitos, objetivo, execução e prática no início do código.
-
-As datas das pastas identificam os anos da formação. As atividades complementares foram acrescentadas na organização atual; não são apresentadas como trabalhos entregues naquele período. As escolhas de ferramentas nos exemplos novos são didáticas e não comprovam quais tecnologias foram usadas em cada aula.
+As datas das pastas identificam os anos da formação.
 
 ## Disciplinas em ordem de formação
 
@@ -33,14 +29,6 @@ As datas das pastas identificam os anos da formação. As atividades complementa
 | 3º — 2023 | [Tópicos em Tecnologia da Informação](3-ano-2023/05-topicos-em-tecnologia-da-informacao/README.md) | 90 |
 
 Formação profissional: **1.230 horas**, equivalentes a 1.640 horas-aula de 45 minutos. A organização segue a [matriz curricular oficial](https://www.cotil.unicamp.br/wp-content/uploads/sites/96/2025/11/matriz-final-3-anos-DSD.pdf) e o [projeto pedagógico publicado em 2021](https://www.cotil.unicamp.br/wp-content/uploads/2021/05/2021ppp_desenvolvimentodeSistemas_integradomedio_diurno.pdf), páginas 32–33. A numeração das matérias dentro do ano é uma ordem de navegação; várias disciplinas eram cursadas simultaneamente.
-
-## Como estudar
-
-1. Siga a sequência de conceitos no README da matéria.
-2. Leia o comentário inicial, tente prever a saída e execute o exemplo.
-3. Faça a proposta “Pratique” mudando uma regra ou um caso de entrada.
-4. Passe para os exercícios do acervo relacionados ao assunto.
-5. Revise usando outro caso, sem consultar a solução primeiro.
 
 ## Guias
 
